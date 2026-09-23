@@ -112,7 +112,7 @@
 <p>Wat daarbij precies meegaat, verschilt per platform:</p>
 <ul>
 <li><strong>Op iPhone en iPad</strong> vragen wij <em>geen</em> toestemming voor tracking, en je advertentie-identifier (IDFA) wordt dus niet gebruikt. Het meten gaat uitsluitend via de geaggregeerde methode van Apple (SKAdNetwork), die niet tot jou herleidbaar is.</li>
-<li><strong>Op Android</strong> gaat de advertentie-identifier van je toestel (GAID) wél mee. Dat is geen naam of e-mailadres, maar het is een identifier die aan jouw toestel hangt, en dus niet volledig anoniem. Je kunt hem resetten of verwijderen in de Android-instellingen, onder de privacy- of advertentie-instellingen.</li>
+<li><strong>Op Android</strong> sturen wij vanaf versie 1.0.12 je advertentie-identifier (GAID) niet meer mee, en stuurt de app geen gebeurtenissen meer automatisch door. Gebruik je een oudere versie, dan kan de GAID nog wel worden meegestuurd tot je de app bijwerkt; je kunt hem ook zelf resetten of verwijderen in de Android-instellingen, onder de privacy- of advertentie-instellingen.</li>
 </ul>
 <p>Wat er in geen geval meegaat: je vangsten, je locaties of stekken, je foto's, je chatberichten en je profielgegevens.</p>
 
@@ -122,7 +122,7 @@
 <li><strong>Supabase</strong> – onze databank- en opslagdienst (hosting van je gegevens, EU-regio waar mogelijk).</li>
 <li><strong>Weerdienst</strong> – voor het ophalen van weersinformatie bij een vangst.</li>
 <li><strong>Apple / Google</strong> – voor de levering van de app via hun app stores en (indien aangezet) pushnotificaties.</li>
-<li><strong>Meta (Facebook)</strong> – voor het meten van app-installatiecampagnes. De Meta-SDK in de app stuurt daarvoor technische gebeurtenissen (zoals "app geïnstalleerd" en "app geopend") en algemene apparaatgegevens naar Meta. Op Android kan daarbij de advertentie-identifier (GAID) worden meegestuurd; die kun je in de Android-instellingen resetten of verwijderen. Op iOS vragen wij <em>geen</em> tracking-toestemming en wordt je advertentie-identifier (IDFA) dus niet gebruikt; installatiemeting verloopt daar uitsluitend via Apple's geaggregeerde, niet tot jou herleidbare SKAdNetwork. Er worden nooit vangsten, locaties of profielgegevens met Meta gedeeld.</li>
+<li><strong>Meta (Facebook)</strong> – voor het meten van app-installatiecampagnes. De Meta-SDK in de app stuurt daarvoor technische gebeurtenissen (zoals "app geïnstalleerd" en "app geopend") en algemene apparaatgegevens naar Meta. Op Android wordt de advertentie-identifier (GAID) vanaf versie 1.0.12 niet meer meegestuurd; bij oudere versies kan dat nog tot je de app bijwerkt. Op iOS vragen wij <em>geen</em> tracking-toestemming en wordt je advertentie-identifier (IDFA) dus niet gebruikt; installatiemeting verloopt daar uitsluitend via Apple's geaggregeerde, niet tot jou herleidbare SKAdNetwork. Er worden nooit vangsten, locaties of profielgegevens met Meta gedeeld.</li>
 <li><strong>Beeldherkenning</strong> – voor het voorstel voor soort en lengte uit een vangstfoto, alleen als je die functie zelf hebt aangezet (zie 7).</li>
 <li><strong>Abonnementsbeheer</strong> – voor het afhandelen en bijhouden van VISDEX Pro: of je abonnement loopt, wanneer het verlengt en wanneer het stopt. De aankoop zelf doe je bij Apple of Google; deze dienst houdt voor ons bij wat daaruit volgt.</li>
 <li><strong>AI-advies (tekstmodel)</strong> – voor het maken van je jachtplan, je vispatronen, je sessie-advies en je weekterugblik uit de gegevens in je logboek, alleen als je de AI-functies zelf hebt aangezet (zie 7).</li>
