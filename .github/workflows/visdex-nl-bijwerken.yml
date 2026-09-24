@@ -1,0 +1,42 @@
+# Bouwt visdex.nl opnieuw zodra de juridische tekst op main verandert (#548).
+#
+# visdex.nl/privacy en /voorwaarden halen hun tekst bij elke build van de
+# website (Superniels123/visdex-website, scripts/visdexLegal.js) uit deze
+# repo. Zonder nieuwe build blijft de site de vorige versie tonen, dus roept
+# deze workflow de Vercel-deploy-hook van de website aan.
+#
+# Eenmalig instellen (eigenaar):
+#   1. Vercel > project visdex-website > Settings > Git > Deploy Hooks:
+#      maak een hook op tak main.
+#   2. GitHub > visdex-legal > Settings > Secrets and variables > Actions:
+#      secret VERCEL_DEPLOY_HOOK_VISDEX_NL = de URL van die hook.
+# Ontbreekt het secret, dan faalt de job met uitleg. Stil groen terwijl
+# visdex.nl achterloopt is precies wat #548 moest voorkomen.
+#
+# Controleren achteraf, vanuit de app-repo: npm run check:legal.
+name: visdex.nl bijwerken
+
+on:
+  push:
+    branches: [main]
+    paths: [privacy.html, voorwaarden.html]
+  workflow_dispatch:
+
+permissions: {}
+
+jobs:
+  deploy-hook:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Deploy-hook van visdex-website aanroepen
+        env:
+          HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK_VISDEX_NL }}
+        run: |
+          if [ -z "$HOOK" ]; then
+            echo "::error::Secret VERCEL_DEPLOY_HOOK_VISDEX_NL ontbreekt. visdex.nl is NIET opnieuw gebouwd en toont de vorige tekst. Bouw met de hand (Vercel > visdex-website > Redeploy) en controleer met npm run check:legal in de app-repo."
+            exit 1
+          fi
+          curl -fsS --retry 2 -X POST "$HOOK"
+          echo
+          echo "visdex.nl wordt opnieuw gebouwd. Over een paar minuten controleren met npm run check:legal in de app-repo."
