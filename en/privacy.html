@@ -111,7 +111,7 @@
 <p>We advertise to reach new anglers, and we want to know whether that works. For this, the app contains the software of the advertising platform we advertise on, the Meta SDK.</p>
 <p>What the app does:</p>
 <ul>
-<li><strong>No events.</strong> The app does not send events such as "app installed" or "app opened" to the advertising platform, neither on iPhone and iPad nor on Android.</li>
+<li><strong>No events.</strong> The app does not send events such as "app installed" or "app opened" to the advertising platform, neither on iPhone and iPad nor on Android. If you previously had an older version of the app, the new version may still send, once, events that the older version had stored but not yet sent. After that, it does not.</li>
 <li><strong>Fetching settings.</strong> When the app starts, the Meta SDK fetches its settings from Meta. At a minimum, your IP address and general device data are sent, such as the device type and the version of the operating system and of the app. We derived this from the source code of the Meta SDK; we have not measured it on a device.</li>
 <li><strong>On iPhone and iPad</strong> the Meta SDK stays in the app for Apple's install measurement (SKAdNetwork). This runs in aggregated form through Apple and cannot be traced back to you. We do <em>not</em> ask for permission to track, so your advertising identifier (IDFA) is not used.</li>
 <li><strong>On Android</strong>, from version 1.0.12 onwards we no longer send your advertising identifier (GAID). If you use an older version, the GAID may still be sent until you update the app; you can also reset or delete it yourself in the Android settings, under the privacy or ads settings.</li>
