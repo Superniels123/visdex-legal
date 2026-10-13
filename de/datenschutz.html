@@ -26,7 +26,7 @@
 <div class="wrap">
 
 <h1>Datenschutzerklärung VISDEX</h1>
-<p class="meta">Stand: 26. September 2026</p>
+<p class="meta">Stand: 19. Oktober 2026</p>
 
 <div class="note">
 <strong>Kurz gesagt:</strong> VISDEX ist eine Fangbuch-App. Deine Fänge und Standorte sind standardmäßig privat. Du teilst nur, was du selbst auswählst. Wir verkaufen deine Daten niemals. Marketing-E-Mails schicken wir nur, wenn du selbst eingewilligt hast, und diese Einwilligung kannst du jederzeit widerrufen. Du kannst dein Konto und alle deine Daten jederzeit vollständig in der App löschen.
@@ -108,12 +108,16 @@
 <p>Deine Daten und deine Fotos werden nicht verwendet, um KI-Modelle zu trainieren. Schaltest du den Schalter aus, verlässt für diese Funktionen nichts mehr dein Gerät, und sie funktionieren nicht mehr. Solange du ihn nicht selbst eingeschaltet hast, passiert ohnehin nichts.</p>
 
 <h2>8. Messung von Werbung</h2>
-<p>Wir werben, um neue Angler zu erreichen, und wir möchten wissen, ob das funktioniert. Dafür schickt die App eine kleine Anzahl technischer Ereignisse an die Werbeplattform, auf der wir werben, etwa „App installiert“ und „App geöffnet“, zusammen mit allgemeinen Gerätedaten.</p>
-<p>Was dabei genau übermittelt wird, unterscheidet sich je nach Plattform:</p>
+<p>Wir werben, um neue Angler zu erreichen, und wir möchten wissen, ob das funktioniert. Dafür ist die Software der Werbeplattform, auf der wir werben, das Meta-SDK, in der App enthalten.</p>
+<p>Was die App dabei tut:</p>
 <ul>
-<li><strong>Auf iPhone und iPad</strong> fragen wir <em>keine</em> Erlaubnis für Tracking ab, und deine Werbe-ID (IDFA) wird daher nicht verwendet. Die Messung läuft ausschließlich über das aggregierte Verfahren von Apple (SKAdNetwork), das nicht auf dich zurückführbar ist.</li>
-<li><strong>Auf Android</strong> übermitteln wir ab Version 1.0.12 deine Werbe-ID (GAID) nicht mehr, und die App leitet keine Ereignisse mehr automatisch weiter. Nutzt du eine ältere Version, kann die GAID noch übermittelt werden, bis du die App aktualisierst; du kannst sie auch selbst in den Android-Einstellungen unter den Datenschutz- oder Werbeeinstellungen zurücksetzen oder löschen.</li>
+<li><strong>Keine Ereignisse.</strong> Die App schickt keine Ereignisse wie „App installiert“ oder „App geöffnet“ an die Werbeplattform, weder auf iPhone und iPad noch auf Android.</li>
+<li><strong>Einstellungen abrufen.</strong> Beim Start der App ruft das Meta-SDK seine Einstellungen bei Meta ab. Dabei werden mindestens deine IP-Adresse und allgemeine Gerätedaten übermittelt, etwa der Gerätetyp und die Version des Betriebssystems und der App. Das haben wir aus dem Quellcode des Meta-SDK abgeleitet; auf einem Gerät gemessen haben wir es nicht.</li>
+<li><strong>Auf iPhone und iPad</strong> bleibt das Meta-SDK in der App für die Installationsmessung von Apple (SKAdNetwork). Sie läuft aggregiert über Apple und ist nicht auf dich zurückführbar. Wir fragen <em>keine</em> Erlaubnis für Tracking ab, und deine Werbe-ID (IDFA) wird daher nicht verwendet.</li>
+<li><strong>Auf Android</strong> übermitteln wir ab Version 1.0.12 deine Werbe-ID (GAID) nicht mehr. Nutzt du eine ältere Version, kann die GAID noch übermittelt werden, bis du die App aktualisierst; du kannst sie auch selbst in den Android-Einstellungen unter den Datenschutz- oder Werbeeinstellungen zurücksetzen oder löschen.</li>
 </ul>
+<p>Für die Erhebung dieser Daten über das Meta-SDK und ihre Übermittlung an Meta sind wir gemeinsam mit Meta Platforms Ireland Limited verantwortlich (gemeinsam Verantwortliche, Art. 26 DSGVO). Die Vereinbarung dazu steht im <a href="https://www.facebook.com/legal/controller_addendum">Controller Addendum von Meta</a>. Was Meta danach mit den Daten macht, liegt in der Verantwortung von Meta; siehe die <a href="https://www.facebook.com/privacy/policy/">Datenschutzrichtlinie von Meta</a>.</p>
+<p>Wir tun dies auf Grundlage unseres berechtigten Interesses (Art. 6 Abs. 1 lit. f DSGVO): zu wissen, ob unsere Werbung neue Angler bringt, mit so wenig Daten wie möglich.</p>
 <p>Was auf keinen Fall übermittelt wird: deine Fänge, deine Standorte oder Angelplätze, deine Fotos, deine Chatnachrichten und deine Profildaten.</p>
 
 <h2>9. Mit wem teilen wir Daten?</h2>
@@ -122,7 +126,7 @@
 <li><strong>Supabase</strong> – unser Datenbank- und Speicherdienst (Hosting deiner Daten, wo möglich in der EU-Region).</li>
 <li><strong>Wetterdienst</strong> – zum Abrufen von Wetterinformationen zu einem Fang und zum Start einer Session.</li>
 <li><strong>Apple / Google</strong> – für die Bereitstellung der App über ihre App-Stores und (wenn eingeschaltet) Push-Benachrichtigungen.</li>
-<li><strong>Meta (Facebook)</strong> – für die Messung von App-Installationskampagnen. Das Meta-SDK in der App schickt dafür technische Ereignisse (etwa „App installiert“ und „App geöffnet“) und allgemeine Gerätedaten an Meta. Auf Android wird die Werbe-ID (GAID) ab Version 1.0.12 nicht mehr übermittelt; bei älteren Versionen kann das noch geschehen, bis du die App aktualisierst. Auf iOS fragen wir <em>keine</em> Tracking-Erlaubnis ab, und deine Werbe-ID (IDFA) wird daher nicht verwendet; die Installationsmessung läuft dort ausschließlich über Apples aggregiertes, nicht auf dich zurückführbares SKAdNetwork. Es werden nie Fänge, Standorte oder Profildaten mit Meta geteilt.</li>
+<li><strong>Meta (Facebook)</strong> – für die Messung von App-Installationskampagnen (siehe 8). Meta ist dabei kein Auftragsverarbeiter: Für die Erhebung und Übermittlung der Daten über das Meta-SDK sind wir gemeinsam mit Meta Platforms Ireland Limited verantwortlich. Das Meta-SDK schickt keine Ereignisse wie „App installiert“ oder „App geöffnet“; beim Start ruft es seine Einstellungen bei Meta ab, wobei mindestens deine IP-Adresse und allgemeine Gerätedaten übermittelt werden. Auf Android wird die Werbe-ID (GAID) ab Version 1.0.12 nicht mehr übermittelt; bei älteren Versionen kann das noch geschehen, bis du die App aktualisierst. Auf iOS fragen wir <em>keine</em> Tracking-Erlaubnis ab, und deine Werbe-ID (IDFA) wird daher nicht verwendet; die Installationsmessung läuft dort über Apples aggregiertes, nicht auf dich zurückführbares SKAdNetwork. Es werden nie Fänge, Standorte oder Profildaten mit Meta geteilt.</li>
 <li><strong>Bilderkennung</strong> – für den Vorschlag für Art und Länge aus einem Fangfoto, nur wenn du diese Funktion selbst eingeschaltet hast (siehe 7).</li>
 <li><strong>Abonnementverwaltung</strong> – für die Abwicklung und Verwaltung von VISDEX Pro: ob dein Abonnement läuft, wann es sich verlängert und wann es endet. Den Kauf selbst tätigst du bei Apple oder Google; dieser Dienst hält für uns fest, was sich daraus ergibt.</li>
 <li><strong>KI-Tipps (Sprachmodell)</strong> – für die Erstellung deines Zielfischplans, deiner Angelmuster, deiner Session-Tipps und deines Wochenrückblicks aus den Daten in deinem Fangbuch, nur wenn du die KI-Funktionen selbst eingeschaltet hast (siehe 7).</li>
