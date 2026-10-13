@@ -26,7 +26,7 @@
 <div class="wrap">
 
 <h1>VISDEX Privacy Policy</h1>
-<p class="meta">Last updated: 26 September 2026</p>
+<p class="meta">Last updated: 19 October 2026</p>
 
 <div class="note">
 <strong>In short:</strong> VISDEX is a fish logbook app. Your catches and locations are private by default. You only share what you choose to share. We never sell your data. We only send you marketing email if you have given your consent, and you can withdraw it at any time. You can delete your account and all your data completely at any time from within the app.
@@ -108,12 +108,16 @@
 <p>Your data and your photos are not used to train AI models. If you turn the switch off, nothing leaves your device for these features any more and they stop working. As long as you haven't turned it on yourself, nothing happens at all.</p>
 
 <h2>8. Advertising measurement</h2>
-<p>We advertise to reach new anglers, and we want to know whether that works. To do this, the app sends a small number of technical events to the advertising platform we advertise on, such as "app installed" and "app opened", together with general device data.</p>
-<p>Exactly what is sent differs per platform:</p>
+<p>We advertise to reach new anglers, and we want to know whether that works. For this, the app contains the software of the advertising platform we advertise on, the Meta SDK.</p>
+<p>What the app does:</p>
 <ul>
-<li><strong>On iPhone and iPad</strong> we do <em>not</em> ask for permission to track, so your advertising identifier (IDFA) is not used. Measurement runs exclusively through Apple's aggregated method (SKAdNetwork), which cannot be traced back to you.</li>
-<li><strong>On Android</strong>, from version 1.0.12 onwards we no longer send your advertising identifier (GAID), and the app no longer forwards events automatically. If you use an older version, the GAID may still be sent until you update the app; you can also reset or delete it yourself in the Android settings, under the privacy or ads settings.</li>
+<li><strong>No events.</strong> The app does not send events such as "app installed" or "app opened" to the advertising platform, neither on iPhone and iPad nor on Android. If you previously had an older version of the app, the new version may still send, once, events that the older version had stored but not yet sent. After that, it does not.</li>
+<li><strong>Fetching settings.</strong> When the app starts, the Meta SDK fetches its settings from Meta. At a minimum, your IP address and general device data are sent, such as the device type and the version of the operating system and of the app. We derived this from the source code of the Meta SDK; we have not measured it on a device.</li>
+<li><strong>On iPhone and iPad</strong> the Meta SDK stays in the app for Apple's install measurement (SKAdNetwork). This runs in aggregated form through Apple and cannot be traced back to you. We do <em>not</em> ask for permission to track, so your advertising identifier (IDFA) is not used.</li>
+<li><strong>On Android</strong>, from version 1.0.12 onwards we no longer send your advertising identifier (GAID). If you use an older version, the GAID may still be sent until you update the app; you can also reset or delete it yourself in the Android settings, under the privacy or ads settings.</li>
 </ul>
+<p>For collecting this data through the Meta SDK and transmitting it to Meta, we are jointly responsible with Meta Platforms Ireland Limited (joint controllers, Article 26 GDPR). The arrangement is set out in <a href="https://www.facebook.com/legal/controller_addendum">Meta's Controller Addendum</a>. What Meta does with the data afterwards is Meta's responsibility; see <a href="https://www.facebook.com/privacy/policy/">Meta's Privacy Policy</a>.</p>
+<p>We do this on the basis of our legitimate interest (Article 6(1)(f) GDPR): knowing whether our ads bring in new anglers, with as little data as possible.</p>
 <p>What is never sent: your catches, your locations or spots, your photos, your chat messages and your profile data.</p>
 
 <h2>9. Who do we share data with?</h2>
@@ -122,7 +126,7 @@
 <li><strong>Supabase</strong> – our database and storage service (hosting your data, in the EU region where possible).</li>
 <li><strong>Weather service</strong> – for retrieving weather information for a catch and at the start of a session.</li>
 <li><strong>Apple / Google</strong> – for delivering the app through their app stores and (if turned on) push notifications.</li>
-<li><strong>Meta (Facebook)</strong> – for measuring app install campaigns. The Meta SDK in the app sends technical events (such as "app installed" and "app opened") and general device data to Meta for this purpose. On Android, the advertising identifier (GAID) is no longer sent from version 1.0.12 onwards; with older versions this may still happen until you update the app. On iOS we do <em>not</em> ask for tracking permission, so your advertising identifier (IDFA) is not used; install measurement there runs exclusively through Apple's aggregated SKAdNetwork, which cannot be traced back to you. Catches, locations or profile data are never shared with Meta.</li>
+<li><strong>Meta (Facebook)</strong> – for measuring app install campaigns (see 8). Meta is not a processor here: for collecting and transmitting the data through the Meta SDK, we are jointly responsible with Meta Platforms Ireland Limited. The Meta SDK does not send events such as "app installed" or "app opened"; when the app starts, it fetches its settings from Meta, sending at least your IP address and general device data. On Android, the advertising identifier (GAID) is no longer sent from version 1.0.12 onwards; with older versions this may still happen until you update the app. On iOS we do <em>not</em> ask for tracking permission, so your advertising identifier (IDFA) is not used; install measurement there runs through Apple's aggregated SKAdNetwork, which cannot be traced back to you. Catches, locations or profile data are never shared with Meta.</li>
 <li><strong>Image recognition</strong> – for the species and length suggestion from a catch photo, only if you have turned that feature on yourself (see 7).</li>
 <li><strong>Subscription management</strong> – for handling and keeping track of VISDEX Pro: whether your subscription is running, when it renews and when it ends. You make the purchase itself with Apple or Google; this service keeps track for us of what follows from it.</li>
 <li><strong>AI advice (language model)</strong> – for creating your hunt plan, your fishing patterns, your session advice and your weekly review from the data in your fish logbook, only if you have turned on the AI features yourself (see 7).</li>

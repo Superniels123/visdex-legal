@@ -26,7 +26,7 @@
 <div class="wrap">
 
 <h1>Privacyverklaring VISDEX</h1>
-<p class="meta">Laatst bijgewerkt: 26 september 2026</p>
+<p class="meta">Laatst bijgewerkt: 19 oktober 2026</p>
 
 <div class="note">
 <strong>In het kort:</strong> VISDEX is een visdagboek-app. Je vangsten en locaties zijn standaard privé. Je deelt alleen wat je zelf kiest. We verkopen je gegevens nooit. Marketingmail sturen wij alleen als je daar zelf toestemming voor geeft, en die kun je altijd weer intrekken. Je kunt je account en al je gegevens op elk moment volledig verwijderen vanuit de app.
@@ -108,12 +108,16 @@
 <p>Je gegevens en je foto's worden niet gebruikt om AI-modellen te trainen. Zet je de schakelaar uit, dan verlaat er niets meer je toestel voor deze functies en werken ze niet meer. Zolang je hem niet zelf hebt aangezet, gebeurt er sowieso niets.</p>
 
 <h2>8. Meten van advertenties</h2>
-<p>Wij adverteren om nieuwe vissers te bereiken, en wij willen weten of dat werkt. Daarvoor stuurt de app een klein aantal technische gebeurtenissen naar het advertentieplatform waarop wij adverteren, zoals "app geïnstalleerd" en "app geopend", samen met algemene apparaatgegevens.</p>
-<p>Wat daarbij precies meegaat, verschilt per platform:</p>
+<p>Wij adverteren om nieuwe vissers te bereiken, en wij willen weten of dat werkt. Daarvoor zit de software van het advertentieplatform waarop wij adverteren, de Meta-SDK, in de app.</p>
+<p>Wat de app daarbij doet:</p>
 <ul>
-<li><strong>Op iPhone en iPad</strong> vragen wij <em>geen</em> toestemming voor tracking, en je advertentie-identifier (IDFA) wordt dus niet gebruikt. Het meten gaat uitsluitend via de geaggregeerde methode van Apple (SKAdNetwork), die niet tot jou herleidbaar is.</li>
-<li><strong>Op Android</strong> sturen wij vanaf versie 1.0.12 je advertentie-identifier (GAID) niet meer mee, en stuurt de app geen gebeurtenissen meer automatisch door. Gebruik je een oudere versie, dan kan de GAID nog wel worden meegestuurd tot je de app bijwerkt; je kunt hem ook zelf resetten of verwijderen in de Android-instellingen, onder de privacy- of advertentie-instellingen.</li>
+<li><strong>Geen gebeurtenissen.</strong> De app stuurt geen gebeurtenissen zoals "app geïnstalleerd" of "app geopend" naar het advertentieplatform, op iPhone en iPad niet en op Android niet. Had je eerder een oudere versie van de app, dan kan de nieuwe versie gebeurtenissen die de oudere versie had opgeslagen maar nog niet verstuurd, alsnog eenmalig versturen. Daarna niet meer.</li>
+<li><strong>Instellingen ophalen.</strong> Bij het starten van de app haalt de Meta-SDK zijn instellingen op bij Meta. Daarbij gaan minimaal je IP-adres en algemene toestelgegevens mee, zoals het type toestel en de versie van het besturingssysteem en van de app. Dit hebben wij afgeleid uit de broncode van de Meta-SDK; wij hebben het niet op een toestel gemeten.</li>
+<li><strong>Op iPhone en iPad</strong> blijft de Meta-SDK in de app voor de installatiemeting van Apple (SKAdNetwork). Die verloopt geaggregeerd via Apple en is niet tot jou herleidbaar. Wij vragen <em>geen</em> toestemming voor tracking, en je advertentie-identifier (IDFA) wordt dus niet gebruikt.</li>
+<li><strong>Op Android</strong> sturen wij vanaf versie 1.0.12 je advertentie-identifier (GAID) niet meer mee. Gebruik je een oudere versie, dan kan de GAID nog wel worden meegestuurd tot je de app bijwerkt; je kunt hem ook zelf resetten of verwijderen in de Android-instellingen, onder de privacy- of advertentie-instellingen.</li>
 </ul>
+<p>Voor het verzamelen van deze gegevens via de Meta-SDK en het doorgeven ervan aan Meta zijn wij samen met Meta Platforms Ireland Limited verantwoordelijk (gezamenlijke verwerkingsverantwoordelijken, artikel 26 AVG). De afspraken daarover staan in de <a href="https://www.facebook.com/legal/controller_addendum">Controller Addendum van Meta</a>. Wat Meta daarna met de gegevens doet, valt onder de verantwoordelijkheid van Meta; zie het <a href="https://www.facebook.com/privacy/policy/">privacybeleid van Meta</a>.</p>
+<p>Wij doen dit op basis van ons gerechtvaardigd belang (artikel 6 lid 1 onder f AVG): weten of onze advertenties nieuwe vissers opleveren, met zo weinig mogelijk gegevens.</p>
 <p>Wat er in geen geval meegaat: je vangsten, je locaties of stekken, je foto's, je chatberichten en je profielgegevens.</p>
 
 <h2>9. Met wie delen wij gegevens?</h2>
@@ -122,7 +126,7 @@
 <li><strong>Supabase</strong> – onze databank- en opslagdienst (hosting van je gegevens, EU-regio waar mogelijk).</li>
 <li><strong>Weerdienst</strong> – voor het ophalen van weersinformatie bij een vangst en bij de start van een sessie.</li>
 <li><strong>Apple / Google</strong> – voor de levering van de app via hun app stores en (indien aangezet) pushnotificaties.</li>
-<li><strong>Meta (Facebook)</strong> – voor het meten van app-installatiecampagnes. De Meta-SDK in de app stuurt daarvoor technische gebeurtenissen (zoals "app geïnstalleerd" en "app geopend") en algemene apparaatgegevens naar Meta. Op Android wordt de advertentie-identifier (GAID) vanaf versie 1.0.12 niet meer meegestuurd; bij oudere versies kan dat nog tot je de app bijwerkt. Op iOS vragen wij <em>geen</em> tracking-toestemming en wordt je advertentie-identifier (IDFA) dus niet gebruikt; installatiemeting verloopt daar uitsluitend via Apple's geaggregeerde, niet tot jou herleidbare SKAdNetwork. Er worden nooit vangsten, locaties of profielgegevens met Meta gedeeld.</li>
+<li><strong>Meta (Facebook)</strong> – voor het meten van app-installatiecampagnes (zie 8). Meta is daarbij geen verwerker: voor het verzamelen en doorgeven van de gegevens via de Meta-SDK zijn wij samen met Meta Platforms Ireland Limited verantwoordelijk. De Meta-SDK stuurt geen gebeurtenissen zoals "app geïnstalleerd" of "app geopend"; bij het starten haalt hij zijn instellingen op bij Meta, waarbij minimaal je IP-adres en algemene toestelgegevens meegaan. Op Android wordt de advertentie-identifier (GAID) vanaf versie 1.0.12 niet meer meegestuurd; bij oudere versies kan dat nog tot je de app bijwerkt. Op iOS vragen wij <em>geen</em> tracking-toestemming en wordt je advertentie-identifier (IDFA) dus niet gebruikt; installatiemeting verloopt daar via Apple's geaggregeerde, niet tot jou herleidbare SKAdNetwork. Er worden nooit vangsten, locaties of profielgegevens met Meta gedeeld.</li>
 <li><strong>Beeldherkenning</strong> – voor het voorstel voor soort en lengte uit een vangstfoto, alleen als je die functie zelf hebt aangezet (zie 7).</li>
 <li><strong>Abonnementsbeheer</strong> – voor het afhandelen en bijhouden van VISDEX Pro: of je abonnement loopt, wanneer het verlengt en wanneer het stopt. De aankoop zelf doe je bij Apple of Google; deze dienst houdt voor ons bij wat daaruit volgt.</li>
 <li><strong>AI-advies (tekstmodel)</strong> – voor het maken van je jachtplan, je vispatronen, je sessie-advies en je weekterugblik uit de gegevens in je logboek, alleen als je de AI-functies zelf hebt aangezet (zie 7).</li>
