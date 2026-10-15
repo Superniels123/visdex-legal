@@ -94,7 +94,7 @@
 <p>If you delete your account, your contact at that service is deleted too.</p>
 
 <h2>7. AI features</h2>
-<p>VISDEX has a number of features that use an external AI service. There are two kinds of processing: a suggestion for the fish species and length from your photo, and advice and overviews based on the data in your fish logbook. They sit behind a single switch, which is <strong>off by default</strong>: <strong>Settings &gt; AI features</strong>. The legal basis is your consent (Article 6(1)(a) GDPR), and you can withdraw it there at any time, without consequences for the rest of the app.</p>
+<p>VISDEX has a number of features that use an external AI service. There are three kinds of processing: a suggestion for the fish species and length from your photo, advice and overviews based on the data in your fish logbook, and a fishing plan for a photo of the water (Waterscan). They sit behind a single switch, which is <strong>off by default</strong>: <strong>Settings &gt; AI features</strong>. The legal basis is your consent (Article 6(1)(a) GDPR), and you can withdraw it there at any time, without consequences for the rest of the app.</p>
 
 <h3>a. Species and length from your photo</h3>
 <p>The app can suggest the fish species and length from the photo of your catch. If the switch is on, the photo of that particular catch is processed once, and only at your request, by an external image recognition service. Before the photo leaves your device, it is reduced in size and the hidden data is removed, including the GPS location your camera writes into the file.</p>
@@ -107,7 +107,12 @@
 <p>What is never sent: your name, your email address, your photos, your notes, your chat messages, and your coordinates or spots. Waters are only sent by name, never as a place on the map.</p>
 <p>We keep your hunt plan and your fishing patterns so that you can open them again without a new request. We don't keep the session advice and the weekly review. For each use we do record that you used the feature and when, to prevent abuse and unnecessary costs. The legal basis for this is legitimate interest, namely exactly that.</p>
 
-<h3>For both</h3>
+<h3>c. A fishing plan for a photo of the water (Waterscan)</h3>
+<p>With Waterscan you take a photo with your camera of the water where you are standing. The app suggests a short fishing plan for it: where in the photo you can fish, for which species, and with which bait and technique. If the switch is on, that photo goes, only at your request, to an external AI service that can read images. Before the photo leaves your device, it is reduced in size and saved as a new file, without the hidden data such as the GPS location.</p>
+<p>Sent with the photo: the date, time and season, the weather at that moment, the name and type of the water according to the map, which species you yourself caught earlier within 500 metres and how often, and which species are open today. Your coordinates do not go to the AI service: the app only uses them to look up the water and the weather, through our own server and the weather service (see 9). Your name, your email address and your notes are not sent. Waterscan follows the same rule as the other AI features: under 16 you cannot turn the switch on (see 13).</p>
+<p>We do not keep the photo or the fishing plan. For each use we record that you used Waterscan and when, with technical details of the request such as the cost, to prevent abuse and unnecessary costs. The legal basis for this is legitimate interest, namely exactly that.</p>
+
+<h3>For all three</h3>
 <p>Your data and your photos are not used to train AI models. If you turn the switch off, nothing leaves your device for these features any more and they stop working. As long as you haven't turned it on yourself, nothing happens at all.</p>
 
 <h2>8. Advertising measurement</h2>
@@ -126,7 +131,7 @@
 <li><strong>Weather service</strong> – for retrieving weather information for a catch and at the start of a session.</li>
 <li><strong>Apple / Google</strong> – for delivering the app through their app stores and (if turned on) push notifications.</li>
 <li><strong>Meta (Facebook)</strong> – for measuring app install campaigns. The Meta SDK in the app sends technical events (such as "app installed" and "app opened") and general device data to Meta for this purpose. On Android, the advertising identifier (GAID) is no longer sent from version 1.0.12 onwards; with older versions this may still happen until you update the app. On iOS we do <em>not</em> ask for tracking permission, so your advertising identifier (IDFA) is not used; install measurement there runs exclusively through Apple's aggregated SKAdNetwork, which cannot be traced back to you. Catches, locations or profile data are never shared with Meta.</li>
-<li><strong>Image recognition</strong> – for the species and length suggestion from a catch photo, only if you have turned that feature on yourself (see 7).</li>
+<li><strong>Image recognition</strong> – for the species and length suggestion from a catch photo and for the fishing plan for a photo of the water (Waterscan), only if you have turned on the AI features yourself (see 7).</li>
 <li><strong>Subscription management</strong> – for handling and keeping track of VISDEX Pro: whether your subscription is running, when it renews and when it ends. You make the purchase itself with Apple or Google; this service keeps track for us of what follows from it.</li>
 <li><strong>AI advice (language model)</strong> – for creating your hunt plan, your fishing patterns, your session advice and your weekly review from the data in your fish logbook, only if you have turned on the AI features yourself (see 7).</li>
 <li><strong>Email marketing</strong> – for sending our email and managing sign-ups and unsubscribes (see 6).</li>

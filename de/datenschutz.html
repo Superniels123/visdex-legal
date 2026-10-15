@@ -94,7 +94,7 @@
 <p>Löschst du dein Konto, wird auch dein Kontakt bei diesem Dienst gelöscht.</p>
 
 <h2>7. KI-Funktionen</h2>
-<p>VISDEX hat einige Funktionen, bei denen ein externer KI-Dienst eingesetzt wird. Es geht um zwei Arten der Verarbeitung: einen Vorschlag für die Fischart und die Länge aus deinem Foto sowie Tipps und Übersichten auf Grundlage der Daten in deinem Fangbuch. Sie liegen hinter einem einzigen Schalter, der <strong>standardmäßig ausgeschaltet ist</strong>: <strong>Einstellungen &gt; KI-Funktionen</strong>. Die Rechtsgrundlage ist deine Einwilligung (Art. 6 Abs. 1 lit. a DSGVO), und du kannst sie dort jederzeit widerrufen, ohne Folgen für den Rest der App.</p>
+<p>VISDEX hat einige Funktionen, bei denen ein externer KI-Dienst eingesetzt wird. Es geht um drei Arten der Verarbeitung: einen Vorschlag für die Fischart und die Länge aus deinem Foto, Tipps und Übersichten auf Grundlage der Daten in deinem Fangbuch sowie einen Angelplan zu einem Foto des Gewässers (Waterscan). Sie liegen hinter einem einzigen Schalter, der <strong>standardmäßig ausgeschaltet ist</strong>: <strong>Einstellungen &gt; KI-Funktionen</strong>. Die Rechtsgrundlage ist deine Einwilligung (Art. 6 Abs. 1 lit. a DSGVO), und du kannst sie dort jederzeit widerrufen, ohne Folgen für den Rest der App.</p>
 
 <h3>a. Art und Länge aus deinem Foto</h3>
 <p>Die App kann aus dem Foto deines Fangs einen Vorschlag für die Fischart und die Länge machen. Ist der Schalter eingeschaltet, wird das Foto genau dieses Fangs einmalig und nur auf deine Anfrage von einem externen Dienst für Bilderkennung verarbeitet. Bevor das Foto dein Gerät verlässt, wird es verkleinert, und die versteckten Daten werden entfernt, darunter der GPS-Standort, den deine Kamera in die Datei schreibt.</p>
@@ -107,7 +107,12 @@
 <p>Was auf keinen Fall übermittelt wird: dein Name, deine E-Mail-Adresse, deine Fotos, deine Notizen, deine Chatnachrichten und deine Koordinaten oder Angelplätze. Gewässer werden nur mit ihrem Namen übermittelt, nie als Ort auf der Karte.</p>
 <p>Deinen Zielfischplan und deine Angelmuster speichern wir, damit du sie erneut öffnen kannst, ohne dass eine neue Anfrage nötig ist. Die Session-Tipps und den Wochenrückblick speichern wir nicht. Von jeder Nutzung halten wir aber fest, dass du die Funktion genutzt hast und wann, um Missbrauch und unnötige Kosten zu verhindern. Die Rechtsgrundlage dafür ist das berechtigte Interesse, nämlich genau das.</p>
 
-<h3>Für beides gilt</h3>
+<h3>c. Ein Angelplan zu einem Foto des Gewässers (Waterscan)</h3>
+<p>Mit Waterscan machst du mit der Kamera ein Foto des Gewässers, an dem du stehst. Die App schlägt dazu einen kurzen Angelplan vor: wo auf dem Foto du angeln kannst, auf welche Art und mit welchem Köder und welcher Technik. Ist der Schalter eingeschaltet, geht dieses Foto nur auf deine Anfrage an einen externen KI-Dienst, der Bilder lesen kann. Bevor das Foto dein Gerät verlässt, wird es verkleinert und als neue Datei gespeichert, ohne die versteckten Daten wie den GPS-Standort.</p>
+<p>Mit dem Foto werden übermittelt: Datum, Uhrzeit und Jahreszeit, das Wetter in diesem Moment, der Name und die Art des Gewässers laut Karte, welche Arten du selbst früher im Umkreis von 500 Metern gefangen hast und wie oft, und welche Arten heute nicht geschont sind. Deine Koordinaten gehen nicht an den KI-Dienst: Die App nutzt sie nur, um das Gewässer und das Wetter nachzuschlagen, über unseren eigenen Server und den Wetterdienst (siehe 9). Dein Name, deine E-Mail-Adresse und deine Notizen werden nicht übermittelt. Auch für Waterscan gilt: Unter 16 kannst du den Schalter nicht einschalten (siehe 13).</p>
+<p>Wir speichern das Foto und den Angelplan nicht. Von jeder Nutzung halten wir fest, dass du Waterscan genutzt hast und wann, mit technischen Angaben zur Anfrage wie den Kosten, um Missbrauch und unnötige Kosten zu verhindern. Die Rechtsgrundlage dafür ist das berechtigte Interesse, nämlich genau das.</p>
+
+<h3>Für alle drei gilt</h3>
 <p>Deine Daten und deine Fotos werden nicht verwendet, um KI-Modelle zu trainieren. Schaltest du den Schalter aus, verlässt für diese Funktionen nichts mehr dein Gerät, und sie funktionieren nicht mehr. Solange du ihn nicht selbst eingeschaltet hast, passiert ohnehin nichts.</p>
 
 <h2>8. Messung von Werbung</h2>
@@ -126,7 +131,7 @@
 <li><strong>Wetterdienst</strong> – zum Abrufen von Wetterinformationen zu einem Fang und zum Start einer Session.</li>
 <li><strong>Apple / Google</strong> – für die Bereitstellung der App über ihre App-Stores und (wenn eingeschaltet) Push-Benachrichtigungen.</li>
 <li><strong>Meta (Facebook)</strong> – für die Messung von App-Installationskampagnen. Das Meta-SDK in der App schickt dafür technische Ereignisse (etwa „App installiert“ und „App geöffnet“) und allgemeine Gerätedaten an Meta. Auf Android wird die Werbe-ID (GAID) ab Version 1.0.12 nicht mehr übermittelt; bei älteren Versionen kann das noch geschehen, bis du die App aktualisierst. Auf iOS fragen wir <em>keine</em> Tracking-Erlaubnis ab, und deine Werbe-ID (IDFA) wird daher nicht verwendet; die Installationsmessung läuft dort ausschließlich über Apples aggregiertes, nicht auf dich zurückführbares SKAdNetwork. Es werden nie Fänge, Standorte oder Profildaten mit Meta geteilt.</li>
-<li><strong>Bilderkennung</strong> – für den Vorschlag für Art und Länge aus einem Fangfoto, nur wenn du diese Funktion selbst eingeschaltet hast (siehe 7).</li>
+<li><strong>Bilderkennung</strong> – für den Vorschlag für Art und Länge aus einem Fangfoto und für den Angelplan zu einem Foto des Gewässers (Waterscan), nur wenn du die KI-Funktionen selbst eingeschaltet hast (siehe 7).</li>
 <li><strong>Abonnementverwaltung</strong> – für die Abwicklung und Verwaltung von VISDEX Pro: ob dein Abonnement läuft, wann es sich verlängert und wann es endet. Den Kauf selbst tätigst du bei Apple oder Google; dieser Dienst hält für uns fest, was sich daraus ergibt.</li>
 <li><strong>KI-Tipps (Sprachmodell)</strong> – für die Erstellung deines Zielfischplans, deiner Angelmuster, deiner Session-Tipps und deines Wochenrückblicks aus den Daten in deinem Fangbuch, nur wenn du die KI-Funktionen selbst eingeschaltet hast (siehe 7).</li>
 <li><strong>E-Mail-Marketing</strong> – für den Versand unserer E-Mails und die Verwaltung der An- und Abmeldungen (siehe 6).</li>
