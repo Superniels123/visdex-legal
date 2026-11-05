@@ -47,7 +47,7 @@
 <tr><td>Competition data</td><td>Participation, scores, leaderboards</td><td>Organising and running fishing competitions</td></tr>
 <tr><td>Technical data</td><td>App version, device platform, push token (if you turn on notifications), error reports, feedback you send us, which parts of the app you open (per day, without content or location; after 35 days only combined counts)</td><td>Running the app, solving problems, improving it</td></tr>
 <tr><td>Weather data</td><td>Weather information for a catch and at the start of a session (retrieved based on location/time)</td><td>Context for your catch and your session</td></tr>
-<tr><td>Consents</td><td>Whether you consented to marketing email and to the AI features, and when you did so. For marketing email we also record which screen you consented on and which text you saw at the time</td><td>Being able to show that consent was genuinely given, and being able to withdraw it</td></tr>
+<tr><td>Consents</td><td>Whether you consented to marketing email, to the AI features and to the AI inspection, and when you did so. For marketing email we also record which screen you consented on and which text you saw at the time</td><td>Being able to show that consent was genuinely given, and being able to withdraw it</td></tr>
 <tr><td>Support conversations</td><td>Your messages in the chat with VISDEX (Help and contact), photos you attach, our replies and photos we send you, the topic, and technical details from the moment you start a conversation, such as app version, device and operating system, language, screen size, text size, whether notifications are on, whether you have Pro and recent error reports on your device. If you write in a language other than Dutch, we also keep the translation of your message</td><td>Helping you with your question or problem</td></tr>
 <tr><td>Age indication</td><td>Your date of birth, stored separately and shielded. The app itself never sees the date, only the result: are you 16 or older, and are you 18 or older</td><td>Preventing children from receiving marketing email, and minors from taking part in prize draws</td></tr>
 </table>
@@ -115,19 +115,14 @@
 <p>Your data and your photos are not used to train AI models. The AI service deletes what it receives from us within 30 days by default. If its own safety systems flag something as possible misuse of the service, it may keep it for up to 2 years. If you turn the switch off, nothing leaves your device for these features any more and they stop working. As long as you haven't turned it on yourself, nothing happens at all.</p>
 
 <!-- #856 AI-controle -->
-<h3>Checks by AI for giveaways, catches and reports</h3>
-<p>To keep giveaways and leaderboards fair and to handle reports quickly, we have part of the checks that we would otherwise do by hand carried out by an external AI service. This is separate from the AI features switch and also happens if you have not turned it on. The legal basis is our legitimate interest: countering unfair entries in giveaways with a prize and in the leaderboards, and assessing reported content.</p>
-<p>In the public competitions (the rounds) this is different: there we only check your photo if you gave your consent for that yourself.</p>
-<p>There are three checks:</p>
-<ul>
-<li><strong>Inspection in a giveaway</strong>: in a giveaway with an inspection, the service looks at the photo of your entry to see whether there is a measuring tape on it, whether the fish lies along the measuring tape and which length can be read from it.</li>
-<li><strong>Check of a catch</strong>: if a catch stands out, for example because it is bigger or heavier than would be expected, the service looks at whether the photo matches the species, the length and the weight you entered, and whether it is a real photo of a catch.</li>
-<li><strong>Reports</strong>: if someone reports a comment or a message, the service assesses the reported text. It only closes a report if it is clearly unfounded. We assess everything else ourselves.</li>
-</ul>
-<p><strong>What is sent:</strong> only the photo, reduced in size and without the hidden data a camera puts in the file (such as the GPS location). For the check of a catch, also the species, the length and the weight. For a report, only the reported text and the reason for the report. Never your name, your email address, your coordinates or spots, or the name of the water.</p>
-<p><strong>Not for minors:</strong> photos and texts of users under 18 never go to the AI service in these checks. We assess those ourselves, or a fixed rule applies.</p>
+<h3>Checks by AI for giveaways</h3>
+<p>To keep giveaways fair, we have part of the inspection that we would otherwise do by hand carried out by an external AI service. This only happens if you agreed when joining a giveaway; without your agreement we assess your photo ourselves. This is separate from the AI features switch. The legal basis is your consent, and you can withdraw it at any time on the giveaway's page, without consequences for your participation.</p>
+<p>In the public competitions (the rounds), too, we only check your photo if you gave your consent for that yourself.</p>
+<p><strong>What the service does:</strong> in a giveaway with an inspection, it looks at the photo of your entry to see whether there is a measuring tape on it, whether the fish lies along the measuring tape and which length can be read from it.</p>
+<p><strong>What is sent:</strong> only the photo, reduced in size and without the hidden data a camera puts in the file (such as the GPS location). Never your name, your email address, your coordinates or spots, or the name of the water.</p>
+<p><strong>Not for minors:</strong> photos of users under 18 never go to the AI service in this check. We assess those ourselves, or a fixed rule applies.</p>
 <p><strong>No decision without a way out:</strong> an automatic decision that affects you, for example that a catch does not count, is shown with that catch, together with the reason. With the Ask for a review button, we look at it again. Reports about the safety of a child or another person are never handled automatically.</p>
-<p><strong>Testing:</strong> to know whether these checks work well, we sometimes have the service assess catches by adults that we have already assessed ourselves or that stood out. The outcome then changes nothing about your catch. No more data is sent than stated above, and the same retention period applies.</p>
+<p><strong>Testing:</strong> to know whether the inspection works well, we sometimes also have the service assess other catches by people who agreed. The outcome then changes nothing about your catch. Species, length and weight may also be sent, and the same retention period applies.</p>
 <p><strong>Retention:</strong> we keep the outcome of a check for at most 90 days. We keep the decision itself for as long as your account exists. The AI service does not use your data to train models and deletes it within 30 days by default. If its own safety systems flag something as possible misuse of the service, it may keep it for up to 2 years.</p>
 <p><strong>Objection:</strong> you can object to this processing by emailing <strong>info@visdex.nl</strong>.</p>
 
@@ -159,7 +154,7 @@
 <li><strong>Image recognition</strong> – for the species and length suggestion from a catch photo, only if you have turned that feature on yourself (see 7).</li>
 <li><strong>Subscription management</strong> – for handling and keeping track of VISDEX Pro: whether your subscription is running, when it renews and when it ends. You make the purchase itself with Apple or Google; this service keeps track for us of what follows from it.</li>
 <li><strong>AI advice (language model)</strong> – for creating your hunt plan, your fishing patterns, your session advice and your weekly review from the data in your fish logbook, only if you have turned on the AI features yourself (see 7).</li>
-<li><strong>AI checks</strong> – for the inspection in giveaways, the check of catches that stand out and the assessment of reports (see 7), on the basis of our legitimate interest, also if you have not turned on the AI features. Not for users under 18.</li>
+<li><strong>AI checks</strong> – for the inspection in giveaways and testing it (see 7), only if you agreed. Not for users under 18.</li>
 <li><strong>AI for customer support</strong> – for translating messages in the support chat and suggesting a draft reply that we assess before it is sent (see 7).</li>
 <li><strong>Email marketing</strong> – for sending our email and managing sign-ups and unsubscribes (see 6).</li>
 <li><strong>Advertising measurement</strong> – for measuring whether our ads work (see 8).</li>
