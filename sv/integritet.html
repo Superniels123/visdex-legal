@@ -26,7 +26,7 @@
 <div class="wrap">
 
 <h1>Integritetspolicy för VISDEX</h1>
-<p class="meta">Senast uppdaterad: 9 november 2026</p>
+<p class="meta">Senast uppdaterad: 15 november 2026</p>
 
 <div class="note">
 <strong>Kort sagt:</strong> VISDEX är en app för att föra fiskedagbok. Dina fångster och platser är privata som standard. Du delar bara det du själv väljer att dela. Vi säljer aldrig dina uppgifter. Vi skickar bara marknadsföringsmejl till dig om du har gett ditt samtycke, och du kan när som helst återkalla det. Du kan när som helst radera ditt konto och alla dina uppgifter helt och hållet, direkt i appen.
@@ -78,7 +78,7 @@
 <!-- #822c publieke wedstrijden -->
 <h3>Offentliga tävlingar från VISDEX</h3>
 <p>VISDEX anordnar egna offentliga tävlingar, i omgångar på två veckor. De är bara för fiskare i Nederländerna. Är du med ser andra inloggade VISDEX-användare ditt användarnamn, din placering och din poäng i ställningen. Vinner du en pokal visas den i pokalskåpet på din profil, för alla som får se din profil. Fotot av en fångst syns bara i ställningen om du själv har gjort fångsten offentlig, och aldrig för en fiskare under 18 år. Vatten, fiskeplats och koordinater syns aldrig. Att vara med är ditt eget val, och du kan lämna en tävling igen.</p>
-<p><strong>Kontroll av måttband.</strong> En fångst räknas bara i en offentlig tävling om den ligger längs ett måttband eller en mätbräda. Ger du samtycke till den automatiska kontrollen när du går med (den är <strong>avstängd som standard</strong>), kontrolleras fotot av en fångst som räknas av en extern tjänst för bildigenkänning. Bara fotot skickas: inget namn, ingen plats och inga andra fångstuppgifter. De dolda uppgifterna i filen, till exempel GPS-platsen, har då redan tagits bort. Vi sparar resultatet av kontrollen (om ett måttband syns, vilken längd som går att läsa av och hur säker tjänsten är) till 90 dagar efter resultatet av den tävlingen. Fotot används inte för att träna AI-modeller. Kontrollen avgör bara om en fångst räknas i tävlingen: själva fångsten, din fiskedagbok och topplistorna ändras inte, och du kan alltid be om en bedömning av en människa. Den rättsliga grunden är ditt samtycke; du återkallar det när som helst på tävlingens skärm. Utan ditt samtycke, och för fiskare under 18 år, får dina fångster i omgångarna ingen automatisk kontroll av måttband. Då bedömer VISDEX själv ditt foto om din fångst hamnar på topp 10. För utlottningar, kontroll av fångster som sticker ut och rapporter gäller en annan rättslig grund; se ”Kontroll med AI vid utlottningar, fångster och rapporter”.</p>
+<p><strong>Kontroll av måttband.</strong> En fångst räknas bara i en offentlig tävling om den ligger längs ett måttband eller en mätbräda. Är du 16 år eller äldre och är ditt födelsedatum känt, kontrolleras fotot av en fångst som räknas av en extern tjänst för bildigenkänning; du behöver inte ge något samtycke till det och det finns inget reglage för det. Bara fotot skickas: inget namn, ingen plats och inga andra fångstuppgifter. De dolda uppgifterna i filen, till exempel GPS-platsen, har då redan tagits bort. Vi sparar resultatet av kontrollen (om ett måttband syns, vilken längd som går att läsa av och hur säker tjänsten är) till 90 dagar efter resultatet av den tävlingen. Fotot används inte för att träna AI-modeller. Kontrollen avgör bara om en fångst räknas i tävlingen: själva fångsten, din fiskedagbok och topplistorna ändras inte, och du kan alltid be om en bedömning av en människa. Den rättsliga grunden är vårt berättigade intresse av rättvisa tävlingar; hur du invänder står under ”Kontroll med AI vid utlottningar och tävlingar” i 7. Är du under 16 år eller är ditt födelsedatum inte känt, får dina fångster i omgångarna ingen automatisk kontroll av måttband; då bedömer vi ditt foto själva, eller så gäller en fast regel.</p>
 
 <h2>5. Offentliga fångster och förbättring av appen</h2>
 <p>Fångster som du själv har gjort offentliga använder vi sammanslagna och utan ditt namn för att förbättra appen. Vi tittar till exempel på hur väl våra uppskattningar av art, längd och vikt stämmer med det som fiskare faktiskt anger, så att uppskattningarna blir bättre.</p>
@@ -119,20 +119,25 @@
 <p>Dina uppgifter och dina foton används inte för att träna AI-modeller. Stänger du av reglaget lämnar inget längre din enhet för de här funktionerna, och de slutar fungera. Så länge du inte själv har slagit på det händer ingenting alls.</p>
 
 <!-- #856 AI-controle -->
-<h3>Kontroll med AI vid utlottningar, fångster och rapporter</h3>
-<p>För att hålla utlottningar och topplistor rättvisa och hantera rapporter snabbt låter vi en extern AI-tjänst utföra en del av de kontroller som vi annars gör för hand. Det är fristående från reglaget AI-funktioner och sker även om du inte har slagit på det. Den rättsliga grunden är vårt berättigade intresse: att motverka ohederliga bidrag i utlottningar med ett pris och på topplistorna, och att bedöma rapporterat innehåll.</p>
-<p>Vid de offentliga tävlingarna (omgångarna) är det annorlunda: där kontrollerar vi ditt foto bara om du själv har gett ditt samtycke till det.</p>
-<p>Det gäller tre kontroller:</p>
-<ul>
-<li><strong>Granskning vid en utlottning</strong>: vid en utlottning med granskning tittar tjänsten på fotot i ditt bidrag om det finns ett måttband på det, om fisken ligger längs måttbandet och vilken längd som går att läsa av.</li>
-<li><strong>Kontroll av en fångst</strong>: sticker en fångst ut, till exempel för att den är större eller tyngre än man kan vänta sig, tittar tjänsten på om fotot stämmer med den art, längd och vikt som du angav, och om det är ett äkta foto av en fångst.</li>
-<li><strong>Rapporter</strong>: rapporterar någon en kommentar eller ett meddelande, bedömer tjänsten den rapporterade texten. Den stänger en rapport bara om den tydligt är ogrundad. Allt annat bedömer vi själva.</li>
-</ul>
-<p><strong>Vad som skickas:</strong> bara fotot, förminskat och utan de dolda uppgifter som en kamera skriver in i filen (såsom GPS-platsen). Vid kontroll av en fångst även arten, längden och vikten. Vid en rapport bara den rapporterade texten och skälet till rapporten. Aldrig ditt namn, din e-postadress, dina koordinater eller fiskeplatser eller vattnets namn.</p>
-<p><strong>Inte för minderåriga:</strong> foton och texter från användare under 18 år skickas aldrig till AI-tjänsten. Dem bedömer vi själva, eller så gäller en fast regel.</p>
+<h3>Kontroll med AI vid utlottningar och tävlingar</h3>
+<p>För att hålla utlottningar och de offentliga tävlingarna (omgångarna) rättvisa låter vi en extern AI-tjänst utföra en del av den granskning som vi annars gör för hand. Det gäller alla som är 16 år eller äldre och vars födelsedatum är känt, alltså även 16- och 17-åringar. Du behöver inte ge något samtycke och det finns inget reglage för det; det är också fristående från reglaget AI-funktioner.</p>
+<p><strong>Rättslig grund:</strong> vårt berättigade intresse, och alla deltagares, av rättvisa utlottningar och tävlingar utan falska fångster.</p>
+<p><strong>Vad tjänsten gör:</strong> den tittar på fotot i ditt bidrag eller av din fångst om det finns ett måttband på det, om fisken ligger längs måttbandet och vilken längd som går att läsa av. Vid en utlottning fattar tjänsten aldrig själv något beslut; det gör alltid en människa.</p>
+<p><strong>Vad som skickas:</strong> bara fotot, förminskat och utan de dolda uppgifter som en kamera skriver in i filen (såsom GPS-platsen). Aldrig ditt namn, din e-postadress, dina koordinater eller fiskeplatser eller vattnets namn.</p>
+<p><strong>Under 16:</strong> är du under 16 år, eller är ditt födelsedatum inte känt, skickas ditt foto aldrig till AI-tjänsten vid den här kontrollen. Det bedömer vi själva, eller så gäller en fast regel.</p>
 <p><strong>Inget beslut utan utväg:</strong> ett automatiskt beslut som berör dig, till exempel att en fångst inte räknas, ser du vid den fångsten, tillsammans med skälet. Med knappen Begär ny granskning tittar vi på det igen. Rapporter om säkerheten för ett barn eller en annan person hanteras aldrig automatiskt.</p>
-<p><strong>Lagring:</strong> resultatet av en kontroll sparar vi i högst 90 dagar. Själva beslutet sparar vi så länge ditt konto finns. AI-tjänsten använder inte dina uppgifter för att träna modeller och raderar dem som standard inom 30 dagar.</p>
-<p><strong>Invändning:</strong> du kan invända mot den här behandlingen genom att mejla <strong>info@visdex.nl</strong>.</p>
+<p><strong>Lagring:</strong> resultatet av en kontroll sparar vi i högst 90 dagar. Själva beslutet sparar vi så länge ditt konto finns. AI-tjänsten använder inte dina uppgifter för att träna modeller och raderar dem som standard inom 30 dagar. Flaggar dess egna säkerhetssystem något som möjligt missbruk av tjänsten, kan den spara det i upp till 2 år.</p>
+<p><strong>Invändning:</strong> du kan invända mot den här behandlingen genom att mejla <strong>info@visdex.nl</strong>. Då skickas ditt foto inte längre till AI-tjänsten vid den här kontrollen, och en människa på VISDEX bedömer det.</p>
+
+<!-- fotoscan: controle van vangstfoto's (13 nov 2026) -->
+<h3>Kontroll av fångstfoton för förfalskningar och missbruk</h3>
+<p>För att hålla topplistorna, Upptäck-flödet och tävlingarna rättvisa låter vi varje nytt fångstfoto som är offentligt eller räknas till en topplista kontrolleras automatiskt för förfalskningar: en bild som skapats av AI, ett foto av en skärm, eller en bild från internet eller med logotypen för en webbplats eller app. Det görs av en extern tjänst för bildigenkänning. Det är skilt från de AI-funktioner du själv slår på, och det finns inget reglage för det.</p>
+<p><strong>Rättslig grund:</strong> vårt berättigade intresse, och alla deltagande fiskares, av rättvisa topplistor och tävlingar utan falska fångster och missbruk.</p>
+<p><strong>Vad som skickas:</strong> bara det första fotot av fångsten, förminskat och utan de dolda uppgifter som en kamera skriver in i filen (såsom GPS-platsen), och den art du valde. Aldrig ditt namn, ditt konto, din ålder, platsen, datumet eller andra fångstuppgifter.</p>
+<p><strong>Även för minderåriga:</strong> den här kontrollen gäller alla åldrar, eftersom en offentlig fångst av ett barn visas i samma översikter som en vuxens. Bara fotot och arten skickas, utan namn eller andra uppgifter, så att kontrollen avslöjar så lite som möjligt om barnet.</p>
+<p><strong>Vad som händer sedan:</strong> om tjänsten ser en trolig förfalskning kan fångsten försvinna från de offentliga översikterna tills någon från VISDEX har tittat på den. Din fångst ligger kvar i din egen fiskedagbok och avvisas aldrig automatiskt; det avgör alltid en människa.</p>
+<p><strong>Lagring:</strong> resultatet av kontrollen sparar vi i högst 90 dagar. Om någon från VISDEX behövde titta på fångsten sparar vi den bedömningen till 90 dagar efter beslutet. Tjänsten använder inte fotot för att träna AI-modeller och raderar det som standard inom 30 dagar. Om tjänstens egen säkerhet flaggar något som möjligt missbruk av tjänsten kan den spara det i upp till 2 år.</p>
+<p><strong>Invändning:</strong> du kan invända genom att mejla <strong>info@visdex.nl</strong>. Vi väger det mot intresset av rättvisa topplistor för alla fiskare.</p>
 
 <h2>8. Mätning av annonser</h2>
 <p>Vi annonserar för att nå nya fiskare, och vi vill veta om det fungerar. Därför skickar appen ett litet antal tekniska händelser till den annonsplattform där vi annonserar, till exempel ”app installerad” och ”app öppnad”, tillsammans med allmänna enhetsuppgifter.</p>
@@ -153,8 +158,9 @@
 <li><strong>Bildigenkänning</strong>: för förslaget på art och längd utifrån ett fångstfoto, bara om du själv har slagit på den funktionen (se 7).</li>
 <li><strong>Prenumerationshantering</strong>: för att hantera och hålla reda på VISDEX Pro: om din prenumeration löper, när den förnyas och när den upphör. Själva köpet gör du hos Apple eller Google; den här tjänsten håller åt oss reda på vad som följer av det.</li>
 <li><strong>AI-råd (språkmodell)</strong>: för att ta fram din fiskeplan, dina fiskemönster, dina råd för fiskepass och din veckosammanfattning utifrån uppgifterna i din fiskedagbok, bara om du själv har slagit på AI-funktionerna (se 7).</li>
-<li><strong>AI-kontroll</strong>: för granskning vid utlottningar, kontroll av fångster som sticker ut och bedömning av rapporter (se 7), på grundval av vårt berättigade intresse, även om du inte har slagit på AI-funktionerna. Inte för användare under 18 år.</li>
+<li><strong>AI-kontroll</strong>: för granskning vid utlottningar och tävlingar (se 7), från 16 år, på grundval av vårt berättigade intresse.</li>
 <li><strong>E-postmarknadsföring</strong>: för att skicka våra mejl och hantera an- och avmälningar (se 6).</li>
+<li><strong>Kontroll av fångstfoton</strong>: för kontroll av nya offentliga och räknade fångstfoton för förfalskningar och missbruk (se 7), för alla åldrar, på grundval av vårt berättigade intresse. Den här tjänsten kan behandla uppgifter i USA; skyddsåtgärderna nedan gäller.</li>
 <li><strong>Annonsmätning</strong>: för att mäta om våra annonser fungerar (se 8).</li>
 <li><strong>Appuppdateringar och pushnotiser</strong>: för att leverera uppdateringar av appen och pushnotiser. Då behandlas din IP-adress och en teknisk enhetskod.</li>
 <li><strong>Kartor</strong>: för att visa kartan i appen. Då behandlas din IP-adress och det kartområde du tittar på, inte dina fångster.</li>
@@ -194,7 +200,11 @@
 <p>Vi skyddar dina uppgifter med lämpliga tekniska åtgärder, bland annat krypterade anslutningar och åtkomstregler på databasnivå (row-level security), så att bara du, och de personer som <em>du</em> väljer att dela med, kommer åt dina uppgifter. Integritetskänsliga uppgifter, som exakta platser, lagras separat och med striktare skydd, och syns bara för andra om du själv väljer det (till exempel med ”Lägg den här fångsten på VISDEX-kartan” eller genom att dela en fiskeplats).</p>
 
 <h2>13. Barn</h2>
-<p>VISDEX kan användas från 13 års ålder. För användare under 16 och under 18 år gäller extra skydd: de får inga marknadsföringsmejl och inga kommersiella erbjudanden, kan inte slå på AI-funktionerna (under 16), kan inte dela en fångst med en nål på kartan och deltar inte i utlottningar (under 18), och det finns begränsningar för kontakt med okända vuxna. Tror du att vi behandlar uppgifter om ett barn under 13 år, mejla <strong>info@visdex.nl</strong> så raderar vi dem.</p>
+<p>VISDEX kan användas från 13 års ålder. För användare under 16 och under 18 år gäller extra skydd: de får inga marknadsföringsmejl och inga kommersiella erbjudanden, men kan själva köpa Pro (se nedan), kan inte slå på AI-funktionerna (under 16), kan inte dela en fångst med en nål på kartan och deltar inte i utlottningar (under 18), och det finns begränsningar för kontakt med okända vuxna. Tror du att vi behandlar uppgifter om ett barn under 13 år, mejla <strong>info@visdex.nl</strong> så raderar vi dem.</p>
+<p>Vill du själv ha Pro kan du titta på det och köpa det via Apple eller Google; fråga först en förälder om lov. Appbutiken kan be din förälder om godkännande. Under 16 år ingår inte AI-funktionerna.</p>
+<p>Kontrollen med AI vid utlottningar och tävlingar (se 7) gäller från 16 år, även under 18; under 16 år, eller om ditt födelsedatum inte är känt, skickas ditt foto inte till AI-tjänsten vid den här kontrollen. AI-funktionerna som du själv slår på kan du använda först från 16 år.</p>
+
+<p>Kontrollen av fångstfoton för förfalskningar och missbruk (se 7) gäller alla åldrar, även under 18. Bara fotot och arten skickas, aldrig ett namn eller en ålder.</p>
 
 <h2>14. Ändringar</h2>
 <p>Vi kan ändra den här integritetspolicyn. Den senaste versionen hittar du alltid på den här sidan, med datumet högst upp.</p>
