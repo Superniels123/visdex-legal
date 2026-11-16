@@ -102,7 +102,7 @@
 <p>Když smažeš svůj účet, smaže se i tvůj kontakt v této službě.</p>
 
 <h2>7. Funkce AI</h2>
-<p>VISDEX má několik funkcí, při kterých se zapojuje externí služba AI. Jde o dva druhy zpracování: návrh druhu ryby a délky z tvé fotky a rady a přehledy podle údajů v tvém rybářském deníku. Obě ovládá jeden přepínač, který je <strong>ve výchozím stavu vypnutý</strong>: <strong>Nastavení &gt; Funkce AI</strong>. Právním základem je tvůj souhlas a ten tam můžeš kdykoli odvolat, bez následků pro zbytek aplikace.</p>
+<p>VISDEX má několik funkcí, při kterých se zapojuje externí služba AI, v současnosti služba společnosti Anthropic, která stojí za Claude. Jde o tři druhy zpracování: návrh druhu ryby a délky z tvé fotky, rady a přehledy podle údajů v tvém rybářském deníku a rady pro místo, kde jsi (od 16 let). Všechny ovládá jeden přepínač, který je <strong>ve výchozím stavu vypnutý</strong>: <strong>Nastavení &gt; Funkce AI</strong>. Funkce AI patří ke službě, kterou u VISDEX používáš, hlavně k Pro; právním základem je proto plnění smlouvy s tebou. Jestli je budeš používat, rozhoduješ sám tím přepínačem, a kdykoli ho tam můžeš zase vypnout, bez následků pro zbytek aplikace.</p>
 
 <h3>a. Druh a délka z tvé fotky</h3>
 <p>Aplikace ti může z fotky úlovku navrhnout druh ryby a délku. Když je přepínač zapnutý, fotku právě tohoto úlovku jednorázově, a jen na tvou žádost, zpracuje externí služba pro rozpoznávání obrazu. Než fotka opustí tvoje zařízení, zmenší se a odstraní se z ní skryté údaje, včetně polohy GPS, kterou do souboru zapisuje tvůj fotoaparát.</p>
@@ -113,9 +113,15 @@
 <p>Když požádáš o plán lovu druhu, o svoje rybářské vzorce nebo o rady k výpravě, nebo když ti aplikace připravuje týdenní shrnutí, odcházejí údaje z tvého vlastního rybářského deníku do externí služby AI, která z nich vytvoří text. Co se odesílá, se liší podle funkce, ale v zásadě jde o: datum a čas úlovku, druh ryby, délku a hmotnost, nástrahu a techniku, název vody a údaje o počasí, které k tomuto úlovku patří. U tvých rybářských vzorců a tvého týdenního shrnutí se neodesílají jednotlivé úlovky, ale jen souhrnná čísla, například kolik úlovků připadá na měsíc a která nástraha ti funguje nejčastěji.</p>
 <p>Kromě toho se odesílají čísla o komunitě jako celku, například kolik se toho kterého druhu na určité vodě uloví. Nejsou u nich žádná jména a započítávají se jen úlovky rybářů, kteří jsou sami ve veřejném žebříčku.</p>
 <p>Co se v žádném případě neodesílá: tvoje jméno, tvoje e-mailová adresa, tvoje fotky, tvoje poznámky, tvoje zprávy z chatu a tvoje souřadnice nebo fleky. Vody se odesílají jen podle názvu, nikdy jako místo na mapě.</p>
+<p>Pokud je ti méně než 16 let, u těchto funkcí se neodesílá nic, co by prozradilo, kde jsi: žádný název vody, žádný kraj, žádný název místa ani příliv a odliv, ani u tvých vlastních úlovků. Plán lovu na druh může přesto uvádět vody, kde se v tvé zemi tento druh hodně loví; tento výběr nezávisí na tom, kde jsi. Pod 16 let patří tyto funkce k Pro, i týdenní shrnutí, a služba AI dostává pokyn držet se rybaření a nedoporučovat nic nebezpečného.</p>
 <p>Tvůj plán lovu a tvoje rybářské vzorce ukládáme, aby se daly znovu otevřít bez nové žádosti. Rady k výpravě a týdenní shrnutí neukládáme. U každého použití ale zaznamenáváme, že byla funkce použita a kdy, abychom zabránili zneužívání a zbytečným nákladům.</p>
 
-<h3>Pro obě platí</h3>
+<h3>c. Funkce, které používají tvoji polohu (od 16 let)</h3>
+<p>S <strong>Radou na místě</strong> (Pro) dostaneš radu pro místo, kde právě jsi. Aplikace k tomu posílá tvoji polohu, tedy tvoje souřadnice, na náš server. Ten na mapě vyhledá, jaká voda a jaké prvky jsou ve tvé blízkosti, třeba rákosí nebo molo. Službě AI se pak posílá jen druh vody a její velikost, tyto prvky se vzdáleností a směrem od tebe, sečtené údaje od jiných rybářů z tvého okolí nebo tvé země o nástrahách a technice (bez jmen), měsíc, jestli chytáš v Nizozemsku, a druh, který hledáš. Tvoje souřadnice, název vody, název místa ani tvůj kraj se službě AI neposílají. Tvoji polohu přitom neukládáme; zaznamenáváme jen, že jsi funkci použil a kdy.</p>
+<p>Dvě funkce jsou zatím ve zkušebním provozu a jsou otevřené jen pro několik testovacích účtů samotného VISDEX. <strong>Rada k flekům</strong> posílá službě AI názvy vod ve zvolené vzdálenosti, s touto vzdáleností, tvými úlovky tam, počtem rybářů tam a aktuálním počasím. <strong>Sken vody</strong> posílá fotku místa, kde chceš chytat, zmenšenou a bez skrytých údajů, jako je poloha GPS, spolu s názvem a druhem vody podle mapy, počasím, datem a časem a počtem tvých úlovků v okruhu 500 metrů. Ani tady se tvoje souřadnice službě AI neposílají a fotku neukládáme.</p>
+<p>Tyto funkce používají tvoji polohu, a proto jsou dostupné až od 16 let, i když je přepínač funkcí AI zapnutý. Je to stejná služba AI jako u ostatních funkcí AI a právním základem je i tady plnění smlouvy s tebou.</p>
+
+<h3>Pro všechny funkce AI výše platí</h3>
 <p>Tvoje údaje a tvoje fotky se nepoužívají k trénování modelů AI. Když přepínač vypneš, pro tyto funkce už tvoje zařízení nic neopouští a funkce přestanou fungovat. Dokud ho nezapneš ty, neděje se vůbec nic.</p>
 
 <!-- #856 AI-controle -->
@@ -157,7 +163,7 @@
 <li><strong>Meta (Facebook)</strong>: pro měření kampaní na instalaci aplikace. Meta SDK v aplikaci k tomu odesílá společnosti Meta technické události (například „aplikace nainstalována“ a „aplikace otevřena“) a obecné údaje o zařízení. Na Androidu se reklamní identifikátor (GAID) od verze 1.0.12 už neodesílá; u starších verzí se to může dít, dokud aplikaci neaktualizuješ. Na iOS <em>nežádáme</em> o povolení ke sledování, takže tvůj reklamní identifikátor (IDFA) se nepoužívá; měření instalací tam probíhá výhradně přes SKAdNetwork, agregovanou metodu Apple, kterou nelze zpětně spojit s tebou. Úlovky, polohy ani údaje z profilu se se společností Meta nikdy nesdílejí.</li>
 <li><strong>Rozpoznávání obrazu</strong>: pro návrh druhu a délky z fotky úlovku, jen pokud tuto funkci zapneš ty (viz 7).</li>
 <li><strong>Správa předplatného</strong>: pro vyřizování a evidenci VISDEX Pro: zda tvoje předplatné běží, kdy se obnovuje a kdy končí. Samotný nákup provádíš u Apple nebo Google; tato služba za nás eviduje, co z něj vyplývá.</li>
-<li><strong>Rady AI (jazykový model)</strong>: pro vytvoření tvého plánu lovu, tvých rybářských vzorců, tvých rad k výpravě a tvého týdenního shrnutí z údajů v tvém rybářském deníku, jen pokud funkce AI zapneš ty (viz 7).</li>
+<li><strong>Rady AI (jazykový model)</strong>: pro vytvoření tvého plánu lovu, tvých rybářských vzorců, tvých rad k výpravě a tvého týdenního shrnutí z údajů v tvém rybářském deníku, jen pokud funkce AI zapneš ty (viz 7), a pro funkce, které používají tvoji polohu, od 16 let (viz 7c).</li>
 <li><strong>Kontrola pomocí AI</strong>: pro posouzení u soutěží o ceny a závodů (viz 7), od 16 let, na základě našeho oprávněného zájmu.</li>
 <li><strong>E-mailový marketing</strong>: pro rozesílání našich e-mailů a správu přihlášení a odhlášení (viz 6).</li>
 <li><strong>Kontrola fotek úlovků</strong>: pro kontrolu nových veřejných a do žebříčku započítávaných fotek úlovků kvůli podvrhům a zneužití (viz 7), u všech věkových skupin, na základě našeho oprávněného zájmu. Tato služba může zpracovávat údaje ve Spojených státech; platí pro to níže uvedené záruky.</li>
@@ -188,7 +194,7 @@
 <li><strong>Přenositelnost údajů</strong>: můžeš požádat o export svých údajů (částečně dostupný v aplikaci přes export dat).</li>
 <li><strong>Námitka / odvolání souhlasu</strong>: můžeš sdílení zase vypnout nebo vznést námitku.</li>
 </ul>
-<p>Oba souhlasy, které v aplikaci dáváš, můžeš kdykoli odvolat, bez udání důvodu a bez následků pro zbytek aplikace:</p>
+<p>Souhlas s marketingovými e-maily můžeš kdykoli odvolat a přepínač funkcí AI kdykoli vypnout, bez udání důvodu a bez následků pro zbytek aplikace:</p>
 <ul>
 <li><strong>Marketingové e-maily</strong>: odkazem pro odhlášení na konci každého marketingového e-mailu nebo v <strong>Nastavení</strong> v aplikaci. Potom už marketingové e-maily nedostáváš.</li>
 <li><strong>Funkce AI</strong>: v <strong>Nastavení &gt; Funkce AI</strong> v aplikaci. Potom už pro tyto funkce neopustí tvoje zařízení žádná fotka ani žádný údaj o úlovku.</li>
@@ -200,9 +206,9 @@
 <p>Tvoje údaje chráníme vhodnými technickými opatřeními, mimo jiné šifrovaným spojením a pravidly přístupu na úrovni databáze (row-level security), tak aby byl přístup k tvým údajům jen pro tebe a pro lidi, se kterými se je <em>ty</em> rozhodneš sdílet. Citlivé údaje, jako jsou přesné polohy, se ukládají zvlášť a s přísnější ochranou a ostatní je uvidí jen tehdy, když se tak rozhodneš (například volbou „Dát tento úlovek na mapu VISDEX“ nebo sdílením fleku).</p>
 
 <h2>13. Děti</h2>
-<p>VISDEX lze používat od 13 let. Pro uživatele mladší 16 let a mladší 18 let platí dodatečná ochrana: nedostávají marketingové e-maily ani obchodní nabídky, ale Pro si mohou koupit sami (viz níže), nemohou zapnout funkce AI (pod 16 let), nemohou sdílet úlovek se špendlíkem na mapě a neúčastní se soutěží o ceny (pod 18 let) a platí pro ně omezení kontaktu s neznámými dospělými. Pokud si myslíš, že zpracováváme údaje dítěte mladšího 13 let, napiš na <strong>info@visdex.nl</strong> a my je smažeme.</p>
-<p>Pokud chceš mít Pro, můžeš si ho prohlédnout a koupit přes Apple nebo Google; nejdřív požádej rodiče o souhlas. Obchod s aplikacemi může tvého rodiče požádat o schválení. Pod 16 let v Pro funkce AI nejsou.</p>
-<p>Kontrola pomocí AI u soutěží o ceny a závodů (viz 7) platí od 16 let, i pod 18 let; pod 16 let, nebo pokud neznáme tvoje datum narození, se tvoje fotka při této kontrole službě AI neodesílá. Funkce AI, které si zapínáš, můžeš používat až od 16 let.</p>
+<p>VISDEX lze používat od 13 let. Pro uživatele mladší 16 let a mladší 18 let platí dodatečná ochrana: nedostávají marketingové e-maily ani obchodní nabídky, ale Pro si mohou koupit sami (viz níže), nemohou používat funkci AI, která používá jejich polohu, jako je Rada na místě (pod 16 let), nemohou sdílet úlovek se špendlíkem na mapě a neúčastní se soutěží o ceny (pod 18 let) a platí pro ně omezení kontaktu s neznámými dospělými. Pokud si myslíš, že zpracováváme údaje dítěte mladšího 13 let, napiš na <strong>info@visdex.nl</strong> a my je smažeme.</p>
+<p>Pokud chceš mít Pro, můžeš si ho prohlédnout a koupit přes Apple nebo Google; nejdřív požádej rodiče o souhlas. Obchod s aplikacemi může tvého rodiče požádat o schválení. Od 13 let jsou v Pro funkce AI (viz 7); Radu na místě, která používá místo, kde právě jsi, máš od 16 let (viz 7c).</p>
+<p>Kontrola pomocí AI u soutěží o ceny a závodů (viz 7) platí od 16 let, i pod 18 let; pod 16 let, nebo pokud neznáme tvoje datum narození, se tvoje fotka při této kontrole službě AI neodesílá. Funkce AI, které si zapínáš, můžeš používat od 13 let; pod 16 let se s nimi neodesílá nic, co by prozradilo, kde jsi (viz 7), a bez známého data narození nefungují.</p>
 
 <p>Kontrola fotek úlovků kvůli podvrhům a zneužití (viz 7) platí pro všechny věkové skupiny, i pod 18 let. Odesílá se jen fotka a druh, nikdy jméno ani věk.</p>
 
