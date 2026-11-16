@@ -338,43 +338,43 @@ VISDEX · KvK 86629409 · info@visdex.nl
 
 Laatst bijgewerkt: [DATUM BIJ PUBLICATIE]
 
-Hier staan de partijen die persoonsgegevens van VISDEX-gebruikers ontvangen. Waarom en op welke grondslag, staat in de privacyverklaring (https://visdex.nl/privacy). Een **verwerker** werkt in onze opdracht, alleen voor ons doel en op basis van een verwerkersovereenkomst. Een partij die **zelfstandig verantwoordelijk** is, bepaalt zelf wat hij met de gegevens doet, volgens zijn eigen privacyverklaring.
+Hier staan de partijen die persoonsgegevens van VISDEX-gebruikers ontvangen. Waarom, op welke grondslag en welke gegevens een partij krijgt, staat in de privacyverklaring (https://visdex.nl/privacy), in het blok waar de kolom Waarvoor naar verwijst. Een **verwerker** werkt in onze opdracht, alleen voor ons doel en op basis van een verwerkersovereenkomst. Een partij die **zelfstandig verantwoordelijk** is, bepaalt zelf wat hij met de gegevens doet, volgens zijn eigen privacyverklaring.
 Zit een partij buiten de Europese Unie, dan staat in de laatste kolom de waarborg: het EU-VS Data Privacy Framework (DPF) als de partij daarbij is aangesloten, de modelcontractbepalingen van de Europese Commissie (SCC's), of een besluit van de Europese Commissie dat het land een passend beschermingsniveau heeft (adequaatheidsbesluit).
 
 ## De app
 
-| Partij | Plaats | Rol | Waarvoor | Welke gegevens | Waarborg buiten de EU |
-|---|---|---|---|---|---|
-| Supabase (Supabase Pte. Ltd.) | Singapore; de database staat in Ierland | Verwerker | Onze database, opslag van foto's, inloggen en de server-functies van de app | Alle gegevens van je account en je logboek | SCC's |
-| Anthropic (Anthropic Ireland, Limited; verwerking door Anthropic, PBC) | Dublin, Ierland (Anthropic, PBC: San Francisco, VS) | Verwerker | AI-functies, controle bij winacties en wedstrijden, controle van vangstfoto's op nep, en de AI bij de klantenservice | Wat in 3.16 tot en met 3.19 van de privacyverklaring staat; geen naam, e-mailadres of coördinaten | SCC's |
-| OpenWeather Ltd | Londen, Verenigd Koninkrijk | Zelfstandig verantwoordelijk | Het weer van nu en de verwachting | Afgeronde coördinaten (tot op ongeveer 10 kilometer), vanaf onze server | Adequaatheidsbesluit Verenigd Koninkrijk |
-| Open-Meteo (OpenMeteo GmbH) | Bürglen, Zwitserland | Zelfstandig verantwoordelijk | Weer uit het verleden, weer per uur en de beetkans | Afgeronde coördinaten (tot op ongeveer 1 kilometer), vanaf onze server; oudere versies van de app vragen het weer per uur rechtstreeks vanaf je toestel | Adequaatheidsbesluit Zwitserland |
-| Rijkswaterstaat | Utrecht | Zelfstandig verantwoordelijk (open data) | Getijden en watercondities | Alleen de code van een meetstation; bij getijden vanaf je toestel, dus ook je IP-adres | Binnen de EU |
-| Apple (Apple Distribution International Ltd; Apple Inc.) | Cork, Ierland; Cupertino, VS | Zelfstandig verantwoordelijk | App Store en aankopen, inloggen met Apple, Apple Maps, de naam van een water of provincie bij een plek, en pushberichten op iPhone | Je account bij Apple, het kaartgebied en je IP-adres, de exacte coördinaten bij het opzoeken van een water | SCC's |
-| Google (Google Ireland Ltd; Google LLC) | Dublin, Ierland; Mountain View, VS | Zelfstandig verantwoordelijk voor Google Play, inloggen, Maps en het opzoeken van een water; verwerker voor pushberichten en de testgroep | Google Play en aankopen, inloggen met Google, Google Maps, de naam van een water of provincie bij een plek, pushberichten op Android, en de testgroep voor de Android-versie | Je account bij Google, het kaartgebied en je IP-adres, de exacte coördinaten bij het opzoeken van een water, je e-mailadres als tester | DPF |
-| Expo (650 Industries, Inc.) | Burlingame (Californië), VS | Verwerker | Pushberichten afleveren en updates van de app leveren | Push-token, de tekst van een pushbericht, je IP-adres en een technische code van je toestel | DPF en SCC's |
-| RevenueCat, Inc. | Brandon (Florida), VS | Verwerker | Abonnementsbeheer voor VISDEX Pro | Je VISDEX-gebruikers-id en je aankopen | SCC's |
-| komoot GmbH (Photon) | Schönefeld, Duitsland | Zelfstandig verantwoordelijk | Zoeken naar een plaats, straat of water | Wat je intypt, de taal en je IP-adres, rechtstreeks vanaf je toestel; niet je eigen plek | Binnen de EU |
-| Brevo (Sendinblue SAS) | Parijs, Frankrijk | Verwerker | E-mail die bij je account hoort, zoals het bevestigen van je e-mailadres of een code voor een nieuw wachtwoord | Je e-mailadres en de code | Binnen de EU |
-| Resend (Plus Five Five, Inc.) | San Francisco, VS | Verwerker | De maandmail en de bevestiging van een partneraanvraag | Je e-mailadres en de inhoud van de mail | DPF en SCC's |
-| Intuit Mailchimp (The Rocket Science Group LLC) | Atlanta, VS | Verwerker | Marketingmail en de wachtlijst | Je e-mailadres, en met toestemming de gegevens uit 3.14 van de privacyverklaring | DPF en SCC's |
-| MailerLite Limited | Dublin, Ierland | Verwerker | Een oude wachtlijst; wij gebruiken hem alleen nog om je daar te verwijderen als je je account verwijdert | Je e-mailadres | Binnen de EU |
-| Meta (Meta Platforms Ireland Ltd) | Dublin, Ierland | Gezamenlijk verantwoordelijk | Meten van advertenties (zie 3.24 van de privacyverklaring) | Technische gebeurtenissen en algemene gegevens over je toestel | DPF |
-| Metricool (Metricool Software S.L.) | Madrid, Spanje | Verwerker | Inplannen van onze berichten op social media | Foto en naam bij een openbare vangst, alleen van vissers van 18 jaar of ouder | Binnen de EU |
-| Instagram (Meta Platforms Ireland Ltd) | Dublin, Ierland | Zelfstandig verantwoordelijk | Onze berichten op social media | Foto en naam bij een openbare vangst, alleen van vissers van 18 jaar of ouder | DPF |
-| WhatsApp Ireland Ltd | Dublin, Ierland | Zelfstandig verantwoordelijk | Contact via WhatsApp, zolang dat nummer bestaat | Je telefoonnummer en je bericht | DPF |
-| Wesdijk Hengelsport | Barendrecht | Zelfstandig verantwoordelijk | Actiepartner bij winacties | Wat je zelf op de nieuwsbriefpagina invult; in september en begin oktober 2026, met je toestemming, je e-mailadres, weergavenaam en gebruikersnaam | Binnen de EU |
+| Naam | Plaats | Rol | Waarvoor | Waarborg buiten de EU |
+|---|---|---|---|---|
+| Supabase (Supabase Pte. Ltd.) | Singapore; de database staat in Ierland | Verwerker | Onze database, opslag van foto's, inloggen en de server-functies van de app, zie 5 | SCC's |
+| Anthropic (Anthropic Ireland, Limited; verwerking door Anthropic, PBC) | Dublin, Ierland (Anthropic, PBC: San Francisco, VS) | Verwerker | AI-functies, controle bij winacties en wedstrijden, controle van vangstfoto's op nep, en de AI bij de klantenservice, zie 3.16 tot en met 3.19 | SCC's |
+| OpenWeather Ltd | Londen, Verenigd Koninkrijk | Zelfstandig verantwoordelijk | Het weer van nu en de verwachting, zie 3.6 | Adequaatheidsbesluit Verenigd Koninkrijk |
+| Open-Meteo (OpenMeteo GmbH) | Bürglen, Zwitserland | Zelfstandig verantwoordelijk | Weer uit het verleden, weer per uur en de beetkans, zie 3.6 | Adequaatheidsbesluit Zwitserland |
+| Rijkswaterstaat | Utrecht | Zelfstandig verantwoordelijk (open data) | Getijden en watercondities, zie 3.6 | Binnen de EU |
+| Apple (Apple Distribution International Ltd; Apple Inc.) | Cork, Ierland; Cupertino, VS | Zelfstandig verantwoordelijk | App Store en aankopen (zie 3.10), inloggen met Apple (zie 5), Apple Maps en het opzoeken van een water (zie 3.6 en 3.7), pushberichten op iPhone (zie 3.11) | SCC's |
+| Google (Google Ireland Ltd; Google LLC) | Dublin, Ierland; Mountain View, VS | Zelfstandig verantwoordelijk voor Google Play, inloggen, Maps en het opzoeken van een water; verwerker voor pushberichten en de testgroep | Google Play en aankopen (zie 3.10), inloggen met Google (zie 5), Google Maps en het opzoeken van een water (zie 3.6 en 3.7), pushberichten op Android (zie 3.11) | DPF |
+| Expo (650 Industries, Inc.) | Burlingame (Californië), VS | Verwerker | Pushberichten afleveren en updates van de app leveren, zie 3.11 | DPF en SCC's |
+| RevenueCat, Inc. | Brandon (Florida), VS | Verwerker | Abonnementsbeheer voor VISDEX Pro, zie 3.10 | SCC's |
+| komoot GmbH (Photon) | Schönefeld, Duitsland | Zelfstandig verantwoordelijk | Zoeken naar een plaats, straat of water, zie 3.7 | Binnen de EU |
+| Brevo (Sendinblue SAS) | Parijs, Frankrijk | Verwerker | E-mail die bij je account hoort, zie 3.13 | Binnen de EU |
+| Resend (Plus Five Five, Inc.) | San Francisco, VS | Verwerker | De maandmail en de bevestiging van een partneraanvraag, zie 3.13 | DPF en SCC's |
+| Intuit Mailchimp (The Rocket Science Group LLC) | Atlanta, VS | Verwerker | Marketingmail, zie 3.14 | DPF en SCC's |
+| MailerLite Limited | Dublin, Ierland | Verwerker | Een oude wachtlijst; wij gebruiken hem alleen nog om je daar te verwijderen als je je account verwijdert, zie 8 | Binnen de EU |
+| Meta (Meta Platforms Ireland Ltd) | Dublin, Ierland | Gezamenlijk verantwoordelijk | Meten van advertenties, zie 3.24 | DPF |
+| Metricool (Metricool Software S.L.) | Madrid, Spanje | Verwerker | Inplannen van onze berichten op social media, zie 3.20 | Binnen de EU |
+| Instagram (Meta Platforms Ireland Ltd) | Dublin, Ierland | Zelfstandig verantwoordelijk | Onze berichten op social media (zie 3.20) en delen naar Instagram Stories (zie 3.3) | DPF |
+| WhatsApp Ireland Ltd | Dublin, Ierland | Zelfstandig verantwoordelijk | Contact via WhatsApp, zolang dat nummer bestaat, zie 3.19 | DPF |
+| Wesdijk Hengelsport | Barendrecht | Zelfstandig verantwoordelijk | Actiepartner bij winacties, zie 3.15 | Binnen de EU |
 
 ## De website visdex.nl
 
-| Partij | Plaats | Rol | Waarvoor | Welke gegevens | Waarborg buiten de EU |
-|---|---|---|---|---|---|
-| Vercel Inc. | Covina (Californië), VS | Verwerker | Hosting van visdex.nl | Je IP-adres en de pagina die je opvraagt | DPF en SCC's |
-| Cloudflare, Inc. (Turnstile) | San Francisco, VS | Verwerker | Robotcontrole bij aanmelden op visdex.nl | Je IP-adres en een controlecode | DPF en SCC's |
-| Cal.com, Inc. | San Francisco, VS | Verwerker | Een afspraak plannen voor een partnerschap | Je naam en e-mailadres | DPF |
-| Supabase (Supabase Pte. Ltd.) | Singapore; de database staat in Ierland | Verwerker | Opslag van aanmeldingen op visdex.nl | Je e-mailadres en waar je je aanmeldde | SCC's |
-| Intuit Mailchimp (The Rocket Science Group LLC) | Atlanta, VS | Verwerker | Wachtlijst en Android-test | Je e-mailadres | DPF en SCC's |
-| Google (Google Ireland Ltd; Google LLC) | Dublin, Ierland; Mountain View, VS | Verwerker | Testgroep voor de Android-versie | Je e-mailadres | DPF |
+| Naam | Plaats | Rol | Waarvoor | Waarborg buiten de EU |
+|---|---|---|---|---|
+| Vercel Inc. | Covina (Californië), VS | Verwerker | Hosting van visdex.nl, zie 3.23 | DPF en SCC's |
+| Cloudflare, Inc. (Turnstile) | San Francisco, VS | Verwerker | Robotcontrole bij aanmelden op visdex.nl, zie 3.23 | DPF en SCC's |
+| Cal.com, Inc. | San Francisco, VS | Verwerker | Een afspraak plannen voor een partnerschap, zie 3.23 | DPF |
+| Supabase (Supabase Pte. Ltd.) | Singapore; de database staat in Ierland | Verwerker | Opslag van aanmeldingen op visdex.nl, zie 3.23 | SCC's |
+| Intuit Mailchimp (The Rocket Science Group LLC) | Atlanta, VS | Verwerker | Wachtlijst en Android-test, zie 3.23 | DPF en SCC's |
+| Google (Google Ireland Ltd; Google LLC) | Dublin, Ierland; Mountain View, VS | Verwerker | Testgroep voor de Android-versie, zie 3.23 | DPF |
 
 De DPF-status is nagekeken in de lijst op dataprivacyframework.gov ([DATUM BIJ PUBLICATIE]).
 Vragen over deze lijst? Mail naar info@visdex.nl.
