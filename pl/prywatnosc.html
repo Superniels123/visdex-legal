@@ -26,7 +26,7 @@
 <div class="wrap">
 
 <h1>Polityka prywatności VISDEX</h1>
-<p class="meta">Ostatnia aktualizacja: 17 listopada 2026</p>
+<p class="meta">Ostatnia aktualizacja: 19 listopada 2026</p>
 
 <div class="note">
 <strong>W skrócie:</strong> VISDEX to aplikacja do prowadzenia dziennika wędkarskiego. Twoje połowy i lokalizacje są domyślnie prywatne. Udostępniasz tylko to, co wybierzesz. Nigdy nie sprzedajemy twoich danych. E-maile marketingowe wysyłamy tylko wtedy, gdy wyrazisz na to zgodę, a zgodę tę możesz w każdej chwili wycofać. W każdej chwili możesz też całkowicie usunąć swoje konto i wszystkie swoje dane bezpośrednio w aplikacji.
@@ -149,12 +149,8 @@
 <p><strong>Sprzeciw:</strong> możesz wnieść sprzeciw, pisząc na adres <strong>info@visdex.nl</strong>. Rozważymy go wobec interesu, jakim są uczciwe rankingi dla wszystkich wędkarzy.</p>
 
 <h2>8. Pomiar skuteczności reklam</h2>
-<p>Reklamujemy się, aby dotrzeć do nowych wędkarzy, i chcemy wiedzieć, czy to działa. W tym celu aplikacja wysyła niewielką liczbę zdarzeń technicznych do platformy reklamowej, na której się reklamujemy, takich jak „aplikacja zainstalowana” i „aplikacja otwarta”, wraz z ogólnymi danymi o urządzeniu.</p>
-<p>Co dokładnie jest przesyłane, zależy od platformy:</p>
-<ul>
-<li><strong>Na iPhonie i iPadzie</strong> <em>nie</em> prosimy o zgodę na śledzenie, więc twój identyfikator reklamowy (IDFA) nie jest używany. Pomiar odbywa się wyłącznie za pomocą zagregowanej metody Apple (SKAdNetwork), której nie da się powiązać z tobą.</li>
-<li><strong>Na Androidzie</strong> od wersji 1.0.12 nie przesyłamy już twojego identyfikatora reklamowego (GAID), a aplikacja nie przekazuje już automatycznie żadnych zdarzeń. Jeśli używasz starszej wersji, GAID może być nadal przesyłany, dopóki nie zaktualizujesz aplikacji; możesz go też samodzielnie zresetować lub usunąć w ustawieniach Androida, w ustawieniach prywatności lub reklam.</li>
-</ul>
+<p>Od wersji 1.0.22 aplikacja nie zawiera już żadnego pomiaru skuteczności reklam i nie wysyła niczego do firmy Meta.</p>
+<p>Jeśli używasz starszej wersji (sprzed 1.0.22), może ona nadal wysyłać do firmy Meta zdarzenia techniczne, takie jak „aplikacja zainstalowana” i „aplikacja otwarta”, oraz ogólne dane o urządzeniu, dopóki nie zaktualizujesz aplikacji. Na Androidzie wersja sprzed 1.0.12 może przesyłać również twój identyfikator reklamowy (GAID).</p>
 <p>W żadnym wypadku nie są przesyłane: twoje połowy, twoje lokalizacje ani miejscówki, twoje zdjęcia, twoje wiadomości z czatu ani dane twojego profilu.</p>
 
 <h2>9. Komu udostępniamy dane?</h2>
@@ -163,7 +159,7 @@
 <li><strong>Supabase</strong>: nasza usługa bazy danych i przechowywania danych (hosting twoich danych, w regionie UE, gdy jest to możliwe).</li>
 <li><strong>Serwis pogodowy</strong>: do pobierania informacji o pogodzie przy połowie i na początku sesji.</li>
 <li><strong>Apple / Google</strong>: do dostarczania aplikacji za pośrednictwem ich sklepów z aplikacjami oraz (jeśli je włączysz) powiadomień push.</li>
-<li><strong>Meta (Facebook)</strong>: do pomiaru reklam zachęcających do zainstalowania aplikacji. Meta SDK w aplikacji wysyła w tym celu do firmy Meta zdarzenia techniczne (takie jak „aplikacja zainstalowana” i „aplikacja otwarta”) oraz ogólne dane o urządzeniu. Na Androidzie identyfikator reklamowy (GAID) od wersji 1.0.12 nie jest już przesyłany; w starszych wersjach może to nadal następować, dopóki nie zaktualizujesz aplikacji. Na iOS <em>nie</em> prosimy o zgodę na śledzenie, więc twój identyfikator reklamowy (IDFA) nie jest używany; pomiar instalacji odbywa się tam wyłącznie za pomocą SKAdNetwork, zagregowanej metody Apple, której nie da się powiązać z tobą. Połowy, lokalizacje ani dane profilu nigdy nie są udostępniane firmie Meta.</li>
+<li><strong>Meta (Facebook)</strong>: tylko w przypadku starszych wersji aplikacji (zob. 8).</li>
 <li><strong>Rozpoznawanie obrazu</strong>: do propozycji gatunku i długości na podstawie zdjęcia połowu, tylko jeśli samodzielnie włączysz tę funkcję (zob. 7).</li>
 <li><strong>Zarządzanie subskrypcjami</strong>: do obsługi i ewidencji VISDEX Pro: czy twoja subskrypcja jest aktywna, kiedy się odnawia i kiedy się kończy. Samego zakupu dokonujesz za pośrednictwem Apple lub Google; ta usługa śledzi dla nas, co z niego wynika.</li>
 <li><strong>Porady AI (model językowy)</strong>: do tworzenia twojego planu łowienia, twoich wzorców połowów, twojej porady na sesję i twojego podsumowania tygodnia na podstawie danych z twojego dziennika wędkarskiego, tylko jeśli samodzielnie włączysz funkcje AI (zob. 7), a także do funkcji, które korzystają z twojej lokalizacji, od 16 lat (zob. 7c).</li>
@@ -175,9 +171,10 @@
 <li><strong>Mapy</strong>: do wyświetlania mapy w aplikacji. Przetwarzany jest przy tym twój adres IP i obszar mapy, który oglądasz, a nie twoje połowy.</li>
 <li><strong>E-maile transakcyjne</strong>: do wysyłania e-maili związanych z twoim kontem, takich jak resetowanie hasła.</li>
 </ul>
-<p><strong>Dane poza Unią Europejską.</strong> Część tych podmiotów ma siedzibę w Stanach Zjednoczonych lub przetwarza tam dane, na przykład dostawcy usług pomiaru reklam, e-mail marketingu, zarządzania subskrypcjami, powiadomień push, aktualizacji aplikacji, map, funkcji AI i kontroli przez AI. Dbamy o to, aby istniała do tego ważna podstawa prawna: EU-US Data Privacy Framework (ramy ochrony danych UE-USA), jeśli dany podmiot do niego przystąpił, a w przeciwnym razie standardowe klauzule umowne (standard contractual clauses) Komisji Europejskiej. Jeśli chcesz wiedzieć, jakie zabezpieczenie dotyczy którego podmiotu, napisz na adres <strong>info@visdex.nl</strong>.</p>
+<p><strong>Dane poza Unią Europejską.</strong> Część tych podmiotów ma siedzibę w Stanach Zjednoczonych lub przetwarza tam dane, na przykład dostawcy usług pomiaru reklam (starsze wersje), e-mail marketingu, zarządzania subskrypcjami, powiadomień push, aktualizacji aplikacji, map, funkcji AI i kontroli przez AI. Dbamy o to, aby istniała do tego ważna podstawa prawna: EU-US Data Privacy Framework (ramy ochrony danych UE-USA), jeśli dany podmiot do niego przystąpił, a w przeciwnym razie standardowe klauzule umowne (standard contractual clauses) Komisji Europejskiej. Jeśli chcesz wiedzieć, jakie zabezpieczenie dotyczy którego podmiotu, napisz na adres <strong>info@visdex.nl</strong>.</p>
 <p>Podajemy tu kategorie zamiast wszystkich nazw marek, ponieważ dostawcy mogą się zmieniać. Jeśli chcesz dokładnie wiedzieć, z jakimi podmiotami obecnie współpracujemy, napisz na adres <strong>info@visdex.nl</strong>, a wyślemy ci aktualną listę.</p>
 <p>Poza tym to ty udostępniasz dane innym użytkownikom, gdy tak zdecydujesz (kumple od wędki, czaty, publiczne połowy).</p>
+<p><strong>Udostępnianie w Instagram Stories.</strong> Jeśli udostępniasz połów w Instagram Stories, aplikacja przekazuje obraz i publiczny identyfikator aplikacji VISDEX do aplikacji Instagram na twoim urządzeniu. My sami nie wysyłamy przy tym niczego do firmy Meta. Aplikacja Instagram należy do firmy Meta, więc to, co udostępniasz, trafia w ten sposób do firmy Meta; to, co następnie opublikujesz na Instagramie, podlega warunkom Instagrama.</p>
 <p><strong>Wizyty na naszej stronie internetowej.</strong> Aby wiedzieć, czy nasza strona internetowa działa, liczymy na niej wyświetlenia stron i kliknięcia w przyciski prowadzące do App Store i Google Play, według kraju i według miejsca na stronie, na podstawie naszego prawnie uzasadnionego interesu. Robi to usługa hostingowa strony, bez plików cookie i bez zapisywania twojego adresu IP; my widzimy tylko sumy. Ta usługa ma siedzibę w Stanach Zjednoczonych; obowiązują zabezpieczenia dla danych poza Unią Europejską opisane powyżej.</p>
 
 <h2>10. Jak długo przechowujemy twoje dane?</h2>

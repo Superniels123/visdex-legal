@@ -26,7 +26,7 @@
 <div class="wrap">
 
 <h1>Zásady ochrany soukromí VISDEX</h1>
-<p class="meta">Poslední aktualizace: 17. listopadu 2026</p>
+<p class="meta">Poslední aktualizace: 19. listopadu 2026</p>
 
 <div class="note">
 <strong>Ve zkratce:</strong> VISDEX je aplikace pro vedení rybářského deníku. Tvoje úlovky a polohy jsou ve výchozím stavu soukromé. Sdílíš jen to, co sdílet chceš. Tvoje údaje nikdy neprodáváme. Marketingové e-maily ti posíláme jen tehdy, když k tomu dáš souhlas, a ten můžeš kdykoli odvolat. Svůj účet a všechny svoje údaje můžeš kdykoli úplně smazat přímo v aplikaci.
@@ -149,12 +149,8 @@
 <p><strong>Námitka:</strong> námitku můžeš vznést e-mailem na <strong>info@visdex.nl</strong>. Zvážíme ji proti zájmu na férových žebříčcích pro všechny rybáře.</p>
 
 <h2>8. Měření reklamy</h2>
-<p>Inzerujeme, abychom oslovili nové rybáře, a chceme vědět, jestli to funguje. Aplikace proto odesílá malý počet technických událostí na reklamní platformu, na které inzerujeme, například „aplikace nainstalována“ a „aplikace otevřena“, spolu s obecnými údaji o zařízení.</p>
-<p>Co přesně se odesílá, se liší podle platformy:</p>
-<ul>
-<li><strong>Na iPhonu a iPadu</strong> <em>nežádáme</em> o povolení ke sledování, takže tvůj reklamní identifikátor (IDFA) se nepoužívá. Měření probíhá výhradně přes agregovanou metodu Apple (SKAdNetwork), kterou nelze zpětně spojit s tebou.</li>
-<li><strong>Na Androidu</strong> od verze 1.0.12 už tvůj reklamní identifikátor (GAID) neodesíláme a aplikace už události automaticky nepředává. Pokud používáš starší verzi, GAID se může odesílat dál, dokud aplikaci neaktualizuješ; můžeš ho také resetovat nebo smazat v nastavení Androidu, v nastavení soukromí nebo reklam.</li>
-</ul>
+<p>Od verze 1.0.22 už aplikace neobsahuje žádné měření reklamy a společnosti Meta nic neodesílá.</p>
+<p>Pokud používáš starší verzi (před 1.0.22), může ještě odesílat společnosti Meta technické události, například „aplikace nainstalována“ a „aplikace otevřena“, a obecné údaje o zařízení, dokud aplikaci neaktualizuješ. Na Androidu může verze starší než 1.0.12 odesílat i tvůj reklamní identifikátor (GAID).</p>
 <p>Co se v žádném případě neodesílá: tvoje úlovky, tvoje polohy nebo fleky, tvoje fotky, tvoje zprávy z chatu a údaje z tvého profilu.</p>
 
 <h2>9. S kým údaje sdílíme?</h2>
@@ -163,7 +159,7 @@
 <li><strong>Supabase</strong>: naše databázová a úložná služba (hosting tvých údajů, pokud možno v regionu EU).</li>
 <li><strong>Meteorologická služba</strong>: pro získání informací o počasí u úlovku a na začátku výpravy.</li>
 <li><strong>Apple / Google</strong>: pro distribuci aplikace přes jejich obchody s aplikacemi a (pokud je zapneš) pro push oznámení.</li>
-<li><strong>Meta (Facebook)</strong>: pro měření kampaní na instalaci aplikace. Meta SDK v aplikaci k tomu odesílá společnosti Meta technické události (například „aplikace nainstalována“ a „aplikace otevřena“) a obecné údaje o zařízení. Na Androidu se reklamní identifikátor (GAID) od verze 1.0.12 už neodesílá; u starších verzí se to může dít, dokud aplikaci neaktualizuješ. Na iOS <em>nežádáme</em> o povolení ke sledování, takže tvůj reklamní identifikátor (IDFA) se nepoužívá; měření instalací tam probíhá výhradně přes SKAdNetwork, agregovanou metodu Apple, kterou nelze zpětně spojit s tebou. Úlovky, polohy ani údaje z profilu se se společností Meta nikdy nesdílejí.</li>
+<li><strong>Meta (Facebook)</strong>: jen u starších verzí aplikace (viz 8).</li>
 <li><strong>Rozpoznávání obrazu</strong>: pro návrh druhu a délky z fotky úlovku, jen pokud tuto funkci zapneš ty (viz 7).</li>
 <li><strong>Správa předplatného</strong>: pro vyřizování a evidenci VISDEX Pro: zda tvoje předplatné běží, kdy se obnovuje a kdy končí. Samotný nákup provádíš u Apple nebo Google; tato služba za nás eviduje, co z něj vyplývá.</li>
 <li><strong>Rady AI (jazykový model)</strong>: pro vytvoření tvého plánu lovu, tvých rybářských vzorců, tvých rad k výpravě a tvého týdenního shrnutí z údajů v tvém rybářském deníku, jen pokud funkce AI zapneš ty (viz 7), a pro funkce, které používají tvoji polohu, od 16 let (viz 7c).</li>
@@ -175,9 +171,10 @@
 <li><strong>Mapy</strong>: pro zobrazení mapy v aplikaci. Zpracovává se přitom tvoje IP adresa a oblast mapy, kterou si prohlížíš, ne tvoje úlovky.</li>
 <li><strong>Transakční e-maily</strong>: pro odesílání e-mailů, které patří k tvému účtu, například pro obnovení hesla.</li>
 </ul>
-<p><strong>Údaje mimo Evropskou unii.</strong> Některé z těchto stran sídlí ve Spojených státech nebo tam údaje zpracovávají, například poskytovatelé měření reklamy, e-mailového marketingu, správy předplatného, push zpráv, aktualizací aplikace, map, funkcí AI a kontroly pomocí AI. Zajišťujeme, aby k tomu existoval platný právní základ: rámec EU-USA pro ochranu osobních údajů (EU-US Data Privacy Framework), pokud je k němu daná strana připojená, a jinak standardní smluvní doložky (standard contractual clauses) Evropské komise. Pokud chceš vědět, která záruka platí pro kterou stranu, napiš na <strong>info@visdex.nl</strong>.</p>
+<p><strong>Údaje mimo Evropskou unii.</strong> Některé z těchto stran sídlí ve Spojených státech nebo tam údaje zpracovávají, například poskytovatelé měření reklamy (starší verze), e-mailového marketingu, správy předplatného, push zpráv, aktualizací aplikace, map, funkcí AI a kontroly pomocí AI. Zajišťujeme, aby k tomu existoval platný právní základ: rámec EU-USA pro ochranu osobních údajů (EU-US Data Privacy Framework), pokud je k němu daná strana připojená, a jinak standardní smluvní doložky (standard contractual clauses) Evropské komise. Pokud chceš vědět, která záruka platí pro kterou stranu, napiš na <strong>info@visdex.nl</strong>.</p>
 <p>Uvádíme zde kategorie místo všech názvů značek, protože se dodavatelé mohou měnit. Pokud chceš přesně vědět, se kterými stranami právě spolupracujeme, napiš na <strong>info@visdex.nl</strong> a pošleme ti aktuální seznam.</p>
 <p>Kromě toho údaje s ostatními uživateli sdílíš ty, když se tak rozhodneš (parťáci, chaty, veřejné úlovky).</p>
+<p><strong>Sdílení do Instagram Stories.</strong> Když sdílíš úlovek do Instagram Stories, aplikace předá obrázek a veřejné ID aplikace VISDEX aplikaci Instagram ve tvém zařízení. My sami přitom společnosti Meta nic neodesíláme. Aplikace Instagram patří společnosti Meta, takže to, co sdílíš, se tím dostane ke společnosti Meta; co pak na Instagramu zveřejníš, se řídí podmínkami Instagramu.</p>
 <p><strong>Návštěva našeho webu.</strong> Abychom věděli, zda náš web funguje, počítáme na něm zobrazení stránek a kliknutí na tlačítka do App Storu a Google Play, podle země a podle místa na stránce, na základě našeho oprávněného zájmu. Dělá to hostingová služba webu, bez cookies a bez ukládání tvé IP adresy; my vidíme jen souhrnná čísla. Tato služba sídlí ve Spojených státech; platí pro ni záruky pro údaje mimo Evropskou unii popsané výše.</p>
 
 <h2>10. Jak dlouho tvoje údaje uchováváme?</h2>
