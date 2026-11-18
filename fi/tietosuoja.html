@@ -26,7 +26,7 @@
 <div class="wrap">
 
 <h1>VISDEXin tietosuojaseloste</h1>
-<p class="meta">Päivitetty viimeksi: 17. marraskuuta 2026</p>
+<p class="meta">Päivitetty viimeksi: 19. marraskuuta 2026</p>
 
 <div class="note">
 <strong>Lyhyesti:</strong> VISDEX on kalapäiväkirjasovellus. Saaliisi ja sijaintisi ovat oletuksena yksityisiä. Jaat vain sen, minkä itse päätät jakaa. Emme koskaan myy tietojasi. Lähetämme sinulle markkinointisähköpostia vain, jos olet antanut siihen suostumuksesi, ja voit peruuttaa sen milloin tahansa. Voit poistaa tilisi ja kaikki tietosi kokonaan milloin tahansa suoraan sovelluksessa.
@@ -149,12 +149,8 @@
 <p><strong>Vastustaminen:</strong> voit vastustaa lähettämällä sähköpostia osoitteeseen <strong>info@visdex.nl</strong>. Punnitsemme sitä kaikkien kalastajien reilujen rankingien etua vasten.</p>
 
 <h2>8. Mainonnan mittaaminen</h2>
-<p>Mainostamme tavoittaaksemme uusia kalastajia, ja haluamme tietää, toimiiko se. Siksi sovellus lähettää pienen määrän teknisiä tapahtumia mainosalustalle, jolla mainostamme, kuten ”sovellus asennettu” ja ”sovellus avattu”, sekä yleisiä laitetietoja.</p>
-<p>Se, mitä tarkalleen lähetetään, vaihtelee alustoittain:</p>
-<ul>
-<li><strong>iPhonessa ja iPadissa</strong> <em>emme</em> pyydä lupaa seurantaan, joten mainostunnistettasi (IDFA) ei käytetä. Mittaus tapahtuu yksinomaan Applen koostetun menetelmän (SKAdNetwork) kautta, eikä sitä voi yhdistää sinuun.</li>
-<li><strong>Androidissa</strong> emme versiosta 1.0.12 alkaen enää lähetä mainostunnistettasi (GAID), eikä sovellus enää välitä tapahtumia automaattisesti. Jos käytät vanhempaa versiota, GAID voidaan lähettää edelleen, kunnes päivität sovelluksen; voit myös itse nollata tai poistaa sen Androidin asetuksista yksityisyys- tai mainosasetusten kohdasta.</li>
-</ul>
+<p>Versiosta 1.0.22 alkaen sovelluksessa ei ole enää mainonnan mittausta, eikä sovellus lähetä mitään Metalle.</p>
+<p>Jos käytät vanhempaa versiota (ennen versiota 1.0.22), se voi vielä lähettää Metalle teknisiä tapahtumia, kuten ”sovellus asennettu” ja ”sovellus avattu”, sekä yleisiä laitetietoja, kunnes päivität sovelluksen. Androidissa versiota 1.0.12 vanhempi versio voi lähettää myös mainostunnisteesi (GAID).</p>
 <p>Näitä ei lähetetä missään tapauksessa: saaliisi, sijaintisi tai kalapaikkasi, kuvasi, chat-viestisi ja profiilitietosi.</p>
 
 <h2>9. Kenen kanssa jaamme tietoja?</h2>
@@ -163,7 +159,7 @@
 <li><strong>Supabase</strong>: tietokanta- ja tallennuspalvelumme (tietojesi säilytys, mahdollisuuksien mukaan EU-alueella).</li>
 <li><strong>Sääpalvelu</strong>: säätietojen hakemiseen saaliille ja kalareissun alkuun.</li>
 <li><strong>Apple / Google</strong>: sovelluksen toimittamiseen sovelluskauppojensa kautta ja (jos olet ottanut ne käyttöön) push-ilmoituksiin.</li>
-<li><strong>Meta (Facebook)</strong>: sovelluksen asennuskampanjoiden mittaamiseen. Sovelluksen Meta-SDK lähettää tätä varten Metalle teknisiä tapahtumia (kuten ”sovellus asennettu” ja ”sovellus avattu”) ja yleisiä laitetietoja. Androidissa mainostunnistetta (GAID) ei lähetetä enää versiosta 1.0.12 alkaen; vanhemmissa versioissa näin voi vielä tapahtua, kunnes päivität sovelluksen. iOS:ssä <em>emme</em> pyydä lupaa seurantaan, joten mainostunnistettasi (IDFA) ei käytetä; asennusmittaus tapahtuu siellä yksinomaan SKAdNetworkin, Applen koostetun menetelmän, kautta, eikä sitä voi yhdistää sinuun. Saaliita, sijainteja tai profiilitietoja ei koskaan jaeta Metan kanssa.</li>
+<li><strong>Meta (Facebook)</strong>: vain sovelluksen vanhemmissa versioissa (ks. 8).</li>
 <li><strong>Kuvantunnistus</strong>: saaliskuvan perusteella tehtävään laji- ja pituusehdotukseen, vain jos olet itse ottanut toiminnon käyttöön (ks. 7).</li>
 <li><strong>Tilausten hallinta</strong>: VISDEX Pro -tilauksen käsittelyyn ja seurantaan: onko tilauksesi voimassa, milloin se uusiutuu ja milloin se päättyy. Itse oston teet Applella tai Googlella; tämä palvelu pitää puolestamme kirjaa siitä, mitä ostosta seuraa.</li>
 <li><strong>Tekoälyvinkit (kielimalli)</strong>: kalastussuunnitelmasi, kalastuskuvioidesi, reissuvinkkiesi ja viikkokoosteesi laatimiseen kalapäiväkirjasi tiedoista, vain jos olet itse ottanut tekoälytoiminnot käyttöön (ks. 7), sekä sijaintiasi käyttäviin toimintoihin 16 vuoden iästä alkaen (ks. 7c).</li>
@@ -175,9 +171,10 @@
 <li><strong>Kartat</strong>: kartan näyttämiseen sovelluksessa. Tällöin käsitellään IP-osoitettasi ja katselemaasi kartta-aluetta, ei saaliitasi.</li>
 <li><strong>Transaktiosähköposti</strong>: tiliisi liittyvien sähköpostien, kuten salasanan palautusviestien, lähettämiseen.</li>
 </ul>
-<p><strong>Tiedot Euroopan unionin ulkopuolella.</strong> Osa näistä osapuolista on sijoittautunut Yhdysvaltoihin tai käsittelee tietoja siellä, esimerkiksi mainonnan mittauksen, sähköpostimarkkinoinnin, tilausten hallinnan, push-viestien, sovelluspäivitysten, karttojen, tekoälytoimintojen ja tekoälytarkistuksen palveluntarjoajat. Huolehdimme siitä, että tähän on pätevä oikeusperuste: EU:n ja Yhdysvaltojen välinen tietosuojakehys (EU-US Data Privacy Framework), jos osapuoli on liittynyt siihen, ja muussa tapauksessa Euroopan komission vakiosopimuslausekkeet. Jos haluat tietää, mitä suojatoimia kuhunkin osapuoleen sovelletaan, lähetä sähköpostia osoitteeseen <strong>info@visdex.nl</strong>.</p>
+<p><strong>Tiedot Euroopan unionin ulkopuolella.</strong> Osa näistä osapuolista on sijoittautunut Yhdysvaltoihin tai käsittelee tietoja siellä, esimerkiksi mainonnan mittauksen (vanhemmat versiot), sähköpostimarkkinoinnin, tilausten hallinnan, push-viestien, sovelluspäivitysten, karttojen, tekoälytoimintojen ja tekoälytarkistuksen palveluntarjoajat. Huolehdimme siitä, että tähän on pätevä oikeusperuste: EU:n ja Yhdysvaltojen välinen tietosuojakehys (EU-US Data Privacy Framework), jos osapuoli on liittynyt siihen, ja muussa tapauksessa Euroopan komission vakiosopimuslausekkeet. Jos haluat tietää, mitä suojatoimia kuhunkin osapuoleen sovelletaan, lähetä sähköpostia osoitteeseen <strong>info@visdex.nl</strong>.</p>
 <p>Mainitsemme tässä luokat kaikkien tuotemerkkien sijaan, koska toimittajat voivat vaihtua. Jos haluat tietää tarkalleen, minkä osapuolten kanssa teemme tällä hetkellä yhteistyötä, lähetä sähköpostia osoitteeseen <strong>info@visdex.nl</strong>, niin lähetämme sinulle ajantasaisen luettelon.</p>
 <p>Lisäksi jaat itse tietoja muiden käyttäjien kanssa, kun niin päätät (kalakaverit, chatit, julkiset saaliit).</p>
+<p><strong>Jakaminen Instagram Storiesiin.</strong> Kun jaat saaliin Instagram Storiesiin, sovellus välittää kuvan ja VISDEXin julkisen sovellustunnuksen laitteesi Instagram-sovellukselle. VISDEX ei itse lähetä tällöin mitään Metalle. Instagram-sovellus kuuluu Metalle, joten jakamasi sisältö päätyy sitä kautta Metalle; se, mitä julkaiset sen jälkeen Instagramissa, kuuluu Instagramin ehtojen piiriin.</p>
 <p><strong>Käynti verkkosivustollamme.</strong> Jotta tiedämme, toimiiko verkkosivustomme, laskemme siellä sivujen katselut ja klikkaukset App Storeen ja Google Playhin vieviin painikkeisiin maittain ja sivun kohdan mukaan oikeutetun etumme perusteella. Sen tekee verkkosivuston hosting-palvelu ilman evästeitä ja tallentamatta IP-osoitettasi; me näemme vain kokonaismäärät. Palvelu on sijoittautunut Yhdysvaltoihin; siihen sovelletaan edellä kuvattuja Euroopan unionin ulkopuolisia tietoja koskevia suojatoimia.</p>
 
 <h2>10. Kuinka kauan säilytämme tietojasi?</h2>

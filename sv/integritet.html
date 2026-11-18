@@ -26,7 +26,7 @@
 <div class="wrap">
 
 <h1>Integritetspolicy för VISDEX</h1>
-<p class="meta">Senast uppdaterad: 17 november 2026</p>
+<p class="meta">Senast uppdaterad: 19 november 2026</p>
 
 <div class="note">
 <strong>Kort sagt:</strong> VISDEX är en app för att föra fiskedagbok. Dina fångster och platser är privata som standard. Du delar bara det du själv väljer att dela. Vi säljer aldrig dina uppgifter. Vi skickar bara marknadsföringsmejl till dig om du har gett ditt samtycke, och du kan när som helst återkalla det. Du kan när som helst radera ditt konto och alla dina uppgifter helt och hållet, direkt i appen.
@@ -149,12 +149,8 @@
 <p><strong>Invändning:</strong> du kan invända genom att mejla <strong>info@visdex.nl</strong>. Vi väger det mot intresset av rättvisa topplistor för alla fiskare.</p>
 
 <h2>8. Mätning av annonser</h2>
-<p>Vi annonserar för att nå nya fiskare, och vi vill veta om det fungerar. Därför skickar appen ett litet antal tekniska händelser till den annonsplattform där vi annonserar, till exempel ”app installerad” och ”app öppnad”, tillsammans med allmänna enhetsuppgifter.</p>
-<p>Exakt vad som skickas skiljer sig mellan plattformarna:</p>
-<ul>
-<li><strong>På iPhone och iPad</strong> ber vi <em>inte</em> om tillstånd för spårning, så din annonsidentifierare (IDFA) används inte. Mätningen sker uteslutande via Apples aggregerade metod (SKAdNetwork), som inte kan spåras tillbaka till dig.</li>
-<li><strong>På Android</strong> skickar vi från och med version 1.0.12 inte längre din annonsidentifierare (GAID), och appen vidarebefordrar inte längre händelser automatiskt. Använder du en äldre version kan GAID fortfarande skickas tills du uppdaterar appen; du kan också själv återställa eller radera den i Androids inställningar, under integritets- eller annonsinställningarna.</li>
-</ul>
+<p>Från och med version 1.0.22 finns det ingen annonsmätning i appen längre, och appen skickar ingenting till Meta.</p>
+<p>Använder du en äldre version (före 1.0.22) kan den fortfarande skicka tekniska händelser, som ”app installerad” och ”app öppnad”, och allmänna enhetsuppgifter till Meta tills du uppdaterar appen. På Android kan en version från före 1.0.12 också skicka din annonsidentifierare (GAID).</p>
 <p>Det som aldrig skickas: dina fångster, dina platser eller fiskeplatser, dina foton, dina chattmeddelanden och dina profiluppgifter.</p>
 
 <h2>9. Vilka delar vi uppgifter med?</h2>
@@ -163,7 +159,7 @@
 <li><strong>Supabase</strong>: vår databas- och lagringstjänst (lagring av dina uppgifter, i EU-regionen där det är möjligt).</li>
 <li><strong>Vädertjänst</strong>: för att hämta väderinformation för en fångst och vid starten av ett fiskepass.</li>
 <li><strong>Apple / Google</strong>: för leverans av appen via deras appbutiker och (om du har slagit på dem) pushnotiser.</li>
-<li><strong>Meta (Facebook)</strong>: för att mäta kampanjer för appinstallationer. Meta SDK i appen skickar för detta tekniska händelser (som ”app installerad” och ”app öppnad”) och allmänna enhetsuppgifter till Meta. På Android skickas annonsidentifieraren (GAID) inte längre från och med version 1.0.12; med äldre versioner kan det fortfarande ske tills du uppdaterar appen. På iOS ber vi <em>inte</em> om tillstånd för spårning, så din annonsidentifierare (IDFA) används inte; installationsmätningen sker där uteslutande via SKAdNetwork, Apples aggregerade metod, som inte kan spåras tillbaka till dig. Fångster, platser eller profiluppgifter delas aldrig med Meta.</li>
+<li><strong>Meta (Facebook)</strong>: bara för äldre versioner av appen (se 8).</li>
 <li><strong>Bildigenkänning</strong>: för förslaget på art och längd utifrån ett fångstfoto, bara om du själv har slagit på den funktionen (se 7).</li>
 <li><strong>Prenumerationshantering</strong>: för att hantera och hålla reda på VISDEX Pro: om din prenumeration löper, när den förnyas och när den upphör. Själva köpet gör du hos Apple eller Google; den här tjänsten håller åt oss reda på vad som följer av det.</li>
 <li><strong>AI-råd (språkmodell)</strong>: för att ta fram din fiskeplan, dina fiskemönster, dina råd för fiskepass och din veckosammanfattning utifrån uppgifterna i din fiskedagbok, bara om du själv har slagit på AI-funktionerna (se 7), och för funktionerna som använder din plats, från 16 år (se 7c).</li>
@@ -175,9 +171,10 @@
 <li><strong>Kartor</strong>: för att visa kartan i appen. Då behandlas din IP-adress och det kartområde du tittar på, inte dina fångster.</li>
 <li><strong>Transaktionsmejl</strong>: för att skicka mejl som hör till ditt konto, som återställning av lösenord.</li>
 </ul>
-<p><strong>Uppgifter utanför Europeiska unionen.</strong> En del av dessa parter är etablerade i USA eller behandlar uppgifter där, till exempel leverantörerna av annonsmätning, e-postmarknadsföring, prenumerationshantering, pushnotiser, appuppdateringar, kartor, AI-funktionerna och AI-kontrollen. Vi ser till att det finns en giltig rättslig grund för detta: ramverket för dataskydd mellan EU och USA (EU-US Data Privacy Framework) när parten är ansluten till det, och annars Europeiska kommissionens standardavtalsklausuler (standard contractual clauses). Vill du veta vilken skyddsåtgärd som gäller för vilken part, mejla <strong>info@visdex.nl</strong>.</p>
+<p><strong>Uppgifter utanför Europeiska unionen.</strong> En del av dessa parter är etablerade i USA eller behandlar uppgifter där, till exempel leverantörerna av annonsmätning (äldre versioner), e-postmarknadsföring, prenumerationshantering, pushnotiser, appuppdateringar, kartor, AI-funktionerna och AI-kontrollen. Vi ser till att det finns en giltig rättslig grund för detta: ramverket för dataskydd mellan EU och USA (EU-US Data Privacy Framework) när parten är ansluten till det, och annars Europeiska kommissionens standardavtalsklausuler (standard contractual clauses). Vill du veta vilken skyddsåtgärd som gäller för vilken part, mejla <strong>info@visdex.nl</strong>.</p>
 <p>Vi anger här kategorier i stället för alla varumärken, eftersom leverantörer kan bytas ut. Vill du veta exakt vilka parter vi arbetar med just nu, mejla <strong>info@visdex.nl</strong> så skickar vi dig den aktuella listan.</p>
 <p>Dessutom delar du själv uppgifter med andra användare när du väljer det (fiskekompisar, chattar, offentliga fångster).</p>
+<p><strong>Dela till Instagram Stories.</strong> Delar du en fångst till Instagram Stories lämnar appen bilden och den offentliga app-id:n för VISDEX vidare till Instagram-appen på din enhet. VISDEX skickar inte själv något till Meta när du gör det. Instagram-appen tillhör Meta, så det du delar hamnar på det sättet hos Meta; det du sedan lägger upp på Instagram omfattas av Instagrams villkor.</p>
 <p><strong>Besök på vår webbplats.</strong> För att veta om vår webbplats fungerar räknar vi där sidvisningar och klick på knapparna till App Store och Google Play, per land och per plats på sidan, med stöd av vårt berättigade intresse. Det gör webbplatsens värdtjänst, utan kakor och utan att spara din IP-adress; vi ser bara totalsiffror. Tjänsten är etablerad i USA; de skyddsåtgärder för uppgifter utanför Europeiska unionen som beskrivs ovan gäller.</p>
 
 <h2>10. Hur länge sparar vi dina uppgifter?</h2>
