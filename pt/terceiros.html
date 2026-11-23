@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Entidades com que trabalhamos – VISDEX</title>
+<style>
+  :root { --green:#0F3D2E; --sage:#517C5A; --cream:#F5F0E6; --gold:#D4A24C; --ink:#1a1a1a; }
+  * { box-sizing:border-box; }
+  body { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.65; color:var(--ink); background:var(--cream); margin:0; padding:0; }
+  .wrap { max-width:760px; margin:0 auto; padding:48px 24px 80px; }
+  h1 { color:var(--green); font-size:2rem; margin-bottom:4px; }
+  h2 { color:var(--green); font-size:1.25rem; margin-top:40px; border-bottom:2px solid var(--gold); padding-bottom:6px; }
+  h3 { color:var(--sage); font-size:1.05rem; margin-top:24px; }
+  .meta { color:var(--sage); font-size:.9rem; margin-bottom:32px; }
+  a { color:var(--sage); }
+  table { border-collapse:collapse; width:100%; margin:16px 0; font-size:.95rem; }
+  th,td { text-align:left; padding:8px 10px; border:1px solid #ddd; vertical-align:top; }
+  th { background:#ebe6da; color:var(--green); }
+  h3 + table th, p + table th { width:22%; }
+  .note { background:#fff; border-left:4px solid var(--gold); padding:12px 16px; margin:16px 0; border-radius:4px; }
+  footer { margin-top:48px; color:var(--sage); font-size:.85rem; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<h1>Entidades com que trabalhamos</h1>
+<p class="meta">Última atualização: 23 de novembro de 2026</p>
+
+<p>Aqui estão as entidades que recebem dados pessoais de utilizadores do VISDEX. Porquê, com que fundamento jurídico e que dados recebe uma entidade está na <a href="https://visdex.nl/pt/privacidade">política de privacidade</a>, no bloco para o qual remete a coluna Para quê. Um <strong>subcontratante</strong> trabalha por nossa conta, apenas para a nossa finalidade e com base num contrato de tratamento de dados. Uma entidade que é <strong>responsável independente pelo tratamento</strong> decide por si própria o que faz com os dados, de acordo com a sua própria política de privacidade.</p>
+<p>Se uma entidade estiver fora da União Europeia, a última coluna indica a garantia: o Quadro de Privacidade de Dados UE-EUA (EU-US Data Privacy Framework, DPF), se a entidade tiver aderido a ele, as cláusulas contratuais-tipo da Comissão Europeia (CCT) ou uma decisão da Comissão Europeia de que o país assegura um nível de proteção adequado (decisão de adequação).</p>
+
+<h2>A app</h2>
+<table>
+<tr><th>Nome</th><th>Sede</th><th>Papel</th><th>Para quê</th><th>Garantia fora da UE</th></tr>
+<tr><td>Supabase (Supabase Pte. Ltd.)</td><td>Singapura; a base de dados está na Irlanda</td><td>Subcontratante</td><td>A nossa base de dados, o armazenamento de fotos, o início de sessão e as funções de servidor da app, ver 5</td><td>CCT</td></tr>
+<tr><td>Anthropic (Anthropic Ireland, Limited; tratamento pela Anthropic, PBC)</td><td>Dublin, Irlanda (Anthropic, PBC: São Francisco, EUA)</td><td>Subcontratante</td><td>Funções de IA, controlo em sorteios e competições, controlo das fotos de capturas contra falsificações e a IA no apoio ao cliente, ver 3.16 a 3.19</td><td>CCT</td></tr>
+<tr><td>OpenWeather Ltd</td><td>Londres, Reino Unido</td><td>Responsável independente pelo tratamento</td><td>O tempo atual e a previsão, ver 3.6</td><td>Decisão de adequação (Reino Unido)</td></tr>
+<tr><td>Open-Meteo (OpenMeteo GmbH)</td><td>Bürglen, Suíça</td><td>Responsável independente pelo tratamento</td><td>O histórico meteorológico, o tempo por hora e as condições de picada, ver 3.6</td><td>Decisão de adequação (Suíça)</td></tr>
+<tr><td>Rijkswaterstaat</td><td>Utrecht, Países Baixos</td><td>Responsável independente pelo tratamento (dados abertos)</td><td>Marés e condições da água, ver 3.6</td><td>Dentro da UE</td></tr>
+<tr><td>Apple (Apple Distribution International Ltd; Apple Inc.)</td><td>Cork, Irlanda; Cupertino, EUA</td><td>Responsável independente pelo tratamento</td><td>App Store e compras (ver 3.10), início de sessão com a Apple (ver 5), Apple Maps e a pesquisa de uma massa de água (ver 3.6 e 3.7), notificações push no iPhone (ver 3.11)</td><td>CCT</td></tr>
+<tr><td>Google (Google Ireland Ltd; Google LLC)</td><td>Dublin, Irlanda; Mountain View, EUA</td><td>Responsável independente pelo tratamento para o Google Play, o início de sessão, o Maps e a pesquisa de uma massa de água; subcontratante para as notificações push e o grupo de teste</td><td>Google Play e compras (ver 3.10), início de sessão com a Google (ver 5), Google Maps e a pesquisa de uma massa de água (ver 3.6 e 3.7), notificações push no Android (ver 3.11)</td><td>DPF</td></tr>
+<tr><td>Expo (650 Industries, Inc.)</td><td>Burlingame (Califórnia), EUA</td><td>Subcontratante</td><td>Entregar as notificações push e fornecer as atualizações da app, ver 3.11</td><td>DPF e CCT</td></tr>
+<tr><td>RevenueCat, Inc.</td><td>Brandon (Flórida), EUA</td><td>Subcontratante</td><td>Gestão de subscrições do VISDEX Pro, ver 3.10</td><td>CCT</td></tr>
+<tr><td>komoot GmbH (Photon)</td><td>Schönefeld, Alemanha</td><td>Responsável independente pelo tratamento</td><td>Pesquisar um local, uma rua ou uma massa de água, ver 3.7</td><td>Dentro da UE</td></tr>
+<tr><td>Brevo (Sendinblue SAS)</td><td>Paris, França</td><td>Subcontratante</td><td>Os e-mails ligados à tua conta, ver 3.13</td><td>Dentro da UE</td></tr>
+<tr><td>Resend (Plus Five Five, Inc.)</td><td>São Francisco, EUA</td><td>Subcontratante</td><td>O e-mail mensal e a confirmação de um pedido de parceria, ver 3.13</td><td>DPF e CCT</td></tr>
+<tr><td>Intuit Mailchimp (The Rocket Science Group LLC)</td><td>Atlanta, EUA</td><td>Subcontratante</td><td>E-mails de marketing, ver 3.14</td><td>DPF e CCT</td></tr>
+<tr><td>MailerLite Limited</td><td>Dublin, Irlanda</td><td>Subcontratante</td><td>Uma antiga lista de espera; já só a usamos para te retirar dela quando eliminas a tua conta, ver 8</td><td>Dentro da UE</td></tr>
+<tr><td>Meta (Meta Platforms Ireland Ltd)</td><td>Dublin, Irlanda</td><td>Responsável conjunto pelo tratamento</td><td>Medição da publicidade, só em versões mais antigas da app, ver 3.24</td><td>DPF</td></tr>
+<tr><td>Metricool (Metricool Software S.L.)</td><td>Madrid, Espanha</td><td>Subcontratante</td><td>Agendar as nossas publicações nas redes sociais, ver 3.20</td><td>Dentro da UE</td></tr>
+<tr><td>Instagram (Meta Platforms Ireland Ltd)</td><td>Dublin, Irlanda</td><td>Responsável independente pelo tratamento</td><td>As nossas publicações nas redes sociais (ver 3.20) e partilhar no Instagram Stories (ver 3.3)</td><td>DPF</td></tr>
+<tr><td>WhatsApp Ireland Ltd</td><td>Dublin, Irlanda</td><td>Responsável independente pelo tratamento</td><td>Contacto pelo WhatsApp, enquanto esse número existir, ver 3.19</td><td>DPF</td></tr>
+<tr><td>Wesdijk Hengelsport</td><td>Barendrecht, Países Baixos</td><td>Responsável independente pelo tratamento</td><td>Parceiro de promoções em sorteios, ver 3.15</td><td>Dentro da UE</td></tr>
+</table>
+
+<h2>O site visdex.nl</h2>
+<table>
+<tr><th>Nome</th><th>Sede</th><th>Papel</th><th>Para quê</th><th>Garantia fora da UE</th></tr>
+<tr><td>Vercel Inc.</td><td>Covina (Califórnia), EUA</td><td>Subcontratante</td><td>Alojamento de visdex.nl e contagem de visitas, ver 3.23</td><td>DPF e CCT</td></tr>
+<tr><td>Cloudflare, Inc. (Turnstile)</td><td>São Francisco, EUA</td><td>Subcontratante</td><td>Controlo anti-robôs na inscrição em visdex.nl, ver 3.23</td><td>DPF e CCT</td></tr>
+<tr><td>Cal.com, Inc.</td><td>São Francisco, EUA</td><td>Subcontratante</td><td>Fazer uma marcação para uma parceria, ver 3.23</td><td>DPF</td></tr>
+<tr><td>Supabase (Supabase Pte. Ltd.)</td><td>Singapura; a base de dados está na Irlanda</td><td>Subcontratante</td><td>Armazenamento das inscrições em visdex.nl, ver 3.23</td><td>CCT</td></tr>
+<tr><td>Intuit Mailchimp (The Rocket Science Group LLC)</td><td>Atlanta, EUA</td><td>Subcontratante</td><td>Lista de espera e teste Android, ver 3.23</td><td>DPF e CCT</td></tr>
+<tr><td>Google (Google Ireland Ltd; Google LLC)</td><td>Dublin, Irlanda; Mountain View, EUA</td><td>Subcontratante</td><td>Grupo de teste para a versão Android, ver 3.23</td><td>DPF</td></tr>
+</table>
+
+<p>A adesão ao DPF foi verificada na lista em dataprivacyframework.gov (16 de novembro de 2026).</p>
+<p>Tens perguntas sobre esta lista? Envia um e-mail para <a href="mailto:info@visdex.nl">info@visdex.nl</a>.</p>
+
+<footer>
+VISDEX · KvK 86629409 · info@visdex.nl
+</footer>
+
+</div>
+</body>
+</html>
