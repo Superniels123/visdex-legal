@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Parter som vi arbetar med – VISDEX</title>
+<style>
+  :root { --green:#0F3D2E; --sage:#517C5A; --cream:#F5F0E6; --gold:#D4A24C; --ink:#1a1a1a; }
+  * { box-sizing:border-box; }
+  body { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.65; color:var(--ink); background:var(--cream); margin:0; padding:0; }
+  .wrap { max-width:760px; margin:0 auto; padding:48px 24px 80px; }
+  h1 { color:var(--green); font-size:2rem; margin-bottom:4px; }
+  h2 { color:var(--green); font-size:1.25rem; margin-top:40px; border-bottom:2px solid var(--gold); padding-bottom:6px; }
+  h3 { color:var(--sage); font-size:1.05rem; margin-top:24px; }
+  .meta { color:var(--sage); font-size:.9rem; margin-bottom:32px; }
+  a { color:var(--sage); }
+  table { border-collapse:collapse; width:100%; margin:16px 0; font-size:.95rem; }
+  th,td { text-align:left; padding:8px 10px; border:1px solid #ddd; vertical-align:top; }
+  th { background:#ebe6da; color:var(--green); }
+  h3 + table th, p + table th { width:22%; }
+  .note { background:#fff; border-left:4px solid var(--gold); padding:12px 16px; margin:16px 0; border-radius:4px; }
+  footer { margin-top:48px; color:var(--sage); font-size:.85rem; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<h1>Parter som vi arbetar med</h1>
+<p class="meta">Senast uppdaterad: 23 november 2026</p>
+
+<p>Här står de parter som tar emot personuppgifter om VISDEX-användare. Varför, på vilken rättslig grund och vilka uppgifter en part får står i <a href="https://visdex.nl/sv/integritet">integritetspolicyn</a>, i det avsnitt som kolumnen Ändamål hänvisar till. Ett <strong>personuppgiftsbiträde</strong> arbetar på vårt uppdrag, bara för vårt ändamål och på grundval av ett personuppgiftsbiträdesavtal. En part som är <strong>självständigt personuppgiftsansvarig</strong> bestämmer själv vad den gör med uppgifterna, enligt sin egen integritetspolicy.</p>
+<p>Finns en part utanför Europeiska unionen står skyddsåtgärden i den sista kolumnen: ramverket för dataskydd mellan EU och USA (EU-US Data Privacy Framework, DPF) när parten är ansluten till det, Europeiska kommissionens standardavtalsklausuler (SCC) eller ett beslut av Europeiska kommissionen om att landet har en adekvat skyddsnivå (adekvansbeslut).</p>
+
+<h2>Appen</h2>
+<table>
+<tr><th>Namn</th><th>Ort</th><th>Roll</th><th>Ändamål</th><th>Skyddsåtgärd utanför EU</th></tr>
+<tr><td>Supabase (Supabase Pte. Ltd.)</td><td>Singapore; databasen finns på Irland</td><td>Personuppgiftsbiträde</td><td>Vår databas, lagring av foton, inloggning och appens serverfunktioner, se 5</td><td>SCC</td></tr>
+<tr><td>Anthropic (Anthropic Ireland, Limited; behandling av Anthropic, PBC)</td><td>Dublin, Irland (Anthropic, PBC: San Francisco, USA)</td><td>Personuppgiftsbiträde</td><td>AI-funktioner, kontroll vid utlottningar och tävlingar, kontroll av fångstfoton för förfalskningar och AI:n i kundtjänsten, se 3.16 till och med 3.19</td><td>SCC</td></tr>
+<tr><td>OpenWeather Ltd</td><td>London, Storbritannien</td><td>Självständigt personuppgiftsansvarig</td><td>Vädret just nu och prognosen, se 3.6</td><td>Adekvansbeslut för Storbritannien</td></tr>
+<tr><td>Open-Meteo (OpenMeteo GmbH)</td><td>Bürglen, Schweiz</td><td>Självständigt personuppgiftsansvarig</td><td>Historiskt väder, väder per timme och förutsättningar för napp, se 3.6</td><td>Adekvansbeslut för Schweiz</td></tr>
+<tr><td>Rijkswaterstaat</td><td>Utrecht</td><td>Självständigt personuppgiftsansvarig (öppna data)</td><td>Tidvatten och vattenförhållanden, se 3.6</td><td>Inom EU</td></tr>
+<tr><td>Apple (Apple Distribution International Ltd; Apple Inc.)</td><td>Cork, Irland; Cupertino, USA</td><td>Självständigt personuppgiftsansvarig</td><td>App Store och köp (se 3.10), inloggning med Apple (se 5), Apple Maps och uppslagning av ett vatten (se 3.6 och 3.7), pushnotiser på iPhone (se 3.11)</td><td>SCC</td></tr>
+<tr><td>Google (Google Ireland Ltd; Google LLC)</td><td>Dublin, Irland; Mountain View, USA</td><td>Självständigt personuppgiftsansvarig för Google Play, inloggning, Maps och uppslagning av ett vatten; personuppgiftsbiträde för pushnotiser och testgruppen</td><td>Google Play och köp (se 3.10), inloggning med Google (se 5), Google Maps och uppslagning av ett vatten (se 3.6 och 3.7), pushnotiser på Android (se 3.11)</td><td>DPF</td></tr>
+<tr><td>Expo (650 Industries, Inc.)</td><td>Burlingame (Kalifornien), USA</td><td>Personuppgiftsbiträde</td><td>Leverera pushnotiser och uppdateringar av appen, se 3.11</td><td>DPF och SCC</td></tr>
+<tr><td>RevenueCat, Inc.</td><td>Brandon (Florida), USA</td><td>Personuppgiftsbiträde</td><td>Prenumerationshantering för VISDEX Pro, se 3.10</td><td>SCC</td></tr>
+<tr><td>komoot GmbH (Photon)</td><td>Schönefeld, Tyskland</td><td>Självständigt personuppgiftsansvarig</td><td>Sökning efter en ort, en gata eller ett vatten, se 3.7</td><td>Inom EU</td></tr>
+<tr><td>Brevo (Sendinblue SAS)</td><td>Paris, Frankrike</td><td>Personuppgiftsbiträde</td><td>Mejl som hör till ditt konto, se 3.13</td><td>Inom EU</td></tr>
+<tr><td>Resend (Plus Five Five, Inc.)</td><td>San Francisco, USA</td><td>Personuppgiftsbiträde</td><td>Månadsmejlet och bekräftelsen av en partneransökan, se 3.13</td><td>DPF och SCC</td></tr>
+<tr><td>Intuit Mailchimp (The Rocket Science Group LLC)</td><td>Atlanta, USA</td><td>Personuppgiftsbiträde</td><td>Marknadsföringsmejl, se 3.14</td><td>DPF och SCC</td></tr>
+<tr><td>MailerLite Limited</td><td>Dublin, Irland</td><td>Personuppgiftsbiträde</td><td>En gammal väntelista; vi använder den nu bara för att ta bort dig där om du raderar ditt konto, se 8</td><td>Inom EU</td></tr>
+<tr><td>Meta (Meta Platforms Ireland Ltd)</td><td>Dublin, Irland</td><td>Gemensamt personuppgiftsansvarig</td><td>Mätning av annonser, bara i äldre versioner av appen, se 3.24</td><td>DPF</td></tr>
+<tr><td>Metricool (Metricool Software S.L.)</td><td>Madrid, Spanien</td><td>Personuppgiftsbiträde</td><td>Schemaläggning av våra inlägg i sociala medier, se 3.20</td><td>Inom EU</td></tr>
+<tr><td>Instagram (Meta Platforms Ireland Ltd)</td><td>Dublin, Irland</td><td>Självständigt personuppgiftsansvarig</td><td>Våra inlägg i sociala medier (se 3.20) och delning till Instagram Stories (se 3.3)</td><td>DPF</td></tr>
+<tr><td>WhatsApp Ireland Ltd</td><td>Dublin, Irland</td><td>Självständigt personuppgiftsansvarig</td><td>Kontakt via WhatsApp, så länge det numret finns, se 3.19</td><td>DPF</td></tr>
+<tr><td>Wesdijk Hengelsport</td><td>Barendrecht</td><td>Självständigt personuppgiftsansvarig</td><td>Kampanjpartner vid utlottningar, se 3.15</td><td>Inom EU</td></tr>
+</table>
+
+<h2>Webbplatsen visdex.nl</h2>
+<table>
+<tr><th>Namn</th><th>Ort</th><th>Roll</th><th>Ändamål</th><th>Skyddsåtgärd utanför EU</th></tr>
+<tr><td>Vercel Inc.</td><td>Covina (Kalifornien), USA</td><td>Personuppgiftsbiträde</td><td>Värdtjänst för visdex.nl och räkning av besök, se 3.23</td><td>DPF och SCC</td></tr>
+<tr><td>Cloudflare, Inc. (Turnstile)</td><td>San Francisco, USA</td><td>Personuppgiftsbiträde</td><td>Robotkontroll vid anmälan på visdex.nl, se 3.23</td><td>DPF och SCC</td></tr>
+<tr><td>Cal.com, Inc.</td><td>San Francisco, USA</td><td>Personuppgiftsbiträde</td><td>Boka ett möte om ett partnerskap, se 3.23</td><td>DPF</td></tr>
+<tr><td>Supabase (Supabase Pte. Ltd.)</td><td>Singapore; databasen finns på Irland</td><td>Personuppgiftsbiträde</td><td>Lagring av anmälningar på visdex.nl, se 3.23</td><td>SCC</td></tr>
+<tr><td>Intuit Mailchimp (The Rocket Science Group LLC)</td><td>Atlanta, USA</td><td>Personuppgiftsbiträde</td><td>Väntelista och Android-test, se 3.23</td><td>DPF och SCC</td></tr>
+<tr><td>Google (Google Ireland Ltd; Google LLC)</td><td>Dublin, Irland; Mountain View, USA</td><td>Personuppgiftsbiträde</td><td>Testgrupp för Android-versionen, se 3.23</td><td>DPF</td></tr>
+</table>
+
+<p>DPF-statusen har kontrollerats i listan på dataprivacyframework.gov (16 november 2026).</p>
+<p>Frågor om den här listan? Mejla <a href="mailto:info@visdex.nl">info@visdex.nl</a>.</p>
+
+<footer>
+VISDEX · KvK 86629409 · info@visdex.nl
+</footer>
+
+</div>
+</body>
+</html>
