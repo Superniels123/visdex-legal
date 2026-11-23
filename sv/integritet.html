@@ -162,11 +162,11 @@
 
 <h3>3.12 Tekniska uppgifter och användning av appen</h3>
 <table>
-<tr><th>Vad</th><td>Appversion, enhetens plattform, felrapporter, feedback som du skickar, vilka delar av appen du öppnar (per dag, utan innehåll eller plats), enhetens tidszon och, en gång, enhetens regioninställning och landet för din appbutik. Vid varje förfrågan från appen registrerar vår värdtjänst också din IP-adress och den ort och det postnummer som härleds ur den i tekniska loggar.</td></tr>
-<tr><th>Varför</th><td>Få appen att fungera och skydda den, hitta och åtgärda fel, och förbättra appen. Utanför Europa använder vi tidszonen för tysta timmar för pushnotiser och för tidpunkten för ett foto från ditt galleri. Regionen och butikslandet använder vi bara för att mäta hur ofta de två skiljer sig åt.</td></tr>
+<tr><th>Vad</th><td>Appversion, enhetens plattform, felrapporter, feedback som du skickar, vilka delar av appen du öppnar (per dag, utan innehåll eller plats), enhetens tidszon och, en gång, enhetens regioninställning och landet för din appbutik. Vid varje förfrågan från appen registrerar vår värdtjänst också din IP-adress och den ort och det postnummer som härleds ur den i tekniska loggar. Vid ett fel skickas till en tjänst för felrapportering: felmeddelandet, platsen i koden där det gick fel, de senaste tekniska stegen i appen precis innan (utan innehåll eller sökparametrar), modell och operativsystem för din enhet, appversionen och en slumpmässig installationskod som inte är kopplad till ditt konto. Dessutom registrerar den tjänsten för varje appsession om den avslutades utan krasch. Då behandlas också din IP-adress. Ditt konto, din e-postadress, dina platser, dina fångster och dina foton skickas inte. När du registrerar dig med din e-postadress får en tjänst för robotkontroll under kontrollen tekniska uppgifter direkt från din enhet, till exempel din IP-adress och typen av webbläsare och operativsystem. Från oss får den tjänsten bara kontrollens kod, inte din e-postadress.</td></tr>
+<tr><th>Varför</th><td>Få appen att fungera och skydda den, hitta och åtgärda fel, och förbättra appen. Utanför Europa använder vi tidszonen för tysta timmar för pushnotiser och för tidpunkten för ett foto från ditt galleri. Regionen och butikslandet använder vi bara för att mäta hur ofta de två skiljer sig åt. Med felrapporteringen spårar vi krascher och fel i appen. Med robotkontrollen kontrollerar vi att det inte är en robot som skapar ett konto.</td></tr>
 <tr><th>Rättslig grund</th><td>Avtal för appversion, plattform och tidszon. Berättigat intresse för felrapporter, feedback, användning, region och butiksland: hitta fel och förbättra appen. Berättigat intresse för de tekniska loggarna: skydda appen och åtgärda störningar.</td></tr>
-<tr><th>Vem</th><td>Vår värdtjänst (se 5).</td></tr>
-<tr><th>Hur länge</th><td>Vilka delar du öppnar: efter 35 dagar bara som sammanställda antal. De tekniska loggarna i högst 7 dagar. Resten så länge ditt konto finns.</td></tr>
+<tr><th>Vem</th><td>Vår värdtjänst, en tjänst för felrapportering och en tjänst för robotkontroll (se 5). Tjänsten för robotkontroll använder uppgifterna för att känna igen robotar och, på eget ansvar, för att förbättra den igenkänningen.</td></tr>
+<tr><th>Hur länge</th><td>Vilka delar du öppnar: efter 35 dagar bara som sammanställda antal. De tekniska loggarna i högst 7 dagar. Hos tjänsten för felrapportering lagras uppgifterna inom EU och raderas efter högst 90 dagar. Resten så länge ditt konto finns.</td></tr>
 </table>
 
 <h3>3.13 Mejl som hör till ditt konto och månadsmejlet</h3>
@@ -300,6 +300,8 @@ Vår värdtjänst (se 5). Är du 18 år eller äldre kan vi använda en AI-tjän
 <li><strong>Apple och Google:</strong> appbutikerna, köp, inloggning med Apple eller Google om du väljer det, och pushnotiser.</li>
 <li><strong>Prenumerationshantering:</strong> se 3.10.</li>
 <li><strong>Pushnotiser och appuppdateringar:</strong> se 3.11.</li>
+<li><strong>Felrapportering:</strong> se 3.12.</li>
+<li><strong>Robotkontroll vid registrering:</strong> se 3.12.</li>
 <li><strong>Transaktionsmejl:</strong> se 3.13.</li>
 <li><strong>E-postmarknadsföring:</strong> se 3.14.</li>
 <li><strong>AI-tjänster och bildigenkänning:</strong> se 3.16 till och med 3.19. För varje AI-tjänst som vi använder gäller: den använder inte det den får från oss för att träna AI-modeller och raderar det som standard inom 30 dagar; flaggar dess egen säkerhet något som möjligt missbruk av tjänsten kan den spara det i upp till 2 år.</li>

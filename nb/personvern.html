@@ -162,11 +162,11 @@
 
 <h3>3.12 Tekniske opplysninger og bruk av appen</h3>
 <table>
-<tr><th>Hva</th><td>Appversjon, plattformen til enheten din, feilrapporter, tilbakemeldinger du sender inn, hvilke deler av appen du åpner (per dag, uten innhold eller posisjon), tidssonen på enheten din, og én gang regioninnstillingen på enheten din og landet til appbutikken din. Ved hver forespørsel fra appen registrerer vertstjenesten vår også IP-adressen din og stedet og postnummeret som er utledet av den, i tekniske logger.</td></tr>
-<tr><th>Hvorfor</th><td>Få appen til å fungere og sikre den, finne og løse feil, og forbedre appen. Utenfor Europa bruker vi tidssonen til stille timer for pushvarsler og til tidspunktet for et bilde fra galleriet ditt. Regionen og butikklandet bruker vi bare til å måle hvor ofte de to er forskjellige.</td></tr>
+<tr><th>Hva</th><td>Appversjon, plattformen til enheten din, feilrapporter, tilbakemeldinger du sender inn, hvilke deler av appen du åpner (per dag, uten innhold eller posisjon), tidssonen på enheten din, og én gang regioninnstillingen på enheten din og landet til appbutikken din. Ved hver forespørsel fra appen registrerer vertstjenesten vår også IP-adressen din og stedet og postnummeret som er utledet av den, i tekniske logger. Ved en feil sendes til en tjeneste for feilrapportering: feilmeldingen, stedet i koden der det gikk galt, de siste tekniske stegene i appen rett før (uten innhold eller søkeparametere), modellen og operativsystemet til enheten din, appversjonen og en tilfeldig installasjonskode som ikke er knyttet til kontoen din. I tillegg registrerer denne tjenesten for hver appøkt om den ble avsluttet uten krasj. Da behandles også IP-adressen din. Kontoen din, e-postadressen din, posisjonene dine, fangstene dine og bildene dine sendes ikke. Når du registrerer deg med e-postadressen din, mottar en tjeneste for robotkontroll under kontrollen tekniske opplysninger direkte fra enheten din, for eksempel IP-adressen din og typen nettleser og operativsystem. Fra oss får denne tjenesten bare koden fra kontrollen, ikke e-postadressen din.</td></tr>
+<tr><th>Hvorfor</th><td>Få appen til å fungere og sikre den, finne og løse feil, og forbedre appen. Utenfor Europa bruker vi tidssonen til stille timer for pushvarsler og til tidspunktet for et bilde fra galleriet ditt. Regionen og butikklandet bruker vi bare til å måle hvor ofte de to er forskjellige. Med feilrapporteringen sporer vi opp krasj og feil i appen. Med robotkontrollen kontrollerer vi at det ikke er en robot som oppretter en konto.</td></tr>
 <tr><th>Rettslig grunnlag</th><td>Avtale for appversjon, plattform og tidssone. Berettiget interesse for feilrapporter, tilbakemeldinger, bruk, region og butikkland: finne feil og forbedre appen. Berettiget interesse for de tekniske loggene: sikre appen og løse driftsforstyrrelser.</td></tr>
-<tr><th>Hvem</th><td>Vertstjenesten vår (se 5).</td></tr>
-<tr><th>Hvor lenge</th><td>Hvilke deler du åpner: etter 35 dager bare som samlede antall. De tekniske loggene i høyst 7 dager. Resten så lenge kontoen din finnes.</td></tr>
+<tr><th>Hvem</th><td>Vertstjenesten vår, en tjeneste for feilrapportering og en tjeneste for robotkontroll (se 5). Tjenesten for robotkontroll bruker opplysningene til å gjenkjenne roboter og, på eget ansvar, til å forbedre denne gjenkjenningen.</td></tr>
+<tr><th>Hvor lenge</th><td>Hvilke deler du åpner: etter 35 dager bare som samlede antall. De tekniske loggene i høyst 7 dager. Hos tjenesten for feilrapportering lagres opplysningene i EU og slettes etter høyst 90 dager. Resten så lenge kontoen din finnes.</td></tr>
 </table>
 
 <h3>3.13 E-post knyttet til kontoen din og den månedlige e-posten</h3>
@@ -300,6 +300,8 @@ Vertstjenesten vår (se 5). Er du 18 år eller eldre, kan vi bruke en KI-tjenest
 <li><strong>Apple og Google:</strong> appbutikkene, kjøp, innlogging med Apple eller Google hvis du velger det, og pushvarsler.</li>
 <li><strong>Abonnementsadministrasjon:</strong> se 3.10.</li>
 <li><strong>Pushvarsler og appoppdateringer:</strong> se 3.11.</li>
+<li><strong>Feilrapportering:</strong> se 3.12.</li>
+<li><strong>Robotkontroll ved registrering:</strong> se 3.12.</li>
 <li><strong>Transaksjonell e-post:</strong> se 3.13.</li>
 <li><strong>E-postmarkedsføring:</strong> se 3.14.</li>
 <li><strong>KI-tjenester og bildegjenkjenning:</strong> se 3.16 til og med 3.19. For hver KI-tjeneste vi bruker, gjelder: den bruker ikke det den får fra oss, til å trene KI-modeller, og sletter det som standard innen 30 dager; markerer tjenestens egen sikkerhet noe som mulig misbruk av tjenesten, kan den lagre det i opptil 2 år.</li>

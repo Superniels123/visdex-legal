@@ -162,11 +162,11 @@
 
 <h3>3.12 Tekniske oplysninger og brug af appen</h3>
 <table>
-<tr><th>Hvad</th><td>Appversion, din enheds platform, fejlrapporter, feedback, du sender ind, hvilke dele af appen du åbner (pr. dag, uden indhold eller placering), din enheds tidszone og én gang din enheds regionsindstilling og landet for din app-butik. Ved hver forespørgsel fra appen registrerer vores hostingtjeneste også din IP-adresse og den by og det postnummer, der udledes af den, i tekniske logfiler.</td></tr>
-<tr><th>Hvorfor</th><td>Få appen til at virke og sikre den, finde og rette fejl og forbedre appen. Uden for Europa bruger vi tidszonen til stille timer for pushnotifikationer og til tidspunktet for et foto fra dit galleri. Regionen og butikslandet bruger vi kun til at måle, hvor ofte de to er forskellige.</td></tr>
+<tr><th>Hvad</th><td>Appversion, din enheds platform, fejlrapporter, feedback, du sender ind, hvilke dele af appen du åbner (pr. dag, uden indhold eller placering), din enheds tidszone og én gang din enheds regionsindstilling og landet for din app-butik. Ved hver forespørgsel fra appen registrerer vores hostingtjeneste også din IP-adresse og den by og det postnummer, der udledes af den, i tekniske logfiler. Ved en fejl sendes til en tjeneste til fejlrapportering: fejlmeddelelsen, stedet i koden, hvor det gik galt, de seneste tekniske trin i appen lige før (uden indhold eller søgeparametre), model og styresystem på din enhed, appversionen og en tilfældig installationskode, der ikke er knyttet til din konto. Desuden registrerer denne tjeneste for hver appsession, om den sluttede uden nedbrud. Her behandles også din IP-adresse. Din konto, din e-mailadresse, dine placeringer, dine fangster og dine fotos sendes ikke. Når du tilmelder dig med din e-mailadresse, modtager en tjeneste til robotkontrol under kontrollen tekniske oplysninger direkte fra din enhed, for eksempel din IP-adresse og typen af browser og styresystem. Fra os får denne tjeneste kun kontrollens kode, ikke din e-mailadresse.</td></tr>
+<tr><th>Hvorfor</th><td>Få appen til at virke og sikre den, finde og rette fejl og forbedre appen. Uden for Europa bruger vi tidszonen til stille timer for pushnotifikationer og til tidspunktet for et foto fra dit galleri. Regionen og butikslandet bruger vi kun til at måle, hvor ofte de to er forskellige. Med fejlrapporteringen finder vi nedbrud og fejl i appen. Med robotkontrollen kontrollerer vi, at det ikke er en robot, der opretter en konto.</td></tr>
 <tr><th>Retsgrundlag</th><td>Aftale for appversion, platform og tidszone. Legitim interesse for fejlrapporter, feedback, brug, region og butiksland: finde fejl og forbedre appen. Legitim interesse for de tekniske logfiler: sikre appen og løse driftsforstyrrelser.</td></tr>
-<tr><th>Hvem</th><td>Vores hostingtjeneste (se 5).</td></tr>
-<tr><th>Hvor længe</th><td>Hvilke dele du åbner: efter 35 dage kun som samlede antal. De tekniske logfiler højst 7 dage. Resten så længe din konto findes.</td></tr>
+<tr><th>Hvem</th><td>Vores hostingtjeneste, en tjeneste til fejlrapportering og en tjeneste til robotkontrol (se 5). Tjenesten til robotkontrol bruger oplysningerne til at genkende robotter og, på eget ansvar, til at forbedre denne genkendelse.</td></tr>
+<tr><th>Hvor længe</th><td>Hvilke dele du åbner: efter 35 dage kun som samlede antal. De tekniske logfiler højst 7 dage. Hos tjenesten til fejlrapportering opbevares oplysningerne i EU og slettes efter højst 90 dage. Resten så længe din konto findes.</td></tr>
 </table>
 
 <h3>3.13 E-mails om din konto og månedsmailen</h3>
@@ -300,6 +300,8 @@ Vores hostingtjeneste (se 5). Er du 18 år eller ældre, kan vi bruge en AI-tjen
 <li><strong>Apple og Google:</strong> app-butikkerne, køb, login med Apple eller Google, hvis du vælger det, og pushnotifikationer.</li>
 <li><strong>Abonnementsstyring:</strong> se 3.10.</li>
 <li><strong>Pushnotifikationer og appopdateringer:</strong> se 3.11.</li>
+<li><strong>Fejlrapportering:</strong> se 3.12.</li>
+<li><strong>Robotkontrol ved tilmelding:</strong> se 3.12.</li>
 <li><strong>Transaktionelle e-mails:</strong> se 3.13.</li>
 <li><strong>E-mailmarketing:</strong> se 3.14.</li>
 <li><strong>AI-tjenester og billedgenkendelse:</strong> se 3.16 til og med 3.19. For hver AI-tjeneste, vi bruger, gælder: den bruger ikke det, den får fra os, til at træne AI-modeller og sletter det som standard inden for 30 dage; markerer dens egen sikkerhed noget som muligt misbrug af tjenesten, kan den gemme det i op til 2 år.</li>

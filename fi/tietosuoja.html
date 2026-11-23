@@ -162,11 +162,11 @@
 
 <h3>3.12 Tekniset tiedot ja sovelluksen käyttö</h3>
 <table>
-<tr><th>Mitä</th><td>Sovelluksen versio, laitteesi alusta, virheraportit, lähettämäsi palaute, mitä sovelluksen osia avaat (päivittäin, ilman sisältöä tai sijaintia), laitteesi aikavyöhyke sekä kerran laitteesi alueasetus ja sovelluskauppasi maa. Sovelluksen jokaisen pyynnön yhteydessä hosting-palvelumme tallentaa teknisiin lokeihin myös IP-osoitteesi sekä siitä päätellyn paikkakunnan ja postinumeron.</td></tr>
-<tr><th>Miksi</th><td>Sovelluksen toiminta ja suojaaminen, virheiden löytäminen ja korjaaminen sekä sovelluksen kehittäminen. Euroopan ulkopuolella käytämme aikavyöhykettä push-ilmoitusten hiljaisiin tunteihin ja galleriastasi valitun kuvan kellonaikaan. Aluetta ja sovelluskaupan maata käytämme vain sen mittaamiseen, kuinka usein ne eroavat toisistaan.</td></tr>
+<tr><th>Mitä</th><td>Sovelluksen versio, laitteesi alusta, virheraportit, lähettämäsi palaute, mitä sovelluksen osia avaat (päivittäin, ilman sisältöä tai sijaintia), laitteesi aikavyöhyke sekä kerran laitteesi alueasetus ja sovelluskauppasi maa. Sovelluksen jokaisen pyynnön yhteydessä hosting-palvelumme tallentaa teknisiin lokeihin myös IP-osoitteesi sekä siitä päätellyn paikkakunnan ja postinumeron. Virheen sattuessa virheraportointipalveluun lähetetään: virheilmoitus, kohta koodissa, jossa virhe tapahtui, viimeisimmät tekniset vaiheet sovelluksessa juuri ennen virhettä (ilman sisältöä tai hakuparametreja), laitteesi malli ja käyttöjärjestelmä, sovelluksen versio sekä satunnainen asennustunniste, jota ei ole liitetty tiliisi. Lisäksi tämä palvelu kirjaa jokaisesta sovellusistunnosta, päättyikö se ilman kaatumista. Tällöin käsitellään myös IP-osoitettasi. Tiliäsi, sähköpostiosoitettasi, sijaintejasi, saaliitasi ja kuviasi ei lähetetä. Kun rekisteröidyt sähköpostiosoitteellasi, robottitarkistuspalvelu saa tarkistuksen aikana suoraan laitteeltasi teknisiä tietoja, kuten IP-osoitteesi sekä selaimen ja käyttöjärjestelmän tyypin. Meiltä tämä palvelu saa vain tarkistuksen koodin, ei sähköpostiosoitettasi.</td></tr>
+<tr><th>Miksi</th><td>Sovelluksen toiminta ja suojaaminen, virheiden löytäminen ja korjaaminen sekä sovelluksen kehittäminen. Euroopan ulkopuolella käytämme aikavyöhykettä push-ilmoitusten hiljaisiin tunteihin ja galleriastasi valitun kuvan kellonaikaan. Aluetta ja sovelluskaupan maata käytämme vain sen mittaamiseen, kuinka usein ne eroavat toisistaan. Virheraportoinnilla selvitämme sovelluksen kaatumisia ja virheitä. Robottitarkistuksella tarkistamme, ettei tiliä luo robotti.</td></tr>
 <tr><th>Käsittelyperuste</th><td>Sopimus sovelluksen version, alustan ja aikavyöhykkeen osalta. Oikeutettu etu virheraporttien, palautteen, käytön, alueen ja sovelluskaupan maan osalta: virheiden löytäminen ja sovelluksen kehittäminen. Oikeutettu etu teknisten lokien osalta: sovelluksen suojaaminen ja häiriöiden selvittäminen.</td></tr>
-<tr><th>Vastaanottajat</th><td>Hosting-palvelumme (ks. 5).</td></tr>
-<tr><th>Kuinka kauan</th><td>Avaamasi sovelluksen osat: 35 päivän jälkeen enää vain yhteenlaskettuina määrinä. Tekniset lokit enintään 7 päivää. Muut tiedot niin kauan kuin tilisi on olemassa.</td></tr>
+<tr><th>Vastaanottajat</th><td>Hosting-palvelumme, virheraportointipalvelu ja robottitarkistuspalvelu (ks. 5). Robottitarkistuspalvelu käyttää tietoja robottien tunnistamiseen ja omalla vastuullaan tunnistuksen parantamiseen.</td></tr>
+<tr><th>Kuinka kauan</th><td>Avaamasi sovelluksen osat: 35 päivän jälkeen enää vain yhteenlaskettuina määrinä. Tekniset lokit enintään 7 päivää. Virheraportointipalvelussa tiedot säilytetään EU:ssa ja poistetaan viimeistään 90 päivän kuluttua. Muut tiedot niin kauan kuin tilisi on olemassa.</td></tr>
 </table>
 
 <h3>3.13 Tilisi sähköpostit ja kuukausisähköposti</h3>
@@ -300,6 +300,8 @@ Hosting-palvelumme (ks. 5). Jos olet vähintään 18-vuotias, voimme käyttää 
 <li><strong>Apple ja Google:</strong> sovelluskaupat, ostot, kirjautuminen Applella tai Googlella, jos valitset sen, ja push-ilmoitukset.</li>
 <li><strong>Tilausten hallinta:</strong> ks. 3.10.</li>
 <li><strong>Push-ilmoitukset ja sovelluspäivitykset:</strong> ks. 3.11.</li>
+<li><strong>Virheraportointi:</strong> ks. 3.12.</li>
+<li><strong>Robottitarkistus rekisteröitymisessä:</strong> ks. 3.12.</li>
 <li><strong>Transaktiosähköposti:</strong> ks. 3.13.</li>
 <li><strong>Sähköpostimarkkinointi:</strong> ks. 3.14.</li>
 <li><strong>Tekoälypalvelut ja kuvantunnistus:</strong> ks. kohdasta 3.16 kohtaan 3.19. Jokaista käyttämäämme tekoälypalvelua koskee seuraava: se ei käytä meiltä saamiaan tietoja tekoälymallien kouluttamiseen ja poistaa ne oletuksena 30 päivän kuluessa; jos sen oma tietoturva merkitsee jotain palvelun mahdolliseksi väärinkäytöksi, se voi säilyttää sen enintään 2 vuotta.</li>

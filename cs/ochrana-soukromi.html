@@ -162,11 +162,11 @@
 
 <h3>3.12 Technické údaje a používání aplikace</h3>
 <table>
-<tr><th>Co</th><td>Verze aplikace, platforma tvého zařízení, hlášení chyb, zpětná vazba, kterou nám pošleš, které části aplikace otevíráš (po dnech, bez obsahu a polohy), časové pásmo tvého zařízení a jednorázově nastavení regionu tvého zařízení a země tvého obchodu s aplikacemi. Při každém požadavku aplikace zaznamenává naše hostingová služba do technických protokolů také tvoji IP adresu a z ní odvozené místo a PSČ.</td></tr>
-<tr><th>Proč</th><td>Zajištění fungování a zabezpečení aplikace, hledání a oprava chyb a vylepšování aplikace. Mimo Evropu používáme časové pásmo pro tiché hodiny push oznámení a pro čas pořízení fotky z tvé galerie. Region a zemi obchodu používáme jen k měření, jak často se tyto dva údaje liší.</td></tr>
+<tr><th>Co</th><td>Verze aplikace, platforma tvého zařízení, hlášení chyb, zpětná vazba, kterou nám pošleš, které části aplikace otevíráš (po dnech, bez obsahu a polohy), časové pásmo tvého zařízení a jednorázově nastavení regionu tvého zařízení a země tvého obchodu s aplikacemi. Při každém požadavku aplikace zaznamenává naše hostingová služba do technických protokolů také tvoji IP adresu a z ní odvozené místo a PSČ. Při chybě se službě pro hlášení chyb odesílá: chybová zpráva, místo v kódu, kde k chybě došlo, poslední technické kroky v aplikaci těsně předtím (bez obsahu a parametrů vyhledávání), model a operační systém tvého zařízení, verze aplikace a náhodný instalační kód, který není propojený s tvým účtem. Tato služba navíc u každé relace aplikace zaznamenává, zda skončila bez pádu. Zpracovává se přitom také tvoje IP adresa. Tvůj účet, tvoje e-mailová adresa, tvoje polohy, úlovky a fotky se neodesílají. Když se registruješ pomocí e-mailové adresy, dostává služba pro kontrolu proti robotům během kontroly přímo z tvého zařízení technické údaje, například tvoji IP adresu a typ prohlížeče a operačního systému. Od nás tato služba dostává jen kód kontroly, ne tvoji e-mailovou adresu.</td></tr>
+<tr><th>Proč</th><td>Zajištění fungování a zabezpečení aplikace, hledání a oprava chyb a vylepšování aplikace. Mimo Evropu používáme časové pásmo pro tiché hodiny push oznámení a pro čas pořízení fotky z tvé galerie. Region a zemi obchodu používáme jen k měření, jak často se tyto dva údaje liší. Pomocí hlášení chyb odhalujeme pády a chyby v aplikaci. Pomocí kontroly proti robotům ověřujeme, že účet nezakládá robot.</td></tr>
 <tr><th>Právní základ</th><td>Plnění smlouvy u verze aplikace, platformy a časového pásma. Oprávněný zájem u hlášení chyb, zpětné vazby, používání, regionu a země obchodu: hledání chyb a vylepšování aplikace. Oprávněný zájem u technických protokolů: zabezpečení aplikace a řešení poruch.</td></tr>
-<tr><th>Kdo</th><td>Naše hostingová služba (viz 5).</td></tr>
-<tr><th>Jak dlouho</th><td>Které části aplikace otevíráš: po 35 dnech už jen jako souhrnné počty. Technické protokoly nejvýše 7 dní. Ostatní, dokud existuje tvůj účet.</td></tr>
+<tr><th>Kdo</th><td>Naše hostingová služba, služba pro hlášení chyb a služba pro kontrolu proti robotům (viz 5). Služba pro kontrolu proti robotům používá údaje k rozpoznávání robotů a na vlastní odpovědnost ke zlepšování tohoto rozpoznávání.</td></tr>
+<tr><th>Jak dlouho</th><td>Které části aplikace otevíráš: po 35 dnech už jen jako souhrnné počty. Technické protokoly nejvýše 7 dní. U služby pro hlášení chyb se údaje ukládají v EU a mažou se nejpozději po 90 dnech. Ostatní, dokud existuje tvůj účet.</td></tr>
 </table>
 
 <h3>3.13 E-maily k tvému účtu a měsíční e-mail</h3>
@@ -300,6 +300,8 @@ Naše hostingová služba (viz 5). Pokud je ti 18 let nebo víc, můžeme použ�
 <li><strong>Apple a Google:</strong> obchody s aplikacemi, nákupy, přihlášení přes Apple nebo Google, pokud si ho zvolíš, a push oznámení.</li>
 <li><strong>Správa předplatného:</strong> viz 3.10.</li>
 <li><strong>Push oznámení a aktualizace aplikace:</strong> viz 3.11.</li>
+<li><strong>Hlášení chyb:</strong> viz 3.12.</li>
+<li><strong>Kontrola proti robotům při registraci:</strong> viz 3.12.</li>
 <li><strong>Transakční e-maily:</strong> viz 3.13.</li>
 <li><strong>E-mailový marketing:</strong> viz 3.14.</li>
 <li><strong>Služby AI a rozpoznávání obrazu:</strong> viz 3.16 až 3.19. Pro každou službu AI, kterou používáme, platí: to, co od nás dostane, nepoužívá k trénování modelů AI a ve výchozím stavu to smaže do 30 dnů; pokud její vlastní zabezpečení označí něco jako možné zneužití služby, může to uchovávat až 2 roky.</li>
