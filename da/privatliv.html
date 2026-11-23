@@ -42,6 +42,7 @@
 <tr><th>Kategori</th><th>Eksempler</th><th>Formål</th></tr>
 <tr><td>Kontooplysninger</td><td>E-mailadresse, brugernavn, visningsnavn, profilbillede (avatar), bio, specialisering</td><td>Oprette og administrere din konto og gøre dig genkendelig for dine fiskemakkere</td></tr>
 <tr><td>Fangstoplysninger</td><td>Art, længde, vægt, dato og tidspunkt, fiskevand, agn, teknik, noter, fotos, fangstens kategori</td><td>Kernefunktionen: at føre din fiskedagbog og din samling</td></tr>
+<tr><td>Fangstvideo</td><td>En kort video, du optager i appen til en fangst (uden lyd), tidspunktet for optagelsen og stillbilleder fra videoen</td><td>Vise din fangst til dem, du vælger</td></tr>
 <tr><td>Placeringsoplysninger</td><td>Koordinater for en fangst eller en gemt fiskeplads (kun hvis du selv registrerer dem)</td><td>Vise dine fangster og fiskepladser på kortet. Placeringer er som standard private.</td></tr>
 <tr><td>Sociale oplysninger</td><td>Relationer til fiskemakkere (venner), chatbeskeder, grupper, delte fiskepladser, blokeringer, rapporteringer</td><td>Tilføje fiskemakkere, chatte, dele indhold og holde fællesskabet sikkert</td></tr>
 <tr><td>Konkurrenceoplysninger</td><td>Deltagelse, point, ranglister</td><td>Arrangere og afvikle fiskekonkurrencer</td></tr>
@@ -70,6 +71,15 @@
 <p>Der er én undtagelse, og den vælger du selv for hver fangst: hvis du slår »Sæt denne fangst på VISDEX-kortet« til for en fangst, kan andre VISDEX-brugere, der er logget ind, se fangsten på VISDEX-kortet på det sted, hvor du fangede den, sammen med navnet på fiskevandet. Nålen vises først 24 timer efter fangsten og ikke i fredningstiden for den art. Valget er som standard slået fra, er kun tilgængeligt for brugere på 18 år og derover, og du kan slå det fra igen for hver fangst. Koordinater for fangster uden nål, dine gemte fiskepladser og dine private noter forbliver altid private.</p>
 <p>VISDEX kan også bruge en offentligt delt fangst i vores eget indhold til fællesskabet, <strong>herunder opslag på sociale medier (som Instagram)</strong>, for eksempel en ugentlig oversigt med »ugens fangst«. I det indhold vises fotoet, arten og længden. <strong>Dit fornavn</strong> kommer kun med, hvis din synlighed på ranglisten er slået til (»Vis mig på VISDEX-ranglisten«); ellers kalder vi dig »en VISDEX-lystfisker«. Dit brugernavn, dit efternavn og navnet på fiskevandet kommer aldrig med. Fangster fra mindreårige og fra konti uden kendt alder bruger vi aldrig til dette, heller ikke uden navn. Vil du ikke have, at en fangst bliver vist dér, så del den ikke offentligt.</p>
 </div>
+
+<!-- #VANGSTVIDEO-1 video bij een vangst -->
+<h3>Video til en fangst</h3>
+<p>Du kan optage en kort video i appen til en fangst: højst 15 sekunder og uden lyd. Appen bruger kun dit kamera til det, ikke din mikrofon og ikke din placering. Du kan ikke tilføje en video fra dit galleri.</p>
+<p><strong>Hvem der ser videoen.</strong> En video har sin egen indstilling, uafhængigt af fangsten. Som standard er det kun dig og dine fiskemakkere, der ser den. Offentlig er et valg, du træffer for hver video. Er du under 18 år, eller kender vi ikke din fødselsdato, kan din video ikke blive offentlig. Bemærk: din fiskeplads kan genkendes i en video.</p>
+<p><strong>Kontrol.</strong> En video bliver først offentlig, når en person fra VISDEX har set den. Forinden lader vi nogle stillbilleder fra videoen kontrollere automatisk af den tjeneste, der også kontrollerer fangstfotos (se 7); selve videoen sendes ikke dertil, og en video afvises aldrig automatisk. Videoer, der kun er til dig eller dine fiskemakkere, ser vi ikke på forhånd; den, der må se sådan en video, kan dog anmelde den.</p>
+<p><strong>Opbevaringssted.</strong> Videoen ligger hos en ekstern videotjeneste i Den Europæiske Union (Frankfurt). Den kan kun afspilles i appen med et link, der er gyldigt i nogle minutter. Der er ingen knap til at downloade eller videresende en video.</p>
+<p><strong>Opbevaringstid.</strong> Vi opbevarer en video, indtil du sletter den, eller indtil du sletter fangsten eller din konto; så sletter vi den også hos videotjenesten. En afvist video sletter vi efter 30 dage. En optagelse, der ligger på din enhed og ikke hører til en gemt fangst, slettes fra enheden efter 24 timer.</p>
+<p><strong>Ingen genbrug.</strong> Vi bruger ikke din video på sociale medier eller i annoncer, medmindre du giver et særskilt samtykke for netop den video. Det gælder også en offentlig video.</p>
 
 <!-- #569L ranglijsten per land en Europa -->
 <h3>Ranglister pr. land og i Europa</h3>
@@ -157,6 +167,7 @@
 <p>Vi sælger aldrig dine data. Vi deler kun oplysninger med parter, der er nødvendige for, at appen virker (databehandlere), på grundlag af en databehandleraftale:</p>
 <ul>
 <li><strong>Supabase</strong>: vores database- og lagringstjeneste (hosting af dine oplysninger, i EU-regionen, hvor det er muligt).</li>
+<li><strong>Videotjeneste</strong>: til at opbevare og afspille fangstvideoer, i Den Europæiske Union (Frankfurt).</li>
 <li><strong>Vejrtjeneste</strong>: til at hente vejroplysninger for en fangst og ved starten af en fisketur.</li>
 <li><strong>Apple / Google</strong>: til levering af appen via deres app-butikker og (hvis du har slået det til) pushnotifikationer.</li>
 <li><strong>Meta (Facebook)</strong>: kun for ældre versioner af appen (se 8).</li>
@@ -180,6 +191,7 @@
 <h2>10. Hvor længe opbevarer vi dine oplysninger?</h2>
 <p>Vi opbevarer dine oplysninger, så længe du har en konto. Sletter du din konto, bliver dine personoplysninger, dine fangster, dine fotos, dine placeringer og dine beskeder slettet straks og permanent, og din kontakt hos e-mailtjenesten bliver også slettet.</p>
 <p>Fire ting består derefter, og det er kun rimeligt at sige det:</p>
+<p>For fangstvideoer gælder fristerne under »Video til en fangst« i 4.</p>
 <ul>
 <li><strong>Konkurrencer, som du selv har oprettet, og som andre har deltaget i.</strong> Dem sletter vi ikke, for så ville vi også slette resultaterne for <em>alle</em> de andre deltagere. Dit navn bliver fjernet: du står derefter som »Slettet bruger«. Havde din konkurrence ingen andre deltagere, bliver den slettet helt.</li>
 <li><strong>Bevis for, at sletningen er udført.</strong> Vi gemmer kun en krypteret kode, der ikke kan regnes tilbage, og tidspunktet. Den indeholder hverken dit navn, din e-mailadresse eller andre oplysninger om dig. Det er nødvendigt for at kunne dokumentere, at vi faktisk har udført en anmodning om sletning.</li>
@@ -213,6 +225,7 @@
 <p>Kontrollen med AI ved giveaways og konkurrencer (se 7) gælder fra 16 år, også under 18; under 16 år, eller hvis vi ikke kender din fødselsdato, sendes dit foto ikke til AI-tjenesten ved denne kontrol. AI-funktionerne, som du selv slår til, kan du bruge fra 13 år; under 16 sendes der intet med dem, der viser, hvor du er (se 7), og uden kendt fødselsdato virker de ikke.</p>
 
 <p>Kontrollen af fangstfotos for forfalskninger og misbrug (se 7) gælder for alle aldre, også under 18. Der sendes kun fotoet og arten, aldrig et navn eller en alder.</p>
+<p>En video fra en bruger under 18 år, eller hvis fødselsdato vi ikke kender, kan ikke blive offentlig.</p>
 
 <h2>14. Ændringer</h2>
 <p>Vi kan ændre denne privatlivspolitik. Den nyeste version finder du altid på denne side med datoen øverst.</p>

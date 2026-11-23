@@ -42,6 +42,7 @@
 <tr><th>Kategorie</th><th>Beispiele</th><th>Zweck</th></tr>
 <tr><td>Kontodaten</td><td>E-Mail-Adresse, Benutzername, Anzeigename, Profilbild (Avatar), Bio, Spezialisierung</td><td>Dein Konto anlegen und verwalten, dich für Angelkumpels erkennbar machen</td></tr>
 <tr><td>Fangdaten</td><td>Fischart, Länge, Gewicht, Datum/Uhrzeit, Gewässer, Köder, Technik, Notizen, Fotos, Stufenwertung</td><td>Die Kernfunktion: dein Fangbuch und deine Sammlung führen</td></tr>
+<tr><td>Fangvideo</td><td>Ein kurzes Video, das du in der App zu einem Fang aufnimmst (ohne Ton), der Aufnahmezeitpunkt und Standbilder aus diesem Video</td><td>Deinen Fang denen zeigen, die du auswählst</td></tr>
 <tr><td>Standortdaten</td><td>Koordinaten eines Fangs oder eines gespeicherten Angelplatzes (nur wenn du sie selbst festhältst)</td><td>Deine Fänge/Angelplätze auf der Karte anzeigen. Standorte sind standardmäßig privat.</td></tr>
 <tr><td>Soziale Daten</td><td>Beziehungen zu Angelkumpels (Freunde), Chatnachrichten, Gruppen, geteilte Angelplätze, Blockierungen, Meldungen</td><td>Angelkumpels hinzufügen, chatten, Inhalte teilen und die Community sicher halten</td></tr>
 <tr><td>Wettbewerbsdaten</td><td>Teilnahme, Punktzahlen, Ranglisten</td><td>Angel-Challenges organisieren und auswerten</td></tr>
@@ -72,6 +73,15 @@
 <p>Es gibt eine Ausnahme, und die wählst du selbst pro Fang: Schaltest du bei einem Fang „Pin auf der Karte“ ein, sehen andere angemeldete VISDEX-Nutzer diesen Fang auf der landesweiten Karte an der Stelle, an der du ihn gefangen hast, zusammen mit dem Namen des Gewässers. Der Pin erscheint erst 24 Stunden nach dem Fang und nicht während einer Schonzeit für diese Art. Diese Option ist standardmäßig ausgeschaltet, nur für Nutzer ab 18 Jahren verfügbar, und du kannst sie pro Fang wieder ausschalten. Koordinaten von Fängen ohne Pin, deine gespeicherten Angelplätze und deine privaten Notizen bleiben immer privat.</p>
 <p>Einen öffentlich geteilten Fang kann VISDEX auch in eigenen Community-Inhalten verwenden, <strong>darunter Beiträge in sozialen Medien (etwa Instagram)</strong>, zum Beispiel in einer wöchentlichen Übersicht „Fang der Woche“.</p>
 </div>
+
+<!-- #VANGSTVIDEO-1 video bij een vangst -->
+<h3>Video zu einem Fang</h3>
+<p>Du kannst zu einem Fang in der App ein kurzes Video aufnehmen: höchstens 15 Sekunden und ohne Ton. Die App nutzt dafür nur deine Kamera, nicht dein Mikrofon und nicht deinen Standort. Ein Video aus deiner Galerie kannst du nicht hinzufügen.</p>
+<p><strong>Wer das Video sieht.</strong> Ein Video hat eine eigene Einstellung, unabhängig vom Fang. Standardmäßig sehen es nur du und deine Angelkumpels. Öffentlich ist eine Entscheidung, die du pro Video triffst. Bist du jünger als 18 oder ist dein Geburtsdatum nicht bekannt, kann dein Video nicht öffentlich werden. Achtung: Dein Angelplatz kann in einem Video erkennbar sein.</p>
+<p><strong>Prüfung.</strong> Ein Video wird erst öffentlich, nachdem jemand von VISDEX es angesehen hat. Vorab lassen wir einige Standbilder aus dem Video automatisch von dem Dienst prüfen, der auch Fangfotos prüft (siehe 7); das Video selbst geht dort nicht hin, und ein Video wird nie automatisch abgelehnt. Videos, die nur für dich oder deine Angelkumpels sind, sehen wir uns nicht vorab an; wer ein solches Video sehen darf, kann es aber melden.</p>
+<p><strong>Speicherung.</strong> Das Video liegt bei einem externen Videodienst in der Europäischen Union (Frankfurt). Abspielen geht nur in der App, mit einem Link, der wenige Minuten gültig ist. Es gibt keine Schaltfläche, um ein Video herunterzuladen oder weiterzuleiten.</p>
+<p><strong>Aufbewahrung.</strong> Wir bewahren ein Video auf, bis du es löschst oder bis du den Fang oder dein Konto löschst; dann löschen wir es auch beim Videodienst. Ein abgelehntes Video löschen wir nach 30 Tagen. Eine Aufnahme, die auf deinem Gerät liegt und zu keinem gespeicherten Fang gehört, wird nach 24 Stunden von deinem Gerät gelöscht.</p>
+<p><strong>Keine Weiterverwendung.</strong> Wir verwenden dein Video nicht in sozialen Medien oder in Anzeigen, es sei denn, du gibst uns für dieses Video gesondert deine Einwilligung. Das gilt auch für ein öffentliches Video.</p>
 
 <!-- #569L ranglijsten per land en Europa -->
 <h3>Ranglisten pro Land und in Europa</h3>
@@ -170,6 +180,7 @@
 <p>Wir verkaufen deine Daten niemals. Wir teilen Daten nur mit Partnern, die nötig sind, damit die App funktioniert (Auftragsverarbeiter), auf Grundlage eines Auftragsverarbeitungsvertrags:</p>
 <ul>
 <li><strong>Supabase</strong> – unser Datenbank- und Speicherdienst (Hosting deiner Daten, wo möglich in der EU-Region).</li>
+<li><strong>Videodienst</strong> – für das Speichern und Abspielen von Fangvideos, in der Europäischen Union (Frankfurt).</li>
 <li><strong>Wetterdienst</strong> – zum Abrufen von Wetterinformationen zu einem Fang und zum Start einer Session.</li>
 <li><strong>Apple / Google</strong> – für die Bereitstellung der App über ihre App-Stores und (wenn eingeschaltet) Push-Benachrichtigungen.</li>
 <li><strong>Meta (Facebook)</strong> – nur für ältere Versionen der App (siehe 8).</li>
@@ -196,6 +207,7 @@
 <h2>10. Wie lange speichern wir deine Daten?</h2>
 <p>Wir speichern deine Daten, solange du ein Konto hast. Löschst du dein Konto, werden deine personenbezogenen Daten, deine Fänge, deine Fotos, deine Standorte und deine Nachrichten sofort und dauerhaft gelöscht, und auch dein Kontakt beim E-Mail-Dienst wird gelöscht.</p>
 <p>Supportgespräche (Nachrichten, Fotos und Übersetzungen) speichern wir bis zu 12 Monate, nachdem eine Frage abgeschlossen ist. Haben wir geantwortet und du reagierst 14 Tage lang nicht, schließen wir die Frage. Löschst du dein Konto, werden deine Gespräche, deine Fotos und unsere Antworten sofort gelöscht.</p>
+<p>Für Fangvideos gelten die Fristen unter „Video zu einem Fang“ in 4.</p>
 <p>Vier Dinge bleiben danach bestehen, und es ist nur fair, das zu sagen:</p>
 <ul>
 <li><strong>Challenges, die du selbst erstellt hast und an denen andere teilgenommen haben.</strong> Die löschen wir nicht, weil wir damit auch das Ergebnis <em>aller</em> anderen Teilnehmer löschen würden. Dein Name verschwindet daraus: Du stehst dort danach als „Gelöschter Nutzer“. Hatte deine Challenge keine anderen Teilnehmer, wird sie vollständig gelöscht.</li>
@@ -229,6 +241,7 @@
 <p>Die Prüfung durch KI bei Gewinnspielen und Wettbewerben (siehe 7) gilt ab 16 Jahren, auch unter 18; unter 16 oder ohne bekanntes Geburtsdatum geht dein Foto für diese Prüfung nicht an den KI-Dienst. Die KI-Funktionen, die du selbst einschaltest, kannst du ab 13 Jahren nutzen; unter 16 wird dabei nichts übermittelt, was deinen Standort verrät (siehe 7), und ohne bekanntes Geburtsdatum funktionieren sie nicht. Im Kundenservice gehen von Nutzern unter 18 der Text und die Angaben aus 7 an den KI-Dienst, nie ein Foto. Fotos von VISDEX bekommst du im Support-Chat erst ab 18 Jahren.</p>
 
 <p>Die Prüfung von Fangfotos auf Fälschungen und Missbrauch (siehe 7) gilt für alle Altersgruppen, auch unter 18. Dabei werden nur das Foto und die Fischart übermittelt, nie ein Name oder ein Alter.</p>
+<p>Ein Video eines Nutzers unter 18 Jahren oder ohne bekanntes Geburtsdatum kann nicht öffentlich werden.</p>
 
 <h2>14. Änderungen</h2>
 <p>Wir können diese Datenschutzerklärung anpassen. Die aktuellste Fassung findest du immer auf dieser Seite, mit dem Datum oben.</p>

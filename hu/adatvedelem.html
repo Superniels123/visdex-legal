@@ -42,6 +42,7 @@
 <tr><th>Kategória</th><th>Példák</th><th>Cél</th></tr>
 <tr><td>Fiókadatok</td><td>E-mail-cím, felhasználónév, megjelenített név, profilkép (avatar), bemutatkozás, szakterület</td><td>A fiókod létrehozása és kezelése, és hogy a horgásztársaid felismerjenek</td></tr>
 <tr><td>Fogásadatok</td><td>Halfaj, hossz, súly, dátum és időpont, horgászvíz, csali, technika, jegyzetek, fotók, a fogás kategóriája</td><td>Az alapfunkció: a horgásznaplód és a gyűjteményed vezetése</td></tr>
+<tr><td>Fogásvideó</td><td>Egy rövid videó, amelyet az alkalmazásban veszel fel egy fogáshoz (hang nélkül), a felvétel időpontja és a videóból származó állóképek</td><td>A fogásod megmutatása azoknak, akiket kiválasztasz</td></tr>
 <tr><td>Helyadatok</td><td>Egy fogás vagy egy elmentett horgászhely koordinátái (csak ha te rögzíted őket)</td><td>A fogásaid és a horgászhelyeid megjelenítése a térképen. A helyadatok alapértelmezés szerint privátak.</td></tr>
 <tr><td>Közösségi adatok</td><td>Horgásztárs-kapcsolatok (ismerősök), chatüzenetek, csoportok, megosztott horgászhelyek, letiltások, jelentések</td><td>Horgásztársak hozzáadása, csevegés, tartalmak megosztása és a közösség biztonsága</td></tr>
 <tr><td>Versenyadatok</td><td>Részvétel, pontszámok, ranglisták</td><td>Horgászversenyek szervezése és lebonyolítása</td></tr>
@@ -70,6 +71,15 @@
 <p>Egy kivétel van, és ezt fogásonként te választod: ha egy fogásnál bekapcsolod ezt a lehetőséget: „Fogás feltétele a VISDEX-térképre”, a többi bejelentkezett VISDEX-felhasználó a VISDEX-térképen azon a helyen látja ezt a fogást, ahol kifogtad, a horgászvíz nevével együtt. A jelölő csak 24 órával a fogás után jelenik meg, az adott faj tilalmi ideje alatt pedig nem jelenik meg. Ez a lehetőség alapértelmezés szerint ki van kapcsolva, csak 18 éves vagy idősebb felhasználók számára érhető el, és fogásonként újra kikapcsolhatod. A jelölő nélküli fogások koordinátái, az elmentett horgászhelyeid és a privát jegyzeteid mindig privátak maradnak.</p>
 <p>A VISDEX egy nyilvánosan megosztott fogást a saját közösségi tartalmaiban is felhasználhat, <strong>a közösségi médiában (például az Instagramon) megjelenő bejegyzéseket is beleértve</strong>, mondjuk egy heti „a hét fogása” összeállításban. Ezekben a fotó, a faj és a hossz szerepel. <strong>A keresztneved</strong> csak akkor szerepel bennük, ha a ranglistán való láthatóságod be van kapcsolva („Jelenjek meg a VISDEX-ranglistán”); különben így hivatkozunk rád: „egy VISDEX-horgász”. A felhasználóneved, a vezetékneved és a horgászvíz neve soha nem szerepel bennük. Kiskorúak és ismeretlen életkorú fiókok fogásait erre soha nem használjuk fel, még név nélkül sem. Ha nem szeretnéd, hogy egy fogásod oda kerüljön, ne oszd meg nyilvánosan.</p>
 </div>
+
+<!-- #VANGSTVIDEO-1 video bij een vangst -->
+<h3>Videó egy fogáshoz</h3>
+<p>Egy fogáshoz rövid videót vehetsz fel az alkalmazásban: legfeljebb 15 másodperc, hang nélkül. Az alkalmazás ehhez csak a kamerádat használja, a mikrofonodat és a helyadataidat nem. A galériádból nem adhatsz hozzá videót.</p>
+<p><strong>Ki látja a videót.</strong> A videónak saját beállítása van, a fogástól függetlenül. Alapértelmezés szerint csak te és a horgásztársaid látjátok. A nyilvánossá tétel videónként hozott döntés. Ha 18 évnél fiatalabb vagy, vagy nem ismerjük a születési dátumodat, a videód nem lehet nyilvános. Figyelem: a horgászhelyed felismerhető lehet a videón.</p>
+<p><strong>Ellenőrzés.</strong> Egy videó csak azután lesz nyilvános, hogy a VISDEX egyik munkatársa megnézte. Előtte a videó néhány állóképét automatikusan ellenőrzi az a szolgáltatás, amely a fogásfotókat is ellenőrzi (lásd 7.); maga a videó nem kerül oda, és videót soha nem utasítunk el automatikusan. A csak neked vagy a horgásztársaidnak szóló videókat nem nézzük meg előre; aki láthat egy ilyen videót, az viszont jelentheti.</p>
+<p><strong>Tárolás.</strong> A videót egy külső videószolgáltatás tárolja az Európai Unióban (Frankfurt). Csak az alkalmazásban játszható le, néhány percig érvényes linkkel. Nincs gomb a videó letöltésére vagy továbbítására.</p>
+<p><strong>Megőrzés.</strong> A videót addig őrizzük meg, amíg nem törlöd, vagy amíg a fogást vagy a fiókodat nem törlöd; ekkor a videószolgáltatásnál is töröljük. Az elutasított videót 30 nap után töröljük. Az a felvétel, amely az eszközödön van, és nem tartozik mentett fogáshoz, 24 óra után törlődik az eszközödről.</p>
+<p><strong>Nincs újrafelhasználás.</strong> A videódat nem használjuk fel a közösségi médiában vagy hirdetésekben, kivéve ha ahhoz az adott videóra külön hozzájárulást adsz. Ez a nyilvános videóra is vonatkozik.</p>
 
 <!-- #569L ranglijsten per land en Europa -->
 <h3>Ranglisták országonként és Európában</h3>
@@ -157,6 +167,7 @@
 <p>Az adataidat soha nem adjuk el. Adatokat csak olyan felekkel osztunk meg, amelyek az alkalmazás működéséhez szükségesek (adatfeldolgozók), adatfeldolgozási szerződés alapján:</p>
 <ul>
 <li><strong>Supabase</strong>: adatbázis- és tárhelyszolgáltatásunk (az adataid tárolása, ahol lehetséges, az EU-régióban).</li>
+<li><strong>Videószolgáltatás</strong>: a fogásvideók tárolására és lejátszására, az Európai Unióban (Frankfurt).</li>
 <li><strong>Időjárás-szolgáltatás</strong>: időjárási információk lekérése egy fogáshoz és egy horgászat kezdetén.</li>
 <li><strong>Apple / Google</strong>: az alkalmazás terjesztése az alkalmazásboltjaikon keresztül, valamint (ha bekapcsolod) a push-értesítések.</li>
 <li><strong>Meta (Facebook)</strong>: csak az alkalmazás régebbi verzióinál (lásd 8.).</li>
@@ -180,6 +191,7 @@
 <h2>10. Meddig őrizzük meg az adataidat?</h2>
 <p>Az adataidat addig őrizzük meg, amíg van fiókod. Ha törlöd a fiókodat, a személyes adataid, a fogásaid, a fotóid, a helyadataid és az üzeneteid azonnal és véglegesen törlődnek, és az e-mail-szolgáltatásnál lévő kontaktod is törlődik.</p>
 <p>Ezután négy dolog megmarad, és tisztességes ezt kimondani:</p>
+<p>A fogásvideókra a 4. pont „Videó egy fogáshoz” részében szereplő határidők vonatkoznak.</p>
 <ul>
 <li><strong>Az általad létrehozott versenyek, amelyeken mások is részt vettek.</strong> Ezeket nem töröljük, mert azzal az <em>összes</em> többi résztvevő eredményét is eltüntetnénk. A neved eltűnik belőlük: ezután „Törölt felhasználó” néven szerepelsz. Ha a versenyednek nem voltak más résztvevői, akkor teljesen törlődik.</li>
 <li><strong>Igazolás arról, hogy a törlés megtörtént.</strong> Ebből csak egy titkosított, vissza nem fejthető kódot és az időpontot őrizzük meg. Ez nem tartalmazza a nevedet, az e-mail-címedet vagy bármely más adatodat. Erre azért van szükség, hogy igazolni tudjuk: egy törlési kérelmet valóban végrehajtottunk.</li>
@@ -213,6 +225,7 @@
 <p>A nyereményjátékoknál és versenyeknél végzett AI-alapú ellenőrzés (lásd 7.) 16 éves kortól érvényes, a 18 év alattiakra is; 16 év alatt, vagy ha nem ismerjük a születési dátumodat, a fotód ennél az ellenőrzésnél nem kerül az AI-szolgáltatáshoz. Az általad bekapcsolt AI-funkciókat 13 éves kortól használhatod; 16 év alatt ezekkel semmi olyat nem küldünk el, ami elárulja, hol vagy (lásd 7.), ismert születési dátum nélkül pedig nem működnek.</p>
 
 <p>A fogásfotók hamisítás és visszaélés miatti ellenőrzése (lásd 7.) minden korosztályra vonatkozik, a 18 év alattiakra is. Csak a fotót és a fajt küldjük el, soha nevet vagy életkort.</p>
+<p>A 18 év alatti, illetve az ismeretlen születési dátumú felhasználó videója nem lehet nyilvános.</p>
 
 <h2>14. Változások</h2>
 <p>Ezt az adatvédelmi tájékoztatót módosíthatjuk. A legfrissebb változatot mindig ezen az oldalon találod, a dátummal a tetején.</p>

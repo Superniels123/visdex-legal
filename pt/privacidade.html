@@ -42,6 +42,7 @@
 <tr><th>Categoria</th><th>Exemplos</th><th>Finalidade</th></tr>
 <tr><td>Dados da conta</td><td>Endereço de e-mail, nome de utilizador, nome visível, foto de perfil (avatar), bio, especialização</td><td>Criar e gerir a tua conta, e permitir que os teus companheiros de pesca te reconheçam</td></tr>
 <tr><td>Dados das capturas</td><td>Espécie, comprimento, peso, data e hora, massa de água, isco, técnica, notas, fotos, categoria da captura</td><td>A função principal: manter o teu diário de pesca e a tua coleção</td></tr>
+<tr><td>Vídeo da captura</td><td>Um vídeo curto que gravas na app com uma captura (sem som), a hora da gravação e imagens fixas desse vídeo</td><td>Mostrar a tua captura a quem tu escolheres</td></tr>
 <tr><td>Dados de localização</td><td>Coordenadas de uma captura ou de um pesqueiro guardado (só se as registares tu)</td><td>Mostrar as tuas capturas e os teus pesqueiros no mapa. As localizações são privadas por predefinição.</td></tr>
 <tr><td>Dados sociais</td><td>Relações com companheiros de pesca (amizades), mensagens de chat, grupos, pesqueiros partilhados, bloqueios, denúncias</td><td>Adicionar companheiros de pesca, conversar no chat, partilhar conteúdo e manter a comunidade segura</td></tr>
 <tr><td>Dados de competições</td><td>Participação, pontuações, classificações</td><td>Organizar e gerir competições de pesca</td></tr>
@@ -70,6 +71,15 @@
 <p>Há uma exceção, e és tu que a escolhes em cada captura: se ativares numa captura «Pôr esta captura no mapa do VISDEX», outros utilizadores do VISDEX com sessão iniciada vão ver essa captura no mapa do VISDEX, no sítio onde a apanhaste, juntamente com o nome da massa de água. O pin só aparece 24 horas depois da captura, e não durante o defeso dessa espécie. Esta opção está desativada por predefinição, só está disponível para utilizadores com 18 anos ou mais, e podes voltar a desativá-la em cada captura. As coordenadas das capturas sem pin, os teus pesqueiros guardados e as tuas notas privadas ficam sempre privados.</p>
 <p>O VISDEX também pode usar uma captura partilhada publicamente no seu próprio conteúdo para a comunidade, <strong>incluindo publicações nas redes sociais (como o Instagram)</strong>, por exemplo um resumo semanal com a «captura da semana». Nesse conteúdo mostramos a foto, a espécie e o comprimento. <strong>O teu nome próprio</strong> só é incluído se a tua visibilidade na classificação estiver ativada («Mostrar-me na classificação do VISDEX»); caso contrário, chamamos-te «um pescador do VISDEX». O teu nome de utilizador, o teu apelido e o nome da massa de água nunca são incluídos. Nunca usamos para este fim capturas de menores nem de contas sem idade conhecida, nem mesmo sem nome. Se não quiseres que uma captura apareça aí, não a partilhes publicamente.</p>
 </div>
+
+<!-- #VANGSTVIDEO-1 video bij een vangst -->
+<h3>Vídeo de uma captura</h3>
+<p>Podes gravar na app um vídeo curto com uma captura: no máximo 15 segundos e sem som. Para isso a app usa apenas a tua câmara, não o microfone nem a tua localização. Não podes adicionar um vídeo da tua galeria.</p>
+<p><strong>Quem vê o vídeo.</strong> Um vídeo tem a sua própria definição, separada da captura. Por predefinição, só tu e os teus companheiros de pesca o veem. Torná-lo público é uma escolha que fazes para cada vídeo. Se tiveres menos de 18 anos, ou se a tua data de nascimento não for conhecida, o teu vídeo não pode tornar-se público. Atenção: o teu pesqueiro pode ser reconhecível num vídeo.</p>
+<p><strong>Verificação.</strong> Um vídeo só se torna público depois de alguém do VISDEX o ter visto. Antes disso, algumas imagens fixas do vídeo são verificadas automaticamente pelo serviço que também verifica as fotos das capturas (ver 7); o vídeo em si não é enviado para lá, e um vídeo nunca é recusado automaticamente. Não vemos antecipadamente os vídeos que são só para ti ou para os teus companheiros de pesca; quem puder ver um desses vídeos pode, no entanto, denunciá-lo.</p>
+<p><strong>Armazenamento.</strong> O vídeo fica guardado num serviço de vídeo externo na União Europeia (Frankfurt). Só pode ser reproduzido na app, com uma ligação válida durante alguns minutos. Não existe nenhum botão para descarregar ou reencaminhar um vídeo.</p>
+<p><strong>Conservação.</strong> Guardamos um vídeo até o eliminares, ou até eliminares a captura ou a tua conta; nessa altura eliminamo-lo também do serviço de vídeo. Eliminamos um vídeo recusado ao fim de 30 dias. Uma gravação que esteja no teu dispositivo e não pertença a uma captura guardada é eliminada do dispositivo ao fim de 24 horas.</p>
+<p><strong>Sem reutilização.</strong> Não usamos o teu vídeo nas redes sociais nem em anúncios, a não ser que dês um consentimento separado para esse vídeo. Isto aplica-se também a um vídeo público.</p>
 
 <!-- #569L ranglijsten per land en Europa -->
 <h3>Classificações por país e na Europa</h3>
@@ -157,6 +167,7 @@
 <p>Nunca vendemos os teus dados. Só partilhamos dados com as entidades necessárias para a app funcionar (subcontratantes), com base num contrato de tratamento de dados:</p>
 <ul>
 <li><strong>Supabase</strong>: o nosso serviço de base de dados e armazenamento (alojamento dos teus dados, na região da UE sempre que possível).</li>
+<li><strong>Serviço de vídeo</strong>: para guardar e reproduzir os vídeos das capturas, na União Europeia (Frankfurt).</li>
 <li><strong>Serviço meteorológico</strong>: para obter a informação meteorológica de uma captura e do início de uma sessão.</li>
 <li><strong>Apple / Google</strong>: para distribuir a app através das suas lojas de aplicações e (se as ativares) para as notificações push.</li>
 <li><strong>Meta (Facebook)</strong>: apenas para versões mais antigas da app (ver 8).</li>
@@ -180,6 +191,7 @@
 <h2>10. Durante quanto tempo guardamos os teus dados?</h2>
 <p>Guardamos os teus dados enquanto tiveres uma conta. Se eliminares a tua conta, os teus dados pessoais, as tuas capturas, as tuas fotos, as tuas localizações e as tuas mensagens são eliminados de imediato e de forma permanente, e o teu contacto no serviço de e-mail também é eliminado.</p>
 <p>Há quatro coisas que continuam a existir depois disso, e é justo dizê-lo:</p>
+<p>Para os vídeos das capturas aplicam-se os prazos indicados em «Vídeo de uma captura» no ponto 4.</p>
 <ul>
 <li><strong>As competições que criaste e em que outras pessoas participaram.</strong> Não as eliminamos, porque assim apagaríamos também os resultados de <em>todos</em> os outros participantes. O teu nome desaparece: passas a aparecer como «Utilizador eliminado». Se a tua competição não teve outros participantes, é eliminada por completo.</li>
 <li><strong>Uma prova de que a eliminação foi feita.</strong> Dela guardamos apenas um código cifrado que não pode ser revertido e o momento em que foi feita. Não contém o teu nome, o teu endereço de e-mail nem qualquer outro dado teu. Isto é necessário para podermos demonstrar que executámos realmente um pedido de eliminação.</li>
@@ -213,6 +225,7 @@
 <p>O controlo por IA em sorteios e competições (ver 7) aplica-se a partir dos 16 anos, também a menores de 18; com menos de 16 anos, ou se a tua data de nascimento não for conhecida, a tua foto não vai para o serviço de IA neste controlo. As funções de IA que ativas tu próprio podes usá-las a partir dos 13 anos; com menos de 16 anos, não é enviado com elas nada que indique onde estás (ver 7), e sem uma data de nascimento conhecida não funcionam.</p>
 
 <p>O controlo das fotos de capturas contra falsificações e abusos (ver 7) aplica-se a todas as idades, também a menores de 18 anos. Só são enviadas a foto e a espécie, nunca um nome ou uma idade.</p>
+<p>O vídeo de um utilizador com menos de 18 anos, ou cuja data de nascimento não seja conhecida, não pode tornar-se público.</p>
 
 <h2>14. Alterações</h2>
 <p>Podemos alterar esta política de privacidade. Encontras sempre a versão mais recente nesta página, com a data no topo.</p>

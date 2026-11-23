@@ -42,6 +42,7 @@
 <tr><th>Kategorie</th><th>Příklady</th><th>Účel</th></tr>
 <tr><td>Údaje o účtu</td><td>E-mailová adresa, uživatelské jméno, zobrazované jméno, profilová fotka (avatar), bio, specializace</td><td>Založení a správa tvého účtu a to, aby tě tvoji parťáci poznali</td></tr>
 <tr><td>Údaje o úlovcích</td><td>Druh ryby, délka, hmotnost, datum a čas, voda, nástraha, technika, poznámky, fotky, kategorie úlovku</td><td>Hlavní funkce: vedení tvého rybářského deníku a tvé sbírky</td></tr>
+<tr><td>Video úlovku</td><td>Krátké video, které nahraješ v aplikaci k úlovku (bez zvuku), čas nahrání a statické snímky z tohoto videa</td><td>Ukázat úlovek těm, které si vybereš</td></tr>
 <tr><td>Údaje o poloze</td><td>Souřadnice úlovku nebo uloženého fleku (jen pokud je zaznamenáš ty)</td><td>Zobrazení tvých úlovků a fleků na mapě. Polohy jsou ve výchozím stavu soukromé.</td></tr>
 <tr><td>Sociální údaje</td><td>Vztahy s parťáky (přátelé), zprávy v chatu, skupiny, sdílené fleky, blokování, nahlášení</td><td>Přidávání parťáků, chatování, sdílení obsahu a bezpečí komunity</td></tr>
 <tr><td>Údaje o závodech</td><td>Účast, skóre, žebříčky</td><td>Pořádání a vedení rybářských závodů</td></tr>
@@ -70,6 +71,15 @@
 <p>Existuje jedna výjimka a volíš ji ty, u každého úlovku zvlášť: když u úlovku zapneš „Dát tento úlovek na mapu VISDEX“, ostatní přihlášení uživatelé VISDEX uvidí tento úlovek na mapě VISDEX v místě, kde byl chycen, spolu s názvem vody. Špendlík se objeví až 24 hodin po úlovku, a v době hájení daného druhu se neobjeví. Tato volba je ve výchozím stavu vypnutá, je dostupná jen uživatelům od 18 let a u každého úlovku ji můžeš zase vypnout. Souřadnice úlovků bez špendlíku, tvoje uložené fleky a tvoje soukromé poznámky zůstávají vždy soukromé.</p>
 <p>VISDEX může veřejně sdílený úlovek použít také ve vlastním obsahu pro komunitu, <strong>včetně příspěvků na sociálních sítích (například na Instagramu)</strong>, třeba v týdenním přehledu „úlovek týdne“. V takovém obsahu je fotka, druh a délka. <strong>Tvoje křestní jméno</strong> tam bude jen tehdy, když máš zapnutou viditelnost v žebříčku („Zobrazit mě v žebříčku VISDEX“); jinak tam bude „rybář VISDEX“. Tvoje uživatelské jméno, příjmení ani název vody tam nikdy nebudou. Úlovky nezletilých ani úlovky z účtů bez známého věku k tomu nikdy nepoužíváme, ani bez uvedení jména. Pokud nechceš, aby se tam úlovek objevil, nesdílej ho veřejně.</p>
 </div>
+
+<!-- #VANGSTVIDEO-1 video bij een vangst -->
+<h3>Video k úlovku</h3>
+<p>K úlovku můžeš v aplikaci nahrát krátké video: nejvýše 15 sekund a bez zvuku. Aplikace k tomu používá jen fotoaparát, ne mikrofon ani polohu. Video z galerie přidat nelze.</p>
+<p><strong>Kdo video vidí.</strong> Video má vlastní nastavení, nezávislé na úlovku. Ve výchozím stavu ho vidíš jen ty a tvoji parťáci. Zveřejnění je volba pro každé video zvlášť. Pokud je ti méně než 18 let nebo neznáme tvoje datum narození, video nelze zveřejnit. Pozor: na videu může být poznat tvůj flek.</p>
+<p><strong>Kontrola.</strong> Video se stane veřejným až poté, co se na něj podívá někdo z VISDEX. Předtím necháme několik statických snímků z videa automaticky zkontrolovat službou, která kontroluje i fotky úlovků (viz 7); samotné video se tam neposílá a video se nikdy nezamítá automaticky. Na videa určená jen pro tebe nebo tvoje parťáky se předem nedíváme; kdo takové video smí vidět, ho ale může nahlásit.</p>
+<p><strong>Uložení.</strong> Video je uloženo u externí videoslužby v Evropské unii (Frankfurt). Přehrát ho lze jen v aplikaci, pomocí odkazu platného několik minut. Neexistuje tlačítko pro stažení nebo přeposlání videa.</p>
+<p><strong>Doba uchování.</strong> Video uchováváme, dokud ho nesmažeš nebo dokud nesmažeš úlovek či účet; potom ho smažeme i u videoslužby. Zamítnuté video mažeme po 30 dnech. Nahrávka, která je ve tvém zařízení a nepatří k uloženému úlovku, se ze zařízení smaže po 24 hodinách.</p>
+<p><strong>Žádné další využití.</strong> Tvoje video nepoužíváme na sociálních sítích ani v reklamách, pokud k tomu pro dané video neudělíš samostatný souhlas. To platí i pro veřejné video.</p>
 
 <!-- #569L ranglijsten per land en Europa -->
 <h3>Žebříčky podle zemí a v Evropě</h3>
@@ -157,6 +167,7 @@
 <p>Tvoje údaje nikdy neprodáváme. Údaje sdílíme jen se stranami, které jsou potřeba pro fungování aplikace (zpracovateli), na základě smlouvy o zpracování osobních údajů:</p>
 <ul>
 <li><strong>Supabase</strong>: naše databázová a úložná služba (hosting tvých údajů, pokud možno v regionu EU).</li>
+<li><strong>Videoslužba</strong>: pro ukládání a přehrávání videí úlovků, v Evropské unii (Frankfurt).</li>
 <li><strong>Meteorologická služba</strong>: pro získání informací o počasí u úlovku a na začátku výpravy.</li>
 <li><strong>Apple / Google</strong>: pro distribuci aplikace přes jejich obchody s aplikacemi a (pokud je zapneš) pro push oznámení.</li>
 <li><strong>Meta (Facebook)</strong>: jen u starších verzí aplikace (viz 8).</li>
@@ -180,6 +191,7 @@
 <h2>10. Jak dlouho tvoje údaje uchováváme?</h2>
 <p>Tvoje údaje uchováváme, dokud máš účet. Když účet smažeš, tvoje osobní údaje, tvoje úlovky, tvoje fotky, tvoje polohy a tvoje zprávy se okamžitě a trvale smažou a smaže se i tvůj kontakt v e-mailové službě.</p>
 <p>Čtyři věci potom zůstanou, a je férové to říct:</p>
+<p>Pro videa úlovků platí lhůty uvedené v části „Video k úlovku“ v bodě 4.</p>
 <ul>
 <li><strong>Tebou založené závody, kterých se účastnili i další lidé.</strong> Ty nemažeme, protože bychom tím smazali i výsledky <em>všech</em> ostatních účastníků. Tvoje jméno z nich zmizí: místo něj se zobrazí „Smazaný uživatel“. Pokud se tvých závodů nikdo další neúčastnil, smažou se úplně.</li>
 <li><strong>Doklad o tom, že smazání proběhlo.</strong> Uchováváme z něj jen zašifrovaný kód, který nelze zpětně převést, a čas. Neobsahuje žádné jméno, e-mailovou adresu ani jiný tvůj údaj. Je to nutné, abychom mohli doložit, že jsme žádost o smazání skutečně provedli.</li>
@@ -213,6 +225,7 @@
 <p>Kontrola pomocí AI u soutěží o ceny a závodů (viz 7) platí od 16 let, i pod 18 let; pod 16 let, nebo pokud neznáme tvoje datum narození, se tvoje fotka při této kontrole službě AI neodesílá. Funkce AI, které si zapínáš, můžeš používat od 13 let; pod 16 let se s nimi neodesílá nic, co by prozradilo, kde jsi (viz 7), a bez známého data narození nefungují.</p>
 
 <p>Kontrola fotek úlovků kvůli podvrhům a zneužití (viz 7) platí pro všechny věkové skupiny, i pod 18 let. Odesílá se jen fotka a druh, nikdy jméno ani věk.</p>
+<p>Video uživatele mladšího 18 let nebo uživatele, jehož datum narození neznáme, se nemůže stát veřejným.</p>
 
 <h2>14. Změny</h2>
 <p>Tyto zásady ochrany soukromí můžeme upravit. Nejnovější verzi najdeš vždy na této stránce, s datem nahoře.</p>

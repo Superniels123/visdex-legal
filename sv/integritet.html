@@ -42,6 +42,7 @@
 <tr><th>Kategori</th><th>Exempel</th><th>Ändamål</th></tr>
 <tr><td>Kontouppgifter</td><td>E-postadress, användarnamn, visningsnamn, profilbild (avatar), bio, specialisering</td><td>Skapa och hantera ditt konto, och göra dig igenkännbar för dina fiskekompisar</td></tr>
 <tr><td>Fångstuppgifter</td><td>Art, längd, vikt, datum och tid, vatten, bete, teknik, anteckningar, foton, fångstens klass</td><td>Kärnfunktionen: att föra din fiskedagbok och bygga din samling</td></tr>
+<tr><td>Fångstvideo</td><td>En kort video som du spelar in i appen till en fångst (utan ljud), tidpunkten för inspelningen och stillbilder ur videon</td><td>Visa din fångst för dem du väljer</td></tr>
 <tr><td>Platsuppgifter</td><td>Koordinater för en fångst eller en sparad fiskeplats (bara om du själv registrerar dem)</td><td>Visa dina fångster och fiskeplatser på kartan. Platser är privata som standard.</td></tr>
 <tr><td>Sociala uppgifter</td><td>Relationer med fiskekompisar (vänner), chattmeddelanden, grupper, delade fiskeplatser, blockeringar, rapporter</td><td>Lägga till fiskekompisar, chatta, dela innehåll och hålla communityn trygg</td></tr>
 <tr><td>Tävlingsuppgifter</td><td>Deltagande, poäng, topplistor</td><td>Organisera och genomföra fisketävlingar</td></tr>
@@ -70,6 +71,15 @@
 <p>Det finns ett undantag, och det väljer du själv per fångst: slår du på ”Lägg den här fångsten på VISDEX-kartan” för en fångst ser andra inloggade VISDEX-användare den fångsten på VISDEX-kartan, på platsen där du fångade den, tillsammans med vattnets namn. Nålen visas först 24 timmar efter fångsten, och inte under en fredningstid för arten. Det här valet är avstängt som standard, finns bara för användare som är 18 år eller äldre, och du kan stänga av det igen per fångst. Koordinater för fångster utan nål, dina sparade fiskeplatser och dina privata anteckningar förblir alltid privata.</p>
 <p>VISDEX kan också använda en offentligt delad fångst i vårt eget innehåll för communityn, <strong>bland annat inlägg i sociala medier (som Instagram)</strong>, till exempel en veckovis sammanställning med ”veckans fångst”. I det innehållet visas fotot, arten och längden. <strong>Ditt förnamn</strong> finns bara med om din synlighet på topplistan är påslagen (”Visa mig på VISDEX-topplistan”); annars kallar vi dig ”en VISDEX-fiskare”. Ditt användarnamn, ditt efternamn och vattnets namn finns aldrig med. Minderårigas fångster och fångster från konton utan känd ålder använder vi aldrig till detta, inte ens utan namn. Vill du inte att en fångst ska synas där, dela den inte offentligt.</p>
 </div>
+
+<!-- #VANGSTVIDEO-1 video bij een vangst -->
+<h3>Video till en fångst</h3>
+<p>Du kan spela in en kort video i appen till en fångst: högst 15 sekunder och utan ljud. Appen använder då bara din kamera, inte din mikrofon och inte din plats. Du kan inte lägga till en video från ditt galleri.</p>
+<p><strong>Vem som ser videon.</strong> En video har en egen inställning, skild från fångsten. Som standard ser bara du och dina fiskekompisar den. Offentlig är ett val du gör för varje video. Om du är under 18 år, eller om ditt födelsedatum inte är känt, kan din video inte bli offentlig. Tänk på att din fiskeplats kan gå att känna igen i en video.</p>
+<p><strong>Granskning.</strong> En video blir offentlig först efter att någon på VISDEX har tittat på den. Dessförinnan låter vi några stillbilder ur videon kontrolleras automatiskt av den tjänst som också kontrollerar fångstfoton (se 7); själva videon skickas inte dit, och en video avvisas aldrig automatiskt. Videor som bara är för dig eller dina fiskekompisar tittar vi inte på i förväg; den som får se en sådan video kan däremot anmäla den.</p>
+<p><strong>Lagring.</strong> Videon lagras hos en extern videotjänst i Europeiska unionen (Frankfurt). Den kan bara spelas upp i appen, med en länk som gäller i några minuter. Det finns ingen knapp för att ladda ner eller skicka vidare en video.</p>
+<p><strong>Hur länge vi sparar.</strong> Vi sparar en video tills du tar bort den, eller tills du tar bort fångsten eller ditt konto; då tar vi också bort den hos videotjänsten. En avvisad video tar vi bort efter 30 dagar. En inspelning som ligger på din enhet och inte hör till en sparad fångst tas bort från enheten efter 24 timmar.</p>
+<p><strong>Ingen återanvändning.</strong> Vi använder inte din video i sociala medier eller i annonser, om du inte ger ett särskilt samtycke för just den videon. Det gäller även en offentlig video.</p>
 
 <!-- #569L ranglijsten per land en Europa -->
 <h3>Topplistor per land och i Europa</h3>
@@ -157,6 +167,7 @@
 <p>Vi säljer aldrig dina uppgifter. Vi delar bara uppgifter med parter som behövs för att appen ska fungera (personuppgiftsbiträden), på grundval av ett personuppgiftsbiträdesavtal:</p>
 <ul>
 <li><strong>Supabase</strong>: vår databas- och lagringstjänst (lagring av dina uppgifter, i EU-regionen där det är möjligt).</li>
+<li><strong>Videotjänst</strong>: för att lagra och spela upp fångstvideor, i Europeiska unionen (Frankfurt).</li>
 <li><strong>Vädertjänst</strong>: för att hämta väderinformation för en fångst och vid starten av ett fiskepass.</li>
 <li><strong>Apple / Google</strong>: för leverans av appen via deras appbutiker och (om du har slagit på dem) pushnotiser.</li>
 <li><strong>Meta (Facebook)</strong>: bara för äldre versioner av appen (se 8).</li>
@@ -180,6 +191,7 @@
 <h2>10. Hur länge sparar vi dina uppgifter?</h2>
 <p>Vi sparar dina uppgifter så länge du har ett konto. Raderar du ditt konto raderas dina personuppgifter, dina fångster, dina foton, dina platser och dina meddelanden omedelbart och permanent, och även din kontakt hos e-posttjänsten raderas.</p>
 <p>Fyra saker finns kvar efter det, och det är bara rätt att säga det:</p>
+<p>För fångstvideor gäller tiderna under ”Video till en fångst” i 4.</p>
 <ul>
 <li><strong>Tävlingar som du själv har skapat och som andra har deltagit i.</strong> Dem raderar vi inte, eftersom vi då även skulle radera resultaten för <em>alla</em> andra deltagare. Ditt namn tas bort: du står därefter som ”Raderad användare”. Hade din tävling inga andra deltagare raderas den helt.</li>
 <li><strong>Ett bevis på att raderingen har genomförts.</strong> Av det sparar vi bara en krypterad kod som inte kan räknas tillbaka, och tidpunkten. Den innehåller inget namn, ingen e-postadress och inga andra uppgifter om dig. Det behövs för att vi ska kunna visa att vi faktiskt har genomfört en begäran om radering.</li>
@@ -213,6 +225,7 @@
 <p>Kontrollen med AI vid utlottningar och tävlingar (se 7) gäller från 16 år, även under 18; under 16 år, eller om ditt födelsedatum inte är känt, skickas ditt foto inte till AI-tjänsten vid den här kontrollen. AI-funktionerna som du själv slår på kan du använda från 13 år; under 16 skickas inget med dem som visar var du är (se 7), och utan känt födelsedatum fungerar de inte.</p>
 
 <p>Kontrollen av fångstfoton för förfalskningar och missbruk (se 7) gäller alla åldrar, även under 18. Bara fotot och arten skickas, aldrig ett namn eller en ålder.</p>
+<p>En video från en användare under 18 år, eller vars födelsedatum inte är känt, kan inte bli offentlig.</p>
 
 <h2>14. Ändringar</h2>
 <p>Vi kan ändra den här integritetspolicyn. Den senaste versionen hittar du alltid på den här sidan, med datumet högst upp.</p>

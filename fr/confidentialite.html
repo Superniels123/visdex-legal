@@ -42,6 +42,7 @@
 <tr><th>Catégorie</th><th>Exemples</th><th>Finalité</th></tr>
 <tr><td>Données du compte</td><td>Adresse e-mail, nom d’utilisateur, nom affiché, photo de profil (avatar), bio, spécialité</td><td>Créer et gérer votre compte, vous rendre reconnaissable pour vos compagnons de pêche</td></tr>
 <tr><td>Données des prises</td><td>Espèce, longueur, poids, date et heure, plan d’eau, appât, technique, notes, photos, niveau de la prise</td><td>La fonction principale&nbsp;: tenir votre journal de pêche et votre collection</td></tr>
+<tr><td>Vidéo d’une prise</td><td>Une courte vidéo que vous enregistrez dans l’application avec une prise (sans son), l’heure de l’enregistrement et des images fixes tirées de cette vidéo</td><td>Montrer votre prise aux personnes que vous choisissez</td></tr>
 <tr><td>Données de localisation</td><td>Coordonnées d’une prise ou d’un coin de pêche enregistré (uniquement si vous les enregistrez vous-même)</td><td>Afficher vos prises et vos coins sur la carte. Les lieux sont privés par défaut.</td></tr>
 <tr><td>Données sociales</td><td>Relations avec vos compagnons de pêche (amis), messages de chat, groupes, coins partagés, blocages, signalements</td><td>Ajouter des compagnons de pêche, discuter, partager du contenu et assurer la sécurité de la communauté</td></tr>
 <tr><td>Données des compétitions</td><td>Participation, scores, classements</td><td>Organiser et faire fonctionner les compétitions de pêche</td></tr>
@@ -70,6 +71,15 @@
 <p>Il existe une exception, et c’est vous qui la choisissez pour chaque prise&nbsp;: si, pour une prise, vous activez l’option «&nbsp;Placer cette prise sur la carte VISDEX&nbsp;», les autres utilisateurs VISDEX connectés verront cette prise sur la carte nationale, à l’endroit où vous l’avez faite, avec le nom du plan d’eau. L’épingle n’apparaît que 24 heures après la prise, et pas pendant une période de fermeture pour cette espèce. Cette option est désactivée par défaut, n’est disponible qu’à partir de 18 ans, et vous pouvez la désactiver à nouveau pour chaque prise. Les coordonnées des prises sans épingle, vos coins enregistrés et vos notes privées restent toujours privés.</p>
 <p>VISDEX peut aussi utiliser une prise partagée publiquement dans ses propres contenus communautaires, <strong>y compris des publications sur les réseaux sociaux (comme Instagram)</strong>, par exemple une sélection hebdomadaire de la «&nbsp;prise de la semaine&nbsp;».</p>
 </div>
+
+<!-- #VANGSTVIDEO-1 video bij een vangst -->
+<h3>Vidéo d’une prise</h3>
+<p>Vous pouvez enregistrer dans l’application une courte vidéo avec une prise&nbsp;: 15 secondes au maximum et sans son. L’application utilise pour cela uniquement votre appareil photo, pas votre micro ni votre position. Vous ne pouvez pas ajouter une vidéo de votre galerie.</p>
+<p><strong>Qui voit la vidéo.</strong> Une vidéo a son propre réglage, indépendant de la prise. Par défaut, seuls vous et vos compagnons de pêche la voyez. La rendre publique est un choix que vous faites pour chaque vidéo. Si vous avez moins de 18 ans, ou si votre date de naissance n’est pas connue, votre vidéo ne peut pas devenir publique. Attention&nbsp;: votre coin peut être reconnaissable sur une vidéo.</p>
+<p><strong>Vérification.</strong> Une vidéo ne devient publique qu’après avoir été regardée par une personne de VISDEX. Au préalable, nous faisons contrôler automatiquement quelques images fixes de la vidéo par le service qui contrôle aussi les photos de prises (voir 7)&nbsp;; la vidéo elle-même n’y est pas envoyée, et une vidéo n’est jamais refusée automatiquement. Nous ne regardons pas à l’avance les vidéos réservées à vous ou à vos compagnons de pêche&nbsp;; toute personne autorisée à voir une telle vidéo peut la signaler.</p>
+<p><strong>Stockage.</strong> La vidéo est stockée chez un service vidéo externe dans l’Union européenne (Francfort). Elle ne peut être lue que dans l’application, au moyen d’un lien valable quelques minutes. Il n’existe aucun bouton pour télécharger ou transférer une vidéo.</p>
+<p><strong>Conservation.</strong> Nous conservons une vidéo jusqu’à ce que vous la supprimiez, ou jusqu’à ce que vous supprimiez la prise ou votre compte&nbsp;; nous la supprimons alors aussi chez le service vidéo. Nous supprimons une vidéo refusée après 30 jours. Un enregistrement qui se trouve sur votre appareil et n’appartient à aucune prise enregistrée est supprimé de votre appareil après 24 heures.</p>
+<p><strong>Pas de réutilisation.</strong> Nous n’utilisons pas votre vidéo sur les réseaux sociaux ni dans des publicités, sauf si vous donnez un consentement distinct pour cette vidéo. Cela vaut aussi pour une vidéo publique.</p>
 
 <!-- #569L ranglijsten per land en Europa -->
 <h3>Classements par pays et en Europe</h3>
@@ -157,6 +167,7 @@
 <p>Nous ne vendons jamais vos données. Nous ne partageons des données qu’avec les parties nécessaires au fonctionnement de l’application (sous-traitants), sur la base d’un accord de traitement des données&nbsp;:</p>
 <ul>
 <li><strong>Supabase</strong>&nbsp;: notre service de base de données et de stockage (hébergement de vos données, dans la région UE lorsque c’est possible).</li>
+<li><strong>Service vidéo</strong>&nbsp;: pour stocker et lire les vidéos de prises, dans l’Union européenne (Francfort).</li>
 <li><strong>Service météo</strong>&nbsp;: pour récupérer les informations météo d’une prise et au début d’une session.</li>
 <li><strong>Apple / Google</strong>&nbsp;: pour distribuer l’application via leurs boutiques d’applications et (si elles sont activées) les notifications push.</li>
 <li><strong>Meta (Facebook)</strong>&nbsp;: uniquement pour les anciennes versions de l’application (voir 8).</li>
@@ -180,6 +191,7 @@
 <h2>10. Combien de temps conservons-nous vos données&nbsp;?</h2>
 <p>Nous conservons vos données tant que vous avez un compte. Si vous supprimez votre compte, vos données personnelles, vos prises, vos photos, vos lieux et vos messages sont supprimés immédiatement et définitivement, et votre contact chez le service d’e-mail est supprimé lui aussi.</p>
 <p>Quatre choses restent ensuite, et il est juste de le dire&nbsp;:</p>
+<p>Pour les vidéos de prises, les délais indiqués sous «&nbsp;Vidéo d’une prise&nbsp;» au point 4 s’appliquent.</p>
 <ul>
 <li><strong>Les compétitions que vous avez créées vous-même et auxquelles d’autres ont participé.</strong> Nous ne les supprimons pas, car cela effacerait aussi les résultats de <em>tous</em> les autres participants. Votre nom est retiré&nbsp;: vous apparaissez alors comme «&nbsp;Utilisateur supprimé&nbsp;». Si votre compétition n’avait pas d’autres participants, elle est entièrement supprimée.</li>
 <li><strong>La preuve que la suppression a été effectuée.</strong> Nous ne conservons qu’un code chiffré irréversible et l’heure. Il ne contient ni nom, ni adresse e-mail, ni aucune autre de vos données. C’est nécessaire pour pouvoir montrer que nous avons réellement donné suite à une demande de suppression.</li>
@@ -213,6 +225,7 @@
 <p>Le contrôle par IA lors des jeux-concours et des compétitions (voir 7) s’applique à partir de 16 ans, y compris aux moins de 18 ans&nbsp;; avant 16 ans, ou si votre date de naissance n’est pas connue, votre photo n’est pas envoyée au service d’IA pour ce contrôle. Les fonctions IA que vous activez vous-même sont disponibles à partir de 13 ans&nbsp;; avant 16 ans, rien de ce qui indique votre position n’est envoyé avec elles (voir 7), et sans date de naissance connue, elles ne fonctionnent pas.</p>
 
 <p>Le contrôle des photos de prises contre les faux et les abus (voir 7) s’applique à tous les âges, y compris aux moins de 18 ans. Seules la photo et l’espèce sont envoyées, jamais un nom ni un âge.</p>
+<p>La vidéo d’un utilisateur de moins de 18 ans, ou dont la date de naissance n’est pas connue, ne peut pas devenir publique.</p>
 
 <h2>14. Modifications</h2>
 <p>Nous pouvons mettre à jour cette politique de confidentialité. Vous trouverez toujours la version la plus récente sur cette page, avec la date en haut.</p>
