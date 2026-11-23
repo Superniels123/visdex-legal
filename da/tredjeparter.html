@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Parter, vi samarbejder med – VISDEX</title>
+<style>
+  :root { --green:#0F3D2E; --sage:#517C5A; --cream:#F5F0E6; --gold:#D4A24C; --ink:#1a1a1a; }
+  * { box-sizing:border-box; }
+  body { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.65; color:var(--ink); background:var(--cream); margin:0; padding:0; }
+  .wrap { max-width:760px; margin:0 auto; padding:48px 24px 80px; }
+  h1 { color:var(--green); font-size:2rem; margin-bottom:4px; }
+  h2 { color:var(--green); font-size:1.25rem; margin-top:40px; border-bottom:2px solid var(--gold); padding-bottom:6px; }
+  h3 { color:var(--sage); font-size:1.05rem; margin-top:24px; }
+  .meta { color:var(--sage); font-size:.9rem; margin-bottom:32px; }
+  a { color:var(--sage); }
+  table { border-collapse:collapse; width:100%; margin:16px 0; font-size:.95rem; }
+  th,td { text-align:left; padding:8px 10px; border:1px solid #ddd; vertical-align:top; }
+  th { background:#ebe6da; color:var(--green); }
+  h3 + table th, p + table th { width:22%; }
+  .note { background:#fff; border-left:4px solid var(--gold); padding:12px 16px; margin:16px 0; border-radius:4px; }
+  footer { margin-top:48px; color:var(--sage); font-size:.85rem; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<h1>Parter, vi samarbejder med</h1>
+<p class="meta">Senest opdateret: 23. november 2026</p>
+
+<p>Her står de parter, der modtager personoplysninger om VISDEX-brugere. Hvorfor, på hvilket retsgrundlag og hvilke oplysninger en part får, står i <a href="https://visdex.nl/da/privatliv">privatlivspolitikken</a> i den blok, som kolonnen Formål henviser til. En <strong>databehandler</strong> arbejder på vores vegne, kun til vores formål og på grundlag af en databehandleraftale. En part, der er <strong>selvstændig dataansvarlig</strong>, bestemmer selv, hvad den gør med oplysningerne, efter sin egen privatlivspolitik.</p>
+<p>Er en part etableret uden for Den Europæiske Union, står garantien i den sidste kolonne: EU-US Data Privacy Framework (DPF), hvis parten er tilsluttet det, Europa-Kommissionens standardkontraktbestemmelser (SCC'er) eller en afgørelse fra Europa-Kommissionen om, at landet har et tilstrækkeligt beskyttelsesniveau (tilstrækkelighedsafgørelse).</p>
+
+<h2>Appen</h2>
+<table>
+<tr><th>Navn</th><th>Sted</th><th>Rolle</th><th>Formål</th><th>Garanti uden for EU</th></tr>
+<tr><td>Supabase (Supabase Pte. Ltd.)</td><td>Singapore; databasen står i Irland</td><td>Databehandler</td><td>Vores database, lagring af fotos, login og appens serverfunktioner, se 5</td><td>SCC'er</td></tr>
+<tr><td>Anthropic (Anthropic Ireland, Limited; behandling ved Anthropic, PBC)</td><td>Dublin, Irland (Anthropic, PBC: San Francisco, USA)</td><td>Databehandler</td><td>AI-funktioner, kontrol ved giveaways og konkurrencer, kontrol af fangstfotos for forfalskninger og AI'en i kundeservice, se 3.16 til og med 3.19</td><td>SCC'er</td></tr>
+<tr><td>OpenWeather Ltd</td><td>London, Det Forenede Kongerige</td><td>Selvstændig dataansvarlig</td><td>Vejret lige nu og prognosen, se 3.6</td><td>Tilstrækkelighedsafgørelse Det Forenede Kongerige</td></tr>
+<tr><td>Open-Meteo (OpenMeteo GmbH)</td><td>Bürglen, Schweiz</td><td>Selvstændig dataansvarlig</td><td>Historisk vejr, vejr pr. time og bidforholdene, se 3.6</td><td>Tilstrækkelighedsafgørelse Schweiz</td></tr>
+<tr><td>Rijkswaterstaat</td><td>Utrecht</td><td>Selvstændig dataansvarlig (åbne data)</td><td>Tidevand og vandforhold, se 3.6</td><td>Inden for EU</td></tr>
+<tr><td>Apple (Apple Distribution International Ltd; Apple Inc.)</td><td>Cork, Irland; Cupertino, USA</td><td>Selvstændig dataansvarlig</td><td>App Store og køb (se 3.10), login med Apple (se 5), Apple Maps og opslag af et fiskevand (se 3.6 og 3.7), pushnotifikationer på iPhone (se 3.11)</td><td>SCC'er</td></tr>
+<tr><td>Google (Google Ireland Ltd; Google LLC)</td><td>Dublin, Irland; Mountain View, USA</td><td>Selvstændig dataansvarlig for Google Play, login, Maps og opslag af et fiskevand; databehandler for pushnotifikationer og testgruppen</td><td>Google Play og køb (se 3.10), login med Google (se 5), Google Maps og opslag af et fiskevand (se 3.6 og 3.7), pushnotifikationer på Android (se 3.11)</td><td>DPF</td></tr>
+<tr><td>Expo (650 Industries, Inc.)</td><td>Burlingame (Californien), USA</td><td>Databehandler</td><td>Levere pushnotifikationer og opdateringer af appen, se 3.11</td><td>DPF og SCC'er</td></tr>
+<tr><td>Sentry (Functional Software, Inc.)</td><td>San Francisco, USA</td><td>Databehandler</td><td>Fejlrapportering af nedbrud og fejl i appen, se 3.12</td><td>DPF og SCC'er</td></tr>
+<tr><td>Cloudflare, Inc. (Turnstile)</td><td>San Francisco, USA</td><td>Databehandler for robotkontrollen; selvstændig dataansvarlig for forbedring af genkendelsen</td><td>Robotkontrol ved tilmelding i appen, se 3.12</td><td>DPF og SCC'er</td></tr>
+<tr><td>RevenueCat, Inc.</td><td>Brandon (Florida), USA</td><td>Databehandler</td><td>Abonnementsstyring for VISDEX Pro, se 3.10</td><td>SCC'er</td></tr>
+<tr><td>komoot GmbH (Photon)</td><td>Schönefeld, Tyskland</td><td>Selvstændig dataansvarlig</td><td>Søgning efter et sted, en gade eller et fiskevand, se 3.7</td><td>Inden for EU</td></tr>
+<tr><td>Brevo (Sendinblue SAS)</td><td>Paris, Frankrig</td><td>Databehandler</td><td>E-mails, der hører til din konto, se 3.13</td><td>Inden for EU</td></tr>
+<tr><td>Resend (Plus Five Five, Inc.)</td><td>San Francisco, USA</td><td>Databehandler</td><td>Månedsmailen og bekræftelsen af en partneranmodning, se 3.13</td><td>DPF og SCC'er</td></tr>
+<tr><td>Intuit Mailchimp (The Rocket Science Group LLC)</td><td>Atlanta, USA</td><td>Databehandler</td><td>Marketingmails, se 3.14</td><td>DPF og SCC'er</td></tr>
+<tr><td>MailerLite Limited</td><td>Dublin, Irland</td><td>Databehandler</td><td>En gammel venteliste; vi bruger den kun til at fjerne dig derfra, når du sletter din konto, se 8</td><td>Inden for EU</td></tr>
+<tr><td>Meta (Meta Platforms Ireland Ltd)</td><td>Dublin, Irland</td><td>Fælles dataansvarlig</td><td>Måling af annoncer, kun ved ældre versioner af appen, se 3.24</td><td>DPF</td></tr>
+<tr><td>Metricool (Metricool Software S.L.)</td><td>Madrid, Spanien</td><td>Databehandler</td><td>Planlægning af vores opslag på sociale medier, se 3.20</td><td>Inden for EU</td></tr>
+<tr><td>Instagram (Meta Platforms Ireland Ltd)</td><td>Dublin, Irland</td><td>Selvstændig dataansvarlig</td><td>Vores opslag på sociale medier (se 3.20) og deling til Instagram Stories (se 3.3)</td><td>DPF</td></tr>
+<tr><td>WhatsApp Ireland Ltd</td><td>Dublin, Irland</td><td>Selvstændig dataansvarlig</td><td>Kontakt via WhatsApp, så længe det nummer findes, se 3.19</td><td>DPF</td></tr>
+<tr><td>Wesdijk Hengelsport</td><td>Barendrecht</td><td>Selvstændig dataansvarlig</td><td>Kampagnepartner ved giveaways, se 3.15</td><td>Inden for EU</td></tr>
+</table>
+
+<h2>Hjemmesiden visdex.nl</h2>
+<table>
+<tr><th>Navn</th><th>Sted</th><th>Rolle</th><th>Formål</th><th>Garanti uden for EU</th></tr>
+<tr><td>Vercel Inc.</td><td>Covina (Californien), USA</td><td>Databehandler</td><td>Hosting af visdex.nl og optælling af besøg, se 3.23</td><td>DPF og SCC'er</td></tr>
+<tr><td>Cloudflare, Inc. (Turnstile)</td><td>San Francisco, USA</td><td>Databehandler</td><td>Robotkontrol ved tilmelding på visdex.nl, se 3.23</td><td>DPF og SCC'er</td></tr>
+<tr><td>Cal.com, Inc.</td><td>San Francisco, USA</td><td>Databehandler</td><td>Booking af et møde om et partnerskab, se 3.23</td><td>DPF</td></tr>
+<tr><td>Supabase (Supabase Pte. Ltd.)</td><td>Singapore; databasen står i Irland</td><td>Databehandler</td><td>Lagring af tilmeldinger på visdex.nl, se 3.23</td><td>SCC'er</td></tr>
+<tr><td>Intuit Mailchimp (The Rocket Science Group LLC)</td><td>Atlanta, USA</td><td>Databehandler</td><td>Venteliste og Android-test, se 3.23</td><td>DPF og SCC'er</td></tr>
+<tr><td>Google (Google Ireland Ltd; Google LLC)</td><td>Dublin, Irland; Mountain View, USA</td><td>Databehandler</td><td>Testgruppe til Android-versionen, se 3.23</td><td>DPF</td></tr>
+</table>
+
+<p>DPF-status er kontrolleret på listen på dataprivacyframework.gov (16. november 2026).</p>
+<p>Spørgsmål til denne liste? Skriv til <a href="mailto:info@visdex.nl">info@visdex.nl</a>.</p>
+
+<footer>
+VISDEX · KvK 86629409 · info@visdex.nl
+</footer>
+
+</div>
+</body>
+</html>

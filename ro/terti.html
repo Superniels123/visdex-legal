@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Părțile cu care lucrăm – VISDEX</title>
+<style>
+  :root { --green:#0F3D2E; --sage:#517C5A; --cream:#F5F0E6; --gold:#D4A24C; --ink:#1a1a1a; }
+  * { box-sizing:border-box; }
+  body { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.65; color:var(--ink); background:var(--cream); margin:0; padding:0; }
+  .wrap { max-width:760px; margin:0 auto; padding:48px 24px 80px; }
+  h1 { color:var(--green); font-size:2rem; margin-bottom:4px; }
+  h2 { color:var(--green); font-size:1.25rem; margin-top:40px; border-bottom:2px solid var(--gold); padding-bottom:6px; }
+  h3 { color:var(--sage); font-size:1.05rem; margin-top:24px; }
+  .meta { color:var(--sage); font-size:.9rem; margin-bottom:32px; }
+  a { color:var(--sage); }
+  table { border-collapse:collapse; width:100%; margin:16px 0; font-size:.95rem; }
+  th,td { text-align:left; padding:8px 10px; border:1px solid #ddd; vertical-align:top; }
+  th { background:#ebe6da; color:var(--green); }
+  h3 + table th, p + table th { width:22%; }
+  .note { background:#fff; border-left:4px solid var(--gold); padding:12px 16px; margin:16px 0; border-radius:4px; }
+  footer { margin-top:48px; color:var(--sage); font-size:.85rem; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<h1>Părțile cu care lucrăm</h1>
+<p class="meta">Ultima actualizare: 23 noiembrie 2026</p>
+
+<p>Aici sunt enumerate părțile care primesc date cu caracter personal ale utilizatorilor VISDEX. De ce, în baza cărui temei juridic și ce date primește o parte afli în <a href="https://visdex.nl/ro/confidentialitate">politica de confidențialitate</a>, în blocul la care trimite coloana Scop. O <strong>persoană împuternicită de operator</strong> lucrează în numele nostru, doar în scopul nostru și pe baza unui contract de prelucrare a datelor. O parte care este <strong>operator independent</strong> decide singură ce face cu datele, conform propriei politici de confidențialitate.</p>
+<p>Dacă o parte are sediul în afara Uniunii Europene, în ultima coloană este indicată garanția: cadrul UE-SUA privind confidențialitatea datelor (EU-US Data Privacy Framework, DPF), dacă partea respectivă a aderat la el, clauzele contractuale standard ale Comisiei Europene (SCC) sau o decizie a Comisiei Europene prin care se constată că țara asigură un nivel adecvat de protecție (decizie privind caracterul adecvat).</p>
+
+<h2>Aplicația</h2>
+<table>
+<tr><th>Nume</th><th>Sediu</th><th>Rol</th><th>Scop</th><th>Garanție în afara UE</th></tr>
+<tr><td>Supabase (Supabase Pte. Ltd.)</td><td>Singapore; baza de date se află în Irlanda</td><td>Persoană împuternicită de operator</td><td>Baza noastră de date, stocarea fotografiilor, autentificarea și funcțiile de server ale aplicației, vezi 5</td><td>SCC</td></tr>
+<tr><td>Anthropic (Anthropic Ireland, Limited; prelucrare de către Anthropic, PBC)</td><td>Dublin, Irlanda (Anthropic, PBC: San Francisco, SUA)</td><td>Persoană împuternicită de operator</td><td>Funcțiile AI, controlul la concursurile cu premii și competiții, verificarea fotografiilor capturilor pentru falsuri și AI-ul din asistența pentru clienți, vezi 3.16 până la 3.19 inclusiv</td><td>SCC</td></tr>
+<tr><td>OpenWeather Ltd</td><td>Londra, Regatul Unit</td><td>Operator independent</td><td>Vremea actuală și prognoza, vezi 3.6</td><td>Decizie privind caracterul adecvat pentru Regatul Unit</td></tr>
+<tr><td>Open-Meteo (OpenMeteo GmbH)</td><td>Bürglen, Elveția</td><td>Operator independent</td><td>Vremea din trecut, vremea pe ore și condițiile de pescuit, vezi 3.6</td><td>Decizie privind caracterul adecvat pentru Elveția</td></tr>
+<tr><td>Rijkswaterstaat</td><td>Utrecht</td><td>Operator independent (date deschise)</td><td>Maree și condițiile apei, vezi 3.6</td><td>În UE</td></tr>
+<tr><td>Apple (Apple Distribution International Ltd; Apple Inc.)</td><td>Cork, Irlanda; Cupertino, SUA</td><td>Operator independent</td><td>App Store și achiziții (vezi 3.10), autentificarea cu Apple (vezi 5), Apple Maps și căutarea unei ape (vezi 3.6 și 3.7), notificările push pe iPhone (vezi 3.11)</td><td>SCC</td></tr>
+<tr><td>Google (Google Ireland Ltd; Google LLC)</td><td>Dublin, Irlanda; Mountain View, SUA</td><td>Operator independent pentru Google Play, autentificare, Maps și căutarea unei ape; persoană împuternicită de operator pentru notificările push și grupul de testare</td><td>Google Play și achiziții (vezi 3.10), autentificarea cu Google (vezi 5), Google Maps și căutarea unei ape (vezi 3.6 și 3.7), notificările push pe Android (vezi 3.11)</td><td>DPF</td></tr>
+<tr><td>Expo (650 Industries, Inc.)</td><td>Burlingame (California), SUA</td><td>Persoană împuternicită de operator</td><td>Livrarea notificărilor push și a actualizărilor aplicației, vezi 3.11</td><td>DPF și SCC</td></tr>
+<tr><td>Sentry (Functional Software, Inc.)</td><td>San Francisco, SUA</td><td>Persoană împuternicită de operator</td><td>Raportarea blocărilor și a erorilor din aplicație, vezi 3.12</td><td>DPF și SCC</td></tr>
+<tr><td>Cloudflare, Inc. (Turnstile)</td><td>San Francisco, SUA</td><td>Persoană împuternicită de operator pentru controlul anti-robot; operator independent pentru îmbunătățirea recunoașterii</td><td>Controlul anti-robot la înregistrarea în aplicație, vezi 3.12</td><td>DPF și SCC</td></tr>
+<tr><td>RevenueCat, Inc.</td><td>Brandon (Florida), SUA</td><td>Persoană împuternicită de operator</td><td>Gestionarea abonamentelor pentru VISDEX Pro, vezi 3.10</td><td>SCC</td></tr>
+<tr><td>komoot GmbH (Photon)</td><td>Schönefeld, Germania</td><td>Operator independent</td><td>Căutarea unei localități, a unei străzi sau a unei ape, vezi 3.7</td><td>În UE</td></tr>
+<tr><td>Brevo (Sendinblue SAS)</td><td>Paris, Franța</td><td>Persoană împuternicită de operator</td><td>E-mailurile legate de contul tău, vezi 3.13</td><td>În UE</td></tr>
+<tr><td>Resend (Plus Five Five, Inc.)</td><td>San Francisco, SUA</td><td>Persoană împuternicită de operator</td><td>E-mailul lunar și confirmarea unei cereri de parteneriat, vezi 3.13</td><td>DPF și SCC</td></tr>
+<tr><td>Intuit Mailchimp (The Rocket Science Group LLC)</td><td>Atlanta, SUA</td><td>Persoană împuternicită de operator</td><td>E-mailuri de marketing, vezi 3.14</td><td>DPF și SCC</td></tr>
+<tr><td>MailerLite Limited</td><td>Dublin, Irlanda</td><td>Persoană împuternicită de operator</td><td>O listă de așteptare veche; o mai folosim doar pentru a te șterge de acolo când îți ștergi contul, vezi 8</td><td>În UE</td></tr>
+<tr><td>Meta (Meta Platforms Ireland Ltd)</td><td>Dublin, Irlanda</td><td>Operator asociat</td><td>Măsurarea reclamelor, doar la versiunile mai vechi ale aplicației, vezi 3.24</td><td>DPF</td></tr>
+<tr><td>Metricool (Metricool Software S.L.)</td><td>Madrid, Spania</td><td>Persoană împuternicită de operator</td><td>Programarea postărilor noastre pe rețelele sociale, vezi 3.20</td><td>În UE</td></tr>
+<tr><td>Instagram (Meta Platforms Ireland Ltd)</td><td>Dublin, Irlanda</td><td>Operator independent</td><td>Postările noastre pe rețelele sociale (vezi 3.20) și distribuirea în Instagram Stories (vezi 3.3)</td><td>DPF</td></tr>
+<tr><td>WhatsApp Ireland Ltd</td><td>Dublin, Irlanda</td><td>Operator independent</td><td>Contact prin WhatsApp, cât timp acel număr există, vezi 3.19</td><td>DPF</td></tr>
+<tr><td>Wesdijk Hengelsport</td><td>Barendrecht</td><td>Operator independent</td><td>Partener al campaniei la concursurile cu premii, vezi 3.15</td><td>În UE</td></tr>
+</table>
+
+<h2>Site-ul visdex.nl</h2>
+<table>
+<tr><th>Nume</th><th>Sediu</th><th>Rol</th><th>Scop</th><th>Garanție în afara UE</th></tr>
+<tr><td>Vercel Inc.</td><td>Covina (California), SUA</td><td>Persoană împuternicită de operator</td><td>Găzduirea visdex.nl și numărarea vizitelor, vezi 3.23</td><td>DPF și SCC</td></tr>
+<tr><td>Cloudflare, Inc. (Turnstile)</td><td>San Francisco, SUA</td><td>Persoană împuternicită de operator</td><td>Controlul anti-robot la înscrierea pe visdex.nl, vezi 3.23</td><td>DPF și SCC</td></tr>
+<tr><td>Cal.com, Inc.</td><td>San Francisco, SUA</td><td>Persoană împuternicită de operator</td><td>Programarea unei întâlniri pentru un parteneriat, vezi 3.23</td><td>DPF</td></tr>
+<tr><td>Supabase (Supabase Pte. Ltd.)</td><td>Singapore; baza de date se află în Irlanda</td><td>Persoană împuternicită de operator</td><td>Stocarea înscrierilor de pe visdex.nl, vezi 3.23</td><td>SCC</td></tr>
+<tr><td>Intuit Mailchimp (The Rocket Science Group LLC)</td><td>Atlanta, SUA</td><td>Persoană împuternicită de operator</td><td>Lista de așteptare și testul pentru Android, vezi 3.23</td><td>DPF și SCC</td></tr>
+<tr><td>Google (Google Ireland Ltd; Google LLC)</td><td>Dublin, Irlanda; Mountain View, SUA</td><td>Persoană împuternicită de operator</td><td>Grupul de testare pentru versiunea Android, vezi 3.23</td><td>DPF</td></tr>
+</table>
+
+<p>Statutul DPF a fost verificat în lista de pe dataprivacyframework.gov (16 noiembrie 2026).</p>
+<p>Ai întrebări despre această listă? Scrie-ne la <a href="mailto:info@visdex.nl">info@visdex.nl</a>.</p>
+
+<footer>
+VISDEX · KvK 86629409 · info@visdex.nl
+</footer>
+
+</div>
+</body>
+</html>
