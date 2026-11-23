@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Felek, amelyekkel együttműködünk – VISDEX</title>
+<style>
+  :root { --green:#0F3D2E; --sage:#517C5A; --cream:#F5F0E6; --gold:#D4A24C; --ink:#1a1a1a; }
+  * { box-sizing:border-box; }
+  body { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.65; color:var(--ink); background:var(--cream); margin:0; padding:0; }
+  .wrap { max-width:760px; margin:0 auto; padding:48px 24px 80px; }
+  h1 { color:var(--green); font-size:2rem; margin-bottom:4px; }
+  h2 { color:var(--green); font-size:1.25rem; margin-top:40px; border-bottom:2px solid var(--gold); padding-bottom:6px; }
+  h3 { color:var(--sage); font-size:1.05rem; margin-top:24px; }
+  .meta { color:var(--sage); font-size:.9rem; margin-bottom:32px; }
+  a { color:var(--sage); }
+  table { border-collapse:collapse; width:100%; margin:16px 0; font-size:.95rem; }
+  th,td { text-align:left; padding:8px 10px; border:1px solid #ddd; vertical-align:top; }
+  th { background:#ebe6da; color:var(--green); }
+  h3 + table th, p + table th { width:22%; }
+  .note { background:#fff; border-left:4px solid var(--gold); padding:12px 16px; margin:16px 0; border-radius:4px; }
+  footer { margin-top:48px; color:var(--sage); font-size:.85rem; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<h1>Felek, amelyekkel együttműködünk</h1>
+<p class="meta">Utolsó frissítés: 2026. november 23.</p>
+
+<p>Itt azok a felek szerepelnek, amelyek megkapják a VISDEX-felhasználók személyes adatait. Hogy egy fél miért, milyen jogalapon és milyen adatokat kap, azt az <a href="https://visdex.nl/hu/adatvedelem">adatvédelmi tájékoztató</a> azon blokkjában találod, amelyre a Cél oszlop hivatkozik. Az <strong>adatfeldolgozó</strong> a megbízásunkból, csak a mi céljainkra és adatfeldolgozási szerződés alapján dolgozik. Az a fél, amely <strong>önálló adatkezelő</strong>, maga dönti el, mit kezd az adatokkal, a saját adatvédelmi tájékoztatója szerint.</p>
+<p>Ha egy fél az Európai Unión kívül található, az utolsó oszlopban a garancia szerepel: az EU-USA adatvédelmi keretrendszer (EU-US Data Privacy Framework, DPF), ha az adott fél csatlakozott hozzá, az Európai Bizottság általános adatvédelmi kikötései (SCC), vagy az Európai Bizottság határozata arról, hogy az adott ország megfelelő védelmi szintet biztosít (megfelelőségi határozat).</p>
+
+<h2>Az alkalmazás</h2>
+<table>
+<tr><th>Név</th><th>Székhely</th><th>Szerep</th><th>Cél</th><th>Garancia az EU-n kívül</th></tr>
+<tr><td>Supabase (Supabase Pte. Ltd.)</td><td>Szingapúr; az adatbázis Írországban található</td><td>Adatfeldolgozó</td><td>Az adatbázisunk, a fotók tárolása, a bejelentkezés és az alkalmazás szerverfunkciói, lásd 5.</td><td>SCC</td></tr>
+<tr><td>Anthropic (Anthropic Ireland, Limited; a feldolgozást az Anthropic, PBC végzi)</td><td>Dublin, Írország (Anthropic, PBC: San Francisco, USA)</td><td>Adatfeldolgozó</td><td>AI-funkciók, ellenőrzés nyereményjátékoknál és versenyeknél, a fogásfotók hamisítás miatti ellenőrzése és az AI az ügyfélszolgálaton, lásd 3.16-tól 3.19-ig</td><td>SCC</td></tr>
+<tr><td>OpenWeather Ltd</td><td>London, Egyesült Királyság</td><td>Önálló adatkezelő</td><td>Az aktuális időjárás és az előrejelzés, lásd 3.6</td><td>Megfelelőségi határozat (Egyesült Királyság)</td></tr>
+<tr><td>Open-Meteo (OpenMeteo GmbH)</td><td>Bürglen, Svájc</td><td>Önálló adatkezelő</td><td>Korábbi időjárás, óránkénti időjárás és a kapási viszonyok, lásd 3.6</td><td>Megfelelőségi határozat (Svájc)</td></tr>
+<tr><td>Rijkswaterstaat (a holland infrastrukturális és vízügyi hatóság)</td><td>Utrecht</td><td>Önálló adatkezelő (nyílt adatok)</td><td>Árapály és vízviszonyok, lásd 3.6</td><td>Az EU-n belül</td></tr>
+<tr><td>Apple (Apple Distribution International Ltd; Apple Inc.)</td><td>Cork, Írország; Cupertino, USA</td><td>Önálló adatkezelő</td><td>App Store és vásárlások (lásd 3.10), bejelentkezés az Apple-lel (lásd 5.), Apple Maps és egy horgászvíz megkeresése (lásd 3.6 és 3.7), push-értesítések iPhone-on (lásd 3.11)</td><td>SCC</td></tr>
+<tr><td>Google (Google Ireland Ltd; Google LLC)</td><td>Dublin, Írország; Mountain View, USA</td><td>Önálló adatkezelő a Google Play, a bejelentkezés, a Maps és egy horgászvíz megkeresése tekintetében; adatfeldolgozó a push-értesítések és a tesztcsoport tekintetében</td><td>Google Play és vásárlások (lásd 3.10), bejelentkezés a Google-lel (lásd 5.), Google Maps és egy horgászvíz megkeresése (lásd 3.6 és 3.7), push-értesítések Androidon (lásd 3.11)</td><td>DPF</td></tr>
+<tr><td>Expo (650 Industries, Inc.)</td><td>Burlingame (Kalifornia), USA</td><td>Adatfeldolgozó</td><td>Push-értesítések kézbesítése és az alkalmazás frissítéseinek biztosítása, lásd 3.11</td><td>DPF és SCC</td></tr>
+<tr><td>RevenueCat, Inc.</td><td>Brandon (Florida), USA</td><td>Adatfeldolgozó</td><td>A VISDEX Pro előfizetések kezelése, lásd 3.10</td><td>SCC</td></tr>
+<tr><td>komoot GmbH (Photon)</td><td>Schönefeld, Németország</td><td>Önálló adatkezelő</td><td>Település, utca vagy horgászvíz keresése, lásd 3.7</td><td>Az EU-n belül</td></tr>
+<tr><td>Brevo (Sendinblue SAS)</td><td>Párizs, Franciaország</td><td>Adatfeldolgozó</td><td>A fiókodhoz tartozó e-mailek, lásd 3.13</td><td>Az EU-n belül</td></tr>
+<tr><td>Resend (Plus Five Five, Inc.)</td><td>San Francisco, USA</td><td>Adatfeldolgozó</td><td>A havi e-mail és egy partnerségi kérelem visszaigazolása, lásd 3.13</td><td>DPF és SCC</td></tr>
+<tr><td>Intuit Mailchimp (The Rocket Science Group LLC)</td><td>Atlanta, USA</td><td>Adatfeldolgozó</td><td>Marketing e-mailek, lásd 3.14</td><td>DPF és SCC</td></tr>
+<tr><td>MailerLite Limited</td><td>Dublin, Írország</td><td>Adatfeldolgozó</td><td>Egy régi várólista; már csak arra használjuk, hogy töröljünk onnan, ha törlöd a fiókodat, lásd 8.</td><td>Az EU-n belül</td></tr>
+<tr><td>Meta (Meta Platforms Ireland Ltd)</td><td>Dublin, Írország</td><td>Közös adatkezelő</td><td>A hirdetések mérése, csak az alkalmazás régebbi verzióinál, lásd 3.24</td><td>DPF</td></tr>
+<tr><td>Metricool (Metricool Software S.L.)</td><td>Madrid, Spanyolország</td><td>Adatfeldolgozó</td><td>A közösségimédia-bejegyzéseink ütemezése, lásd 3.20</td><td>Az EU-n belül</td></tr>
+<tr><td>Instagram (Meta Platforms Ireland Ltd)</td><td>Dublin, Írország</td><td>Önálló adatkezelő</td><td>A közösségimédia-bejegyzéseink (lásd 3.20) és megosztás az Instagram Stories funkcióval (lásd 3.3)</td><td>DPF</td></tr>
+<tr><td>WhatsApp Ireland Ltd</td><td>Dublin, Írország</td><td>Önálló adatkezelő</td><td>Kapcsolatfelvétel WhatsAppon, amíg ez a szám létezik, lásd 3.19</td><td>DPF</td></tr>
+<tr><td>Wesdijk Hengelsport</td><td>Barendrecht</td><td>Önálló adatkezelő</td><td>Kampánypartner nyereményjátékoknál, lásd 3.15</td><td>Az EU-n belül</td></tr>
+</table>
+
+<h2>A visdex.nl weboldal</h2>
+<table>
+<tr><th>Név</th><th>Székhely</th><th>Szerep</th><th>Cél</th><th>Garancia az EU-n kívül</th></tr>
+<tr><td>Vercel Inc.</td><td>Covina (Kalifornia), USA</td><td>Adatfeldolgozó</td><td>A visdex.nl tárhelyszolgáltatása és a látogatások számlálása, lásd 3.23</td><td>DPF és SCC</td></tr>
+<tr><td>Cloudflare, Inc. (Turnstile)</td><td>San Francisco, USA</td><td>Adatfeldolgozó</td><td>Robotellenőrzés a visdex.nl oldalon történő feliratkozáskor, lásd 3.23</td><td>DPF és SCC</td></tr>
+<tr><td>Cal.com, Inc.</td><td>San Francisco, USA</td><td>Adatfeldolgozó</td><td>Időpontfoglalás egy partnerséghez, lásd 3.23</td><td>DPF</td></tr>
+<tr><td>Supabase (Supabase Pte. Ltd.)</td><td>Szingapúr; az adatbázis Írországban található</td><td>Adatfeldolgozó</td><td>A visdex.nl oldalon leadott jelentkezések tárolása, lásd 3.23</td><td>SCC</td></tr>
+<tr><td>Intuit Mailchimp (The Rocket Science Group LLC)</td><td>Atlanta, USA</td><td>Adatfeldolgozó</td><td>Várólista és Android-teszt, lásd 3.23</td><td>DPF és SCC</td></tr>
+<tr><td>Google (Google Ireland Ltd; Google LLC)</td><td>Dublin, Írország; Mountain View, USA</td><td>Adatfeldolgozó</td><td>Tesztcsoport az Android-verzióhoz, lásd 3.23</td><td>DPF</td></tr>
+</table>
+
+<p>A DPF-státuszt a dataprivacyframework.gov oldalon található listában ellenőriztük (2026. november 16.).</p>
+<p>Kérdésed van ezzel a listával kapcsolatban? Írj az <a href="mailto:info@visdex.nl">info@visdex.nl</a> címre.</p>
+
+<footer>
+VISDEX · KvK 86629409 · info@visdex.nl
+</footer>
+
+</div>
+</body>
+</html>
