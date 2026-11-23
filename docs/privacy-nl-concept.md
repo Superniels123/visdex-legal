@@ -51,14 +51,14 @@ Voor een account heb je alleen een e-mailadres en een gebruikersnaam nodig. Al h
 
 Per vangst kies je een van drie standen:
 
-- **Publiek:** de vangst staat in de Ontdek-feed, met soort, lengte, foto en de provincie.
+- **Publiek:** de vangst staat in de Ontdek-feed, met soort, lengte, foto en de provincie. Ben je 18 of ouder, dan staat een nieuwe vangst standaard op deze stand, tenzij je "Nieuwe vangsten standaard openbaar" uitzet.
 
-- **Competitief:** de vangst telt mee voor ranglijsten en records, zonder water of provincie, en staat niet in de Ontdek-feed. Een nieuwe vangst staat standaard op deze stand.
+- **Competitief:** de vangst telt mee voor ranglijsten en records, zonder water of provincie, en staat niet in de Ontdek-feed. Onder de 18 staat een nieuwe vangst standaard op deze stand.
 
 - **Privé:** alleen voor jou.
 
-- **Wat:** **Ontdek-feed:** alleen voor ingelogde VISDEX-gebruikers. Je gebruikersnaam, profielfoto en je vangsten op Publiek. "Toon mijn openbare vangsten in de Ontdek-feed" in Instellingen staat standaard aan; zet je hem uit, dan staan je vangsten niet in de feed. Per vangst kies je met de stand.
-  **Ranglijsten:** per land, en in de Eregalerij ook een Europese lijst met de vlag van het land bij je account. Je gebruikersnaam, profielfoto en je vangsten die meetellen. Je staat er alleen in als je zelf "Toon mij op de landelijke ranglijst" in Instellingen aanzet; die staat standaard uit. De ranglijsten zijn ook te zien zonder VISDEX-account, bijvoorbeeld op visdex.nl.
+- **Wat:** **Ontdek-feed:** alleen voor ingelogde VISDEX-gebruikers. Je gebruikersnaam, profielfoto en je vangsten op Publiek. "Toon mijn openbare vangsten in de Ontdek-feed" in Instellingen > Privacy staat standaard aan; zet je hem uit, dan staan je vangsten niet in de feed. Per vangst kies je met de stand. Daar kies je met "Nieuwe vangsten standaard openbaar" ook of een nieuwe vangst bij het opslaan al in de Ontdek-feed staat; per vangst kies je het daarna nog steeds zelf. Met "Alle vangsten in één keer" zet je al je vangsten in één keer in de Ontdek-feed, of haal je ze er allemaal uit. Vangsten die meetellen in een lopende wedstrijd, winactie of de Vis van de Week blijven daarbij zoals ze zijn. Openbaar delen kan alleen vanaf 18 jaar.
+  **Ranglijsten:** per land, en in de Eregalerij ook een Europese lijst met de vlag van het land bij je account. Je gebruikersnaam, profielfoto en je vangsten die meetellen. Je staat er alleen in als je zelf "Toon mij op de landelijke ranglijst" in Instellingen > Privacy aanzet; die staat standaard uit. De ranglijsten zijn ook te zien zonder VISDEX-account, bijvoorbeeld op visdex.nl.
   **Op de kaart:** zet je bij een vangst "Zet deze vangst op de landelijke kaart" aan, dan zien andere ingelogde VISDEX-gebruikers op de kaart de exacte plek van die vangst, met soort, maat, datum en de naam van het water. Dat kan alleen bij een vangst in de Ontdek-feed en vanaf 18 jaar. De pin verschijnt pas een dag na de vangst en niet tijdens een gesloten tijd voor die soort. Je zet hem per vangst weer uit. De coördinaten van alle andere vangsten en je stekken ziet niemand anders.
 - **Waarom:** Vangsten delen met andere vissers en meedoen aan de ranglijsten, als je daarvoor kiest.
 - **Grondslag:** Overeenkomst. Wat je deelt, kies je zelf met de standen en schakelaars hierboven.
@@ -101,7 +101,7 @@ Deel je een vangst naar Instagram Stories, dan geeft de app de afbeelding en de 
 
 ### 3.8 Samengevoegde cijfers van de community
 
-- **Wat:** Uit de vangsten van alle vissers maken wij samengevoegde cijfers zonder namen, bijvoorbeeld welke soorten er in een gebied gevangen worden, populaire wateren en welk aas werkt. Je ziet ze op de kaartlagen en ze gaan mee in advies (zie 3.16). Vangsten op Publiek en op Competitief tellen mee. Vangsten op Privé tellen niet mee, en ook niet de vangsten van vissers die "Houd mijn vangsten uit community-kaartlagen" in Instellingen aanzetten. Een cijfer verschijnt pas als het op minstens 3 vangsten van minstens 2 verschillende vissers berust. Voor sommige overzichten ligt de grens hoger, bijvoorbeeld 10 vangsten van 5 vissers voor populaire wateren en 15 vangsten van 3 vissers voor aasadvies.
+- **Wat:** Uit de vangsten van alle vissers maken wij samengevoegde cijfers zonder namen, bijvoorbeeld welke soorten er in een gebied gevangen worden, populaire wateren en welk aas werkt. Je ziet ze op de kaartlagen en ze gaan mee in advies (zie 3.16). Vangsten op Publiek en op Competitief tellen mee. Vangsten op Privé tellen niet mee, en ook niet de vangsten van vissers die "Houd mijn vangsten uit community-kaartlagen" in Instellingen > Privacy aanzetten. Een cijfer verschijnt pas als het op minstens 3 vangsten van minstens 2 verschillende vissers berust. Voor sommige overzichten ligt de grens hoger, bijvoorbeeld 10 vangsten van 5 vissers voor populaire wateren en 15 vangsten van 3 vissers voor aasadvies.
 - **Waarom:** Alle vissers laten zien wat er waar gevangen wordt, zonder dat een cijfer naar één visser of één stek wijst.
 - **Grondslag:** Gerechtvaardigd belang: nuttige inzichten voor alle vissers. Bezwaar maak je met de schakelaar hierboven, of per vangst met de stand Privé.
 - **Wie:** Iedereen die de app gebruikt, alleen als samengevoegd cijfer. Onze hostingdienst (zie 5).
@@ -117,11 +117,11 @@ Deel je een vangst naar Instagram Stories, dan geeft de app de afbeelding en de 
 
 ### 3.10 VISDEX Pro
 
-- **Wat:** Of je Pro hebt, welk abonnement, wanneer het verlengt en wanneer het stopt. De aankoop zelf doe je bij Apple of Google.
+- **Wat:** Of je Pro hebt, welk abonnement, wanneer het verlengt en wanneer het stopt, en per aankoop het bedrag, het product, de winkel en de datum. De aankoop zelf doe je bij Apple of Google.
 - **Waarom:** Pro leveren en bijhouden.
-- **Grondslag:** Overeenkomst.
+- **Grondslag:** Overeenkomst. Voor het bewaren van betaalgegevens na het verwijderen van je account: wettelijke plicht.
 - **Wie:** Apple of Google, en een dienst voor abonnementsbeheer (zie 5).
-- **Hoe lang:** Zolang je account bestaat.
+- **Hoe lang:** Zolang je account bestaat. Betaalgegevens (bedrag, product, winkel en datum) bewaren wij daarna zonder koppeling aan je account, omdat de wet dat vraagt (zie 8).
 
 ### 3.11 Pushberichten en updates van de app
 
@@ -133,15 +133,15 @@ Deel je een vangst naar Instagram Stories, dan geeft de app de afbeelding en de 
 
 ### 3.12 Technische gegevens en gebruik van de app
 
-- **Wat:** App-versie, platform van je toestel, foutmeldingen, feedback die je instuurt, welke onderdelen je opent (per dag, zonder inhoud of plek), de tijdzone van je toestel, en één keer de regio-instelling van je toestel en het land van je app store.
-- **Waarom:** De app laten werken, fouten vinden en oplossen, en de app verbeteren. Buiten Europa gebruiken wij de tijdzone voor de stille uren van pushberichten en voor de tijd van een foto uit je galerij. De regio en het store-land gebruiken wij alleen om te meten hoe vaak die twee verschillen.
-- **Grondslag:** Overeenkomst voor app-versie, platform en tijdzone. Gerechtvaardigd belang voor foutmeldingen, feedback, gebruik, regio en store-land: fouten vinden en de app verbeteren.
+- **Wat:** App-versie, platform van je toestel, foutmeldingen, feedback die je instuurt, welke onderdelen je opent (per dag, zonder inhoud of plek), de tijdzone van je toestel, en één keer de regio-instelling van je toestel en het land van je app store. Bij elk verzoek van de app legt onze hostingdienst ook je IP-adres en de daaruit afgeleide plaats en postcode vast in technische logboeken.
+- **Waarom:** De app laten werken en beveiligen, fouten vinden en oplossen, en de app verbeteren. Buiten Europa gebruiken wij de tijdzone voor de stille uren van pushberichten en voor de tijd van een foto uit je galerij. De regio en het store-land gebruiken wij alleen om te meten hoe vaak die twee verschillen.
+- **Grondslag:** Overeenkomst voor app-versie, platform en tijdzone. Gerechtvaardigd belang voor foutmeldingen, feedback, gebruik, regio en store-land: fouten vinden en de app verbeteren. Gerechtvaardigd belang voor de technische logboeken: de app beveiligen en storingen oplossen.
 - **Wie:** Onze hostingdienst (zie 5).
-- **Hoe lang:** Welke onderdelen je opent: na 35 dagen alleen nog als samengevoegde aantallen. De rest zolang je account bestaat.
+- **Hoe lang:** Welke onderdelen je opent: na 35 dagen alleen nog als samengevoegde aantallen. De technische logboeken hooguit 7 dagen. De rest zolang je account bestaat.
 
 ### 3.13 E-mail van je account en de maandmail
 
-- **Wat:** Je e-mailadres en de inhoud van de mail. Mail die bij je account hoort, zoals het bevestigen van je e-mailadres of een nieuw wachtwoord, krijg je altijd. De maandmail is een terugblik op je eigen vangstmaand, met een eigen schakelaar in de app; dit is geen marketing. Vraag je via visdex.nl een partnerschap aan, dan krijg je een bevestiging per mail.
+- **Wat:** Je e-mailadres en de inhoud van de mail. Mail die bij je account hoort, zoals het bevestigen van je e-mailadres of een nieuw wachtwoord, krijg je altijd. De maandmail is een terugblik op je eigen vangstmaand, met een eigen schakelaar in Instellingen > Meldingen en e-mail > Meldingen ("Maandelijkse e-mail"); dit is geen marketing. Vraag je via visdex.nl een partnerschap aan, dan krijg je een bevestiging per mail.
 - **Waarom:** Je account laten werken en je je eigen cijfers sturen.
 - **Grondslag:** Overeenkomst.
 - **Wie:** Diensten voor transactionele e-mail (zie 5).
@@ -149,13 +149,13 @@ Deel je een vangst naar Instagram Stories, dan geeft de app de afbeelding en de 
 
 ### 3.14 Marketingmail
 
-- **Wat:** Je e-mailadres en, als je toestemming geeft, je weergavenaam, hoeveel vangsten en soorten je hebt gelogd, je meest gevangen soort, hoeveel prestaties je hebt en je uitnodigingslink. Geen vangstlocaties, stekken, foto's, chatberichten of notities. Om je toestemming te kunnen aantonen, leggen wij vast wanneer je toestemde, vanaf welk scherm en welke tekst je zag. Wijzigt die tekst inhoudelijk, dan vragen wij het opnieuw.
+- **Wat:** Alleen als je toestemming geeft: je e-mailadres, je weergavenaam, hoeveel vangsten en soorten je hebt gelogd, je meest gevangen soort, hoeveel prestaties je hebt, je uitnodigingslink en hoeveel vissers zich via die link hebben aangemeld. Daarnaast een paar momenten uit de app, zoals je eerste vangst, een persoonlijk record, een grote vangst, een nieuwe soort, een mijlpaal of een prestatie, met de soort, de lengte en het gewicht van die vangst; bij je eerste vangst ook de provincie van het water. Geen coördinaten, namen van wateren, stekken, foto's, chatberichten of notities. Om je toestemming te kunnen aantonen, leggen wij vast wanneer je toestemde, vanaf welk scherm en welke tekst je zag. Wijzigt die tekst inhoudelijk, dan vragen wij het opnieuw.
 - **Waarom:** Mail over winacties, aanbiedingen van hengelsportwinkels en partners, en visweer-tips. Wij vinken niets voor je aan en de keuze is nergens een voorwaarde voor de app. Hoe vaak wij zulke mail sturen, ligt niet vast. Onder de 16 krijg je geen marketingmail (zie 4).
-- **Grondslag:** Toestemming. Intrekken kan via de afmeldlink in elke marketingmail of in Instellingen.
+- **Grondslag:** Toestemming. Intrekken kan via de afmeldlink in elke marketingmail of in Instellingen > Meldingen en e-mail ("Winacties, deals en tips per mail").
 - **Wie:** Een dienst voor e-mailmarketing (zie 5).
-- **Hoe lang:** Tot je je toestemming intrekt of je account verwijdert.
+- **Hoe lang:** Tot je je toestemming intrekt of je account verwijdert. Trek je je toestemming in, dan blijft je e-mailadres bij die dienst staan als afgemeld contact, zodat er geen marketingmail meer naartoe gaat, en houden wij alleen vast dát je introk en wanneer. Beide verdwijnen als je je account verwijdert.
 
-Ook zonder toestemming staat je e-mailadres bij die dienst, als administratief contact. Daar gaat geen mail naartoe; zo weten wij wie al een account heeft en benaderen wij die mensen niet als nieuwe gebruiker. Grondslag: gerechtvaardigd belang, precies dat weten. Verwijder je je account, dan verdwijnt ook dit contact.
+Zonder toestemming gaat er niets naar die dienst. Tot 31 augustus 2026 maakten wij bij een nieuw account ook zonder toestemming een contact aan bij die dienst, zonder inschrijving; daar gaat geen mail naartoe. Zo'n contact kan er nog staan. Grondslag daarvoor: gerechtvaardigd belang, namelijk weten wie al een account heeft. Het verdwijnt als je je account verwijdert, of eerder als je dat vraagt via info@visdex.nl. Meldde je je op visdex.nl aan voor de wachtlijst of een winactie, dan staat je e-mailadres daarvoor bij dezelfde dienst (zie 3.23).
 
 ### 3.15 Mail van een actiepartner
 
@@ -164,13 +164,13 @@ In september en begin oktober 2026 vroegen wij in de app met een apart vinkje of
 
 ### 3.16 AI-functies die je zelf aanzet
 
-- **Wat:** **Soort en lengte uit je foto:** op jouw verzoek de foto van die ene vangst, verkleind en zonder de verborgen gegevens zoals de GPS-locatie. Vraag je om een lengte, dan ook de gekozen soort en wat er als maatstaf op de foto ligt. Wij bewaren de foto voor deze functie niet, wel wat de app voorstelde en wat jij ervan maakte.
-  **Advies uit je logboek** (soort-jachtplan, vispatronen, sessie-advies, weekterugblik): datum en tijd van vangsten, soort, lengte, gewicht, aas, techniek, de naam van het water en het weer daarbij. Bij vispatronen en de weekterugblik alleen samengetelde cijfers. Daarnaast samengevoegde cijfers van de community (zie 3.8). Ben je jonger dan 16, dan gaat er niets mee dat je plek aanwijst: geen naam van een water, geen provincie, geen plaatsnaam en geen getij, ook niet bij je eigen vangsten. Het soort-jachtplan kan wel wateren noemen waar in jouw land veel van die soort gevangen wordt; die keuze hangt niet af van waar jij bent.
+- **Wat:** **Soort en lengte uit je foto:** de foto van die ene vangst, verkleind en zonder de verborgen gegevens zoals de GPS-locatie. Met Pro gebeurt dat vanzelf zodra je bij het loggen een foto toevoegt; in de proefversie alleen als je erom vraagt. Vraag je om een lengte, dan ook de gekozen soort en wat er als maatstaf op de foto ligt. Wij bewaren de foto voor deze functie niet, wel wat de app voorstelde en wat jij ervan maakte.
+  **Advies uit je logboek** (soort-jachtplan, vispatronen, sessie-advies, weekterugblik): datum en tijd van vangsten, soort, lengte, gewicht, aas, techniek, de naam van het water en het weer daarbij. Bij vispatronen en de weekterugblik alleen samengetelde cijfers. De weekterugblik maakt de app vanzelf als je je Collectie opent; het resultaat blijft op je toestel. Bij het sessie-advies gaat ook mee wat je in het formulier invult (doelsoort, water, provincie, datum, dagdeel, kant of boot en aasvoorkeur) en het weer. Daarnaast samengevoegde cijfers van de community (zie 3.8). Ben je jonger dan 16, dan gaat er niets mee dat je plek aanwijst: geen naam van een water, geen provincie, geen plaatsnaam en geen getij, ook niet bij je eigen vangsten. Het soort-jachtplan kan wel wateren noemen waar in jouw land veel van die soort gevangen wordt; die keuze hangt niet af van waar jij bent.
   **Advies op locatie** (Pro, vanaf 16 jaar): je plek gaat naar onze server, die opzoekt welk water en welke kenmerken er vlak bij je liggen, zoals riet of een steiger. Naar de AI-dienst gaan alleen het soort water en hoe groot het is, die kenmerken met hun afstand en richting vanaf jou, samengevoegde cijfers over aas en techniek (zie 3.8), de maand, of je in Nederland vist en de soort die je zoekt. Je coördinaten, de naam van het water, een plaatsnaam en je provincie gaan niet naar de AI-dienst.
   **Stekadvies en Waterscan** (vanaf 16 jaar; nog een proef, alleen open voor een paar testaccounts van VISDEX zelf): het stekadvies stuurt de namen van wateren binnen de gekozen afstand, met die afstand, je eigen vangsten daar, het aantal vissers daar en het weer van nu. De Waterscan stuurt een foto van de plek waar je wilt vissen, verkleind en zonder de verborgen gegevens zoals de GPS-locatie, met de naam en het soort water volgens de kaart, het weer, de datum en tijd, en het aantal eigen vangsten binnen 500 meter. Ook hier gaan je coördinaten niet naar de AI-dienst.
   Bij geen van deze functies gaan je naam, je e-mailadres, je notities of je chatberichten mee.
 - **Waarom:** Je een voorstel, advies of overzicht geven.
-- **Grondslag:** Overeenkomst: de AI-functies horen bij de dienst die je bij VISDEX afneemt, vooral bij Pro. Of je ze gebruikt, kies je zelf met de schakelaar Instellingen > AI-functies. Die staat standaard uit, en je zet hem op elk moment weer uit, zonder gevolgen voor de rest van de app. De AI-functies werken vanaf 13 jaar; de functies die je plek gebruiken (Advies op locatie, stekadvies en Waterscan) pas vanaf 16 jaar, ook als de schakelaar aan staat (zie 4). Zet je hem uit, dan gaat er voor deze functies niets meer naar de AI-dienst. Wij leggen vast of en wanneer je de schakelaar aanzette.
+- **Grondslag:** Overeenkomst: de AI-functies horen bij de dienst die je bij VISDEX afneemt, vooral bij Pro. Of je ze gebruikt, kies je zelf met de schakelaar Instellingen > Vangsten loggen > AI-functies. Die staat standaard uit, en je zet hem op elk moment weer uit, zonder gevolgen voor de rest van de app. De AI-functies werken vanaf 13 jaar; de functies die je plek gebruiken (Advies op locatie, stekadvies en Waterscan) pas vanaf 16 jaar, ook als de schakelaar aan staat (zie 4). Zet je hem uit, dan gaat er voor deze functies niets meer naar de AI-dienst. Wij leggen vast of en wanneer je de schakelaar aanzette.
 - **Wie:** Een AI-dienst, op dit moment die van Anthropic, het bedrijf achter Claude (zie 5).
 - **Hoe lang:** Je jachtplan en je vispatronen bewaren wij, zodat je ze opnieuw kunt openen. De weekterugblik, het sessie-advies en je plek bij Advies op locatie bewaren wij niet bij je account; de foto van de Waterscan bewaren wij niet. Om de kwaliteit te controleren bewaren wij ongeveer 1 op de 10 sessie-adviezen hooguit 30 dagen los van je account: de tekst, de taal, het land, de soort en hoeveel dagen vooruit. Van elk gebruik leggen wij vast dát je de functie gebruikte en wanneer, om misbruik en onnodige kosten tegen te gaan (gerechtvaardigd belang).
 
@@ -202,7 +202,7 @@ Stuur je ons een bericht via WhatsApp, zolang dat nummer nog bestaat, dan verwer
 
 ### 3.20 Social media van VISDEX
 
-- **Wat:** Een vangst die je openbaar hebt gedeeld kunnen wij gebruiken in berichten op onze eigen kanalen, zoals Instagram, bijvoorbeeld bij de Vis van de Week. Foto en naam gebruiken wij alleen van vissers van 18 jaar of ouder van wie de geboortedatum bekend is.
+- **Wat:** Een vangst die je openbaar hebt gedeeld kunnen wij gebruiken in berichten op onze eigen kanalen, zoals Instagram, bijvoorbeeld bij de Vis van de Week. Foto en naam gebruiken wij alleen van vissers van 18 jaar of ouder van wie de geboortedatum bekend is. Je voornaam staat er alleen bij als je op de ranglijst staat ("Toon mij op de landelijke ranglijst"); anders staat er "een VISDEX-visser". Je gebruikersnaam, je achternaam en de naam van het water zetten wij er niet bij.
 - **Waarom:** Laten zien wat er met VISDEX gevangen wordt.
 - **Grondslag:** Gerechtvaardigd belang: de community en VISDEX laten zien. Bezwaar: zet de vangst op Competitief of Privé, of mail naar info@visdex.nl.
 - **Wie:** Iedereen die onze kanalen bekijkt, het social-mediaplatform, en een dienst waarmee wij berichten inplannen (zie 5).
@@ -210,27 +210,27 @@ Stuur je ons een bericht via WhatsApp, zolang dat nummer nog bestaat, dan verwer
 
 ### 3.21 Je leeftijd
 
-- **Wat:** Je geboortedatum, apart en afgeschermd opgeslagen. De app krijgt de datum niet te zien, alleen de uitkomst: ben je 16 of ouder, en ben je 18 of ouder.
-- **Waarom:** De regels voor jongeren toepassen (zie 4).
+- **Wat:** Je geboortedatum, apart en afgeschermd opgeslagen. In de app zie en wijzig je alleen je eigen datum; andere gebruikers zien hem niet. De rest van de app krijgt alleen de uitkomst: ben je 16 of ouder, en ben je 18 of ouder. Bij elke wijziging leggen wij de oude en de nieuwe datum vast, en ook je openstaande verzoeken om je datum aan te passen.
+- **Waarom:** De regels voor jongeren toepassen (zie 4). De vastgelegde wijzigingen: kindveiligheid en misbruik voorkomen.
 - **Grondslag:** Gerechtvaardigd belang: minderjarigen beschermen, onder meer tegen marketing en prijsvragen.
 - **Wie:** Onze hostingdienst (zie 5).
-- **Hoe lang:** Zolang je account bestaat.
+- **Hoe lang:** Zolang je account bestaat, ook wat er bij wijzigingen is vastgelegd.
 
 ### 3.22 Meldingen, blokkades en beheer
 
-- **Wat:** Meldingen die je doet of die over jou gaan, blokkades, en de beslissingen van het VISDEX-beheer.
+- **Wat:** Meldingen die je doet of die over jou gaan, blokkades, en de beslissingen van het VISDEX-beheer. Bij een melding over een gesprek ook een momentopname van dat gesprek, met de namen en berichten.
 - **Waarom:** Misbruik tegengaan en de community veilig houden. Meldingen over de veiligheid van een kind of een ander persoon worden niet automatisch afgehandeld.
 - **Grondslag:** Gerechtvaardigd belang: een veilige community.
 - **Wie:** Het VISDEX-beheer. Onze hostingdienst (zie 5).
-- **Hoe lang:** Zolang je account bestaat.
+- **Hoe lang:** Meldingen en blokkades zolang je account bestaat. De momentopname bij een melding verwijderen wij twaalf maanden nadat de melding is afgehandeld; loopt er een zaak bij een externe instantie, dan twaalf maanden nadat die zaak is afgesloten. Die momentopname en het logboek van de beslissingen van het beheer blijven ook na het verwijderen van je account bestaan (zie 8); voor dat logboek geldt geen vaste termijn.
 
 ### 3.23 Op visdex.nl
 
-- **Wat:** Meld je je op visdex.nl aan voor de wachtlijst of als tester van de Android-versie: je e-mailadres, en waar je je aanmeldde. Als tester zetten wij je e-mailadres ook in een groep bij Google, zodat je de testversie kunt downloaden. Vraag je een partnerschap aan of plan je een afspraak: je naam, je e-mailadres en wat je invult. Tegen spam controleren wij een aanmelding met een robotcontrole, die daarbij je IP-adres ziet. Bij elk bezoek ziet onze hostingdienst je IP-adres.
-- **Waarom:** Je laten weten wanneer de app of de testversie er is, een partnerschap afhandelen, en spam tegengaan.
-- **Grondslag:** Toestemming voor de wachtlijst en de Android-test: je meldt je zelf aan en meldt je af via de link in de mail. Overeenkomst voor een partneraanvraag. Gerechtvaardigd belang voor de robotcontrole en de hosting: de site beveiligen en spam tegengaan.
+- **Wat:** Meld je je op visdex.nl aan voor de wachtlijst of als tester van de Android-versie: je e-mailadres, en waar je je aanmeldde. Als tester zetten wij je e-mailadres ook in een groep bij Google, zodat je de testversie kunt downloaden. Doe je via visdex.nl mee aan een winactie: je e-mailadres, je voornaam, je eigen uitnodigingscode, de code waarmee je werd uitgenodigd en of je mail van een actiepartner wilt. Vraag je een partnerschap aan of plan je een afspraak: je naam, je e-mailadres en wat je invult. Tegen spam controleren wij een aanmelding met een robotcontrole, die daarbij je IP-adres ziet. Bij elk bezoek ziet onze hostingdienst je IP-adres.
+- **Waarom:** Je laten weten wanneer de app of de testversie er is, een winactie uitvoeren, een partnerschap afhandelen, en spam tegengaan.
+- **Grondslag:** Toestemming voor de wachtlijst, de Android-test en een winactie: je meldt je zelf aan en meldt je af via de link in de mail. Overeenkomst voor een partneraanvraag. Gerechtvaardigd belang voor de robotcontrole en de hosting: de site beveiligen en spam tegengaan.
 - **Wie:** Onze hostingdienst, de hosting van de website, een dienst voor e-mailmarketing, Google, een dienst voor afspraken, een dienst voor robotcontrole en een dienst voor transactionele e-mail (zie 5).
-- **Hoe lang:** Wachtlijst en Android-test: tot je je afmeldt. Een partneraanvraag zolang die loopt.
+- **Hoe lang:** Wachtlijst en Android-test: tot je je afmeldt. Een aanmelding voor een winactie: zes maanden na de aanmelding. Een partneraanvraag zolang die loopt.
 
 > [VERSIE MET META: dit blok en de regel "Advertentiemeting" in 5 vervallen samen met de store-versie zonder Meta-SDK.]
 
@@ -246,7 +246,7 @@ Stuur je ons een bericht via WhatsApp, zolang dat nummer nog bestaat, dan verwer
 
 VISDEX is te gebruiken vanaf 13 jaar. Denk je dat wij gegevens van een kind onder de 13 verwerken, mail dan naar info@visdex.nl en wij verwijderen die. Kennen wij je geboortedatum niet, dan behandelen wij je bij de regels hieronder als jonger dan 16, en werken de AI-functies niet (zie 3.16).
 
-- **Onder de 18:** je kunt geen vangst op Publiek zetten. Je vangsten in de Ontdek-feed en je profiel zien alleen je vismaten. Je staat niet in de Eregalerij. Je kunt geen vangst op de landelijke kaart zetten, je doet niet mee aan prijsvragen, en je foto en naam komen niet op onze social media. Er gelden beperkingen op contact met onbekende volwassenen. De klantenservice stuurt je berichten en foto's niet naar de AI-dienst, en foto's van VISDEX krijg je in de chat niet.
+- **Onder de 18:** je kunt geen vangst op Publiek zetten. Je vangsten in de Ontdek-feed en je profiel zien alleen je vismaten. Je staat niet in de Eregalerij. Je kunt geen vangst op de landelijke kaart zetten, je doet niet mee aan prijsvragen, en je foto en naam komen niet op onze social media. Er gelden beperkingen op contact met onbekende volwassenen: in een groepschat of de chat van een wedstrijd zit je alleen als elke volwassene daarin je vismaat is. De klantenservice stuurt je berichten en foto's niet naar de AI-dienst, en foto's van VISDEX krijg je in de chat niet.
 
 - **Onder de 16:** je krijgt geen marketingmail en geen commerciële aanbiedingen, en geen knop naar de nieuwsbrief van een actiepartner. De AI-functies horen bij Pro, ook de weekterugblik; er gaat daarbij niets mee dat je plek aanwijst, en de AI-dienst krijgt de opdracht het bij vissen te houden en niets onveiligs aan te raden. Advies op locatie, het stekadvies en de Waterscan gebruiken je plek en zijn er pas vanaf 16 jaar (zie 3.16). Je foto gaat bij winacties en wedstrijden niet naar de AI-dienst (zie 3.17). Pro kun je wel zelf bekijken en kopen via Apple of Google; vraag eerst een ouder om toestemming, de store kan je ouder om goedkeuring vragen. Vanaf 13 jaar zitten de AI-functies erbij.
 
@@ -295,11 +295,17 @@ Twee controles kunnen automatisch iets beslissen over een vangst. Bij een publie
 
 ## 8. Als je je account verwijdert
 
-Verwijder je je account in Instellingen > Account verwijderen, dan worden je persoonsgegevens, je vangsten, je foto's, je plekken, je berichten en je supportgesprekken direct en permanent verwijderd, en ook je contact bij de dienst voor e-mailmarketing. Drie dingen blijven bestaan:
+Verwijder je je account in Instellingen > Account verwijderen > Verwijder mijn account, dan worden je persoonsgegevens, je vangsten, je foto's, je plekken, je berichten en je supportgesprekken direct en permanent verwijderd, en ook je contact bij de dienst voor e-mailmarketing en een aanmelding voor de wachtlijst of een winactie op visdex.nl met hetzelfde e-mailadres. Zes dingen blijven bestaan:
 
 - Wedstrijden die je zelf maakte en waaraan anderen meededen, omdat wij anders ook hun uitslag zouden wissen. Je staat er dan als "Verwijderde gebruiker". Had je wedstrijd geen andere deelnemers, dan verdwijnt hij helemaal.
 
 - Een bewijs dat de verwijdering is uitgevoerd: alleen een versleutelde, niet terug te rekenen code en het tijdstip, zonder naam of e-mailadres.
+
+- Het logboek van de beslissingen van het VISDEX-beheer: welke handeling er op een account-id is gedaan, met de toelichting en de gegevens van die handeling, zonder geboortedatum. Dat hebben wij nodig om misbruik en kindveiligheid te kunnen nagaan (zie 3.22).
+
+- Bij een melding van misbruik de momentopname van het gemelde gesprek, met de namen en berichten, tot twaalf maanden nadat de melding is afgehandeld (zie 3.22).
+
+- Betaalgegevens van een abonnement (bedrag, product, winkel en datum), zonder koppeling aan je account, omdat de wet ons verplicht die te bewaren (zie 3.10).
 
 - Samengevoegde cijfers die niet naar jou terug te leiden zijn (zie 3.8).
 
@@ -315,11 +321,11 @@ Je hebt het recht om:
 
 - de verwerking te laten beperken;
 
-- je gegevens mee te nemen: in de app via Profiel > Instellingen > Exporteer mijn data, of op verzoek;
+- je gegevens mee te nemen: in de app via Instellingen > Je data en account > Exporteer mijn data, of op verzoek;
 
 - bezwaar te maken tegen een verwerking op grond van gerechtvaardigd belang; hoe dat per verwerking gaat, staat bij het blok in 3;
 
-- een toestemming in te trekken: marketingmail via de afmeldlink of in Instellingen. De AI-functies zet je op elk moment uit via Instellingen > AI-functies (zie 3.16).
+- een toestemming in te trekken: marketingmail via de afmeldlink of in Instellingen > Meldingen en e-mail. De AI-functies zet je op elk moment uit via Instellingen > Vangsten loggen > AI-functies (zie 3.16).
 
 Stuur een verzoek naar info@visdex.nl. Wij reageren binnen een maand. Je kunt ook een klacht indienen bij de Autoriteit Persoonsgegevens.
 
