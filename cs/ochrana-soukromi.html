@@ -27,7 +27,7 @@
 <div class="wrap">
 
 <h1>Zásady ochrany soukromí VISDEX</h1>
-<p class="meta">Poslední aktualizace: 23. listopadu 2026</p>
+<p class="meta">Poslední aktualizace: 24. listopadu 2026</p>
 
 <div class="note">
 <strong>Ve zkratce:</strong> VISDEX je aplikace pro vedení rybářského deníku. Tvoje přesná poloha a tvoje fleky jsou ve výchozím stavu soukromé a ty sám rozhoduješ, co ostatní z tvých úlovků uvidí. Tvoje údaje neprodáváme. Marketingové e-maily dostáváš jen tehdy, když k tomu sám dáš souhlas. Svůj účet a svoje údaje můžeš kdykoli sám smazat v aplikaci.
@@ -153,11 +153,11 @@
 
 <h3>3.11 Push oznámení a aktualizace aplikace</h3>
 <table>
-<tr><th>Co</th><td>Push token, pokud zapneš oznámení, tvoje IP adresa a technický kód tvého zařízení.</td></tr>
-<tr><th>Proč</th><td>Doručování push oznámení a aktualizací aplikace.</td></tr>
-<tr><th>Právní základ</th><td>Plnění smlouvy. Oznámení si sám zapínáš nebo vypínáš v nastavení svého zařízení a v aplikaci.</td></tr>
+<tr><th>Co</th><td>Push token, pokud zapneš oznámení, tvoje IP adresa a technický kód tvého zařízení. U otázek v Rybářském pokecu počítáme jen to, kolik úlovků jednotlivých druhů je v tvém vlastním deníku.</td></tr>
+<tr><th>Proč</th><td>Doručování push oznámení a aktualizací aplikace. Pokud otázka v Rybářském pokecu nemá ani po 12 hodinách odpověď, můžeme ji pomocí push oznámení předložit nejvýše 20 rybářům, kteří často zapisují druhy z daného tématu. Týká se to jen rybářů ze stejné země, se stejným jazykem a ze stejné věkové skupiny (do 18 let nebo od 18 let). Oznámení neobsahuje text otázky ani jméno a tazatel nevidí, kdo ho dostal. Dostaneš nejvýše jedno denně.</td></tr>
+<tr><th>Právní základ</th><td>Plnění smlouvy. Oznámení si sám zapínáš nebo vypínáš v nastavení svého zařízení a v aplikaci. Oznámení k otázkám v Rybářském pokecu vypneš přepínačem oznámení „Komentáře u tvého úlovku“.</td></tr>
 <tr><th>Kdo</th><td>Služba pro push oznámení a aktualizace aplikace a Apple nebo Google (viz 5).</td></tr>
-<tr><th>Jak dlouho</th><td>Push token, dokud máš oznámení zapnutá a existuje tvůj účet.</td></tr>
+<tr><th>Jak dlouho</th><td>Push token, dokud máš oznámení zapnutá a existuje tvůj účet. Kdo dostal které oznámení k otázce v Rybářském pokecu, uchováváme 90 dní.</td></tr>
 </table>
 
 <h3>3.12 Technické údaje a používání aplikace</h3>
@@ -282,6 +282,21 @@ Naše hostingová služba (viz 5). Pokud je ti 18 let nebo víc, můžeme použ�
 </table>
 <!-- EINDE VERSIE MET META -->
 
+<!-- #VANGSTVIDEO-1 video bij een vangst -->
+<h3>3.25 Video k úlovku</h3>
+<table>
+<tr><th>Co</th><td>Krátké video, které nahraješ v aplikaci k úlovku (bez zvuku) nebo vybereš z galerie, čas nahrání a statické snímky z tohoto videa.</td></tr>
+<tr><th>Proč</th><td>Ukázat úlovek těm, které si vybereš.</td></tr>
+<tr><th>Kdo</th><td>Video je uloženo u externí videoslužby v Evropské unii (Frankfurt). Přehrát ho lze jen v aplikaci, pomocí odkazu platného několik minut. Neexistuje tlačítko pro stažení nebo přeposlání videa.</td></tr>
+<tr><th>Jak dlouho</th><td>Video uchováváme, dokud ho nesmažeš nebo dokud nesmažeš úlovek či účet; potom ho smažeme i u videoslužby. Zamítnuté video mažeme po 30 dnech. Nahrávka, která je ve tvém zařízení a nepatří k uloženému úlovku, se ze zařízení smaže po 24 hodinách.</td></tr>
+</table>
+<p>K úlovku můžeš v aplikaci nahrát krátké video: nejvýše 15 sekund a bez zvuku. Aplikace k tomu používá jen fotoaparát, ne mikrofon ani polohu.</p>
+<p><strong>Video z galerie.</strong> Můžeš také vybrat existující video z galerie svého zařízení, dlouhé nejvýše 30 sekund. Takové video nedostane označení „Natočeno živě“ a nikde se nepočítá jako důkaz. Zvuk videa z galerie se nikde nepřehrává: před odesláním aplikace odebere zvukovou stopu a údaje o poloze z tabulky obsahu souboru. Aplikace přečte ze souboru datum nahrání a uloží ho k videu, abychom při správě viděli, kdy bylo natočeno.</p>
+<p><strong>Kdo video vidí.</strong> Video má vlastní nastavení, nezávislé na úlovku. Ve výchozím stavu ho vidíš jen ty a tvoji parťáci. Zveřejnění je volba pro každé video zvlášť. Pokud je ti méně než 18 let nebo neznáme tvoje datum narození, video nelze zveřejnit. Pozor: na videu může být poznat tvůj flek.</p>
+<p><strong>Kontrola.</strong> Video se stane veřejným až poté, co se na něj podívá někdo z VISDEX. Předtím necháme několik statických snímků z videa automaticky zkontrolovat službou, která kontroluje i fotky úlovků (viz 3.18); samotné video se tam neposílá a video nahrané v aplikaci se nikdy nezamítá automaticky. Na videa určená jen pro tebe nebo tvoje parťáky se předem nedíváme; kdo takové video smí vidět, ho ale může nahlásit.</p>
+<p><strong>Kontrola videa z galerie.</strong> Než video z galerie přijmeme, podívá se automatizovaná kontrola (viz 7) na pět statických snímků z videa, nikdy na samotné video. Kontrola sleduje tři věci: zda je na snímcích ryba, zda jde o záznam obrazovky a zda je v záběru něco, co prozrazuje místo, například registrační značka nebo číslo domu. Pokud na snímcích není ryba nebo jde o záznam obrazovky, video nepřijmeme; můžeš pak vybrat jiné video nebo natáčet živě. V případě pochybností je video viditelné jen pro tebe a tvoje parťáky. Počítáme, kolik videí nebylo přijato z jednotlivých důvodů; jde jen o počty.</p>
+<p><strong>Žádné další využití.</strong> Tvoje video nepoužíváme na sociálních sítích ani v reklamách, pokud k tomu pro dané video neudělíš samostatný souhlas. To platí i pro veřejné video.</p>
+
 <h2>4. Děti a mladí lidé</h2>
 <p>VISDEX lze používat od 13 let. Pokud si myslíš, že zpracováváme údaje dítěte mladšího 13 let, napiš na info@visdex.nl a my je smažeme. Pokud neznáme tvoje datum narození, zacházíme s tebou u níže uvedených pravidel jako s někým mladším 16 let a funkce AI nefungují (viz 3.16).</p>
 <ul>
@@ -290,11 +305,13 @@ Naše hostingová služba (viz 5). Pokud je ti 18 let nebo víc, můžeme použ�
 <li><strong>Žebříček:</strong> ve výchozím stavu je pro všechny vypnutý. Když si ho sám zapneš, jsi v žebříčku se svým uživatelským jménem a svými započítávanými úlovky, i pod 18 let (viz 3.3).</li>
 <li><strong>Pro všechny věkové skupiny:</strong> kontrola fotek úlovků kvůli podvrhům a zneužití (viz 3.18), jen s fotkou a druhem.</li>
 </ul>
+<p>Video uživatele mladšího 18 let nebo uživatele, jehož datum narození neznáme, se nemůže stát veřejným (viz 3.25).</p>
 
 <h2>5. Kdo dostává tvoje údaje</h2>
 <p>Tvoje údaje neprodáváme. Kromě lidí, se kterými sdílíš sám (viz 3.3 a 3.4), sdílíme údaje jen se stranami, které jsou pro aplikaci potřeba. Strana, která pro nás pracuje (zpracovatel), to dělá na základě smlouvy o zpracování osobních údajů a jen pro náš účel. Jde o tyto druhy stran:</p>
 <ul>
 <li><strong>Hosting:</strong> naše databáze a úložiště, v Evropské unii (Irsko).</li>
+<li><strong>Videoslužba:</strong> pro ukládání a přehrávání videí úlovků, v Evropské unii (Frankfurt), viz 3.25.</li>
 <li><strong>Meteorologické služby, Rijkswaterstaat a mapová služba tvého zařízení:</strong> viz 3.6 a 3.7.</li>
 <li><strong>Vyhledávací služba pro místa:</strong> viz 3.7.</li>
 <li><strong>Apple a Google:</strong> obchody s aplikacemi, nákupy, přihlášení přes Apple nebo Google, pokud si ho zvolíš, a push oznámení.</li>
@@ -326,6 +343,7 @@ Naše hostingová služba (viz 5). Pokud je ti 18 let nebo víc, můžeme použ�
 <li>Platební údaje předplatného (částka, produkt, obchod a datum), bez vazby na tvůj účet, protože nám zákon ukládá povinnost je uchovávat (viz 3.10).</li>
 <li>Souhrnná čísla, která nelze zpětně spojit s tebou (viz 3.8).</li>
 </ul>
+<p>Pro videa úlovků platí lhůty uvedené v části „Video k úlovku“ v bodě 3.25.</p>
 
 <h2>9. Tvoje práva</h2>
 <p>Máš právo:</p>
